@@ -76,6 +76,10 @@ Command-line options, mostly for development:
 
 `tools\make-icon.ps1` redraws the icon and the Store images.
 
+## Support
+
+AutoLayout is free. If it saves you some Win+Space presses and you want to say thanks, you can [support it on Ko-fi](https://ko-fi.com/thiagopcarneiro). Bug reports and translation fixes are just as welcome, in [Issues](https://github.com/thiago-carneiro/AutoLayout/issues).
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
