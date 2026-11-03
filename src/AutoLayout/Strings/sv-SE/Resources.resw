@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Det gick inte att ändra inställningen ”Starta med Windows”.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Visa en avisering när layouten ändras</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Visa en avisering när layouten ändras</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Återställ tangentbordsbelysningen</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Återställer den nivå du valde med Fn+Blanksteg (av, låg eller hög) när skärmen slås på och när Windows startar.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Återställ tangentbordsbelysningen</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostik</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Skriv en loggfil</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Loggen visar vilka tangentbord som är anslutna och när — aldrig vad du skriver.</value></data>

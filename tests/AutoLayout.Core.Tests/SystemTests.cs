@@ -68,11 +68,4 @@ public sealed class SystemTests
         }
         Assert.IsFalse(devices.IsRemoteSession);
     }
-
-    [TestMethod]
-    public void ThinkPadBacklight_ReadsWithoutThrowing()
-    {
-        // On a ThinkPad this reads the level; elsewhere it is simply unavailable
-        _ = ThinkPadBacklight.TryGetLevel(out _);
-    }
 }

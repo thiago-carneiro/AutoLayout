@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Neizdevās mainīt iestatījumu „Palaist kopā ar Windows“.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Rādīt paziņojumu, kad mainās izkārtojums</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Rādīt paziņojumu, kad mainās izkārtojums</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Atjaunot tastatūras fona apgaismojumu</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Atjauno līmeni, ko izvēlējāties ar Fn+atstarpe (izslēgts, zems vai augsts), kad ieslēdzas ekrāns un kad tiek palaists Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Atjaunot tastatūras fona apgaismojumu</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Rakstīt žurnāla failu</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Žurnālā ir norādītas pievienotās tastatūras un laiks, bet nekad ne tas, ko rakstāt.</value></data>

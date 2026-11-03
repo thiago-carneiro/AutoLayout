@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Die Einstellung „Mit Windows starten“ konnte nicht geändert werden.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Benachrichtigung anzeigen, wenn sich das Layout ändert</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Benachrichtigung anzeigen, wenn sich das Layout ändert</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Tastaturbeleuchtung wiederherstellen</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Stellt die mit Fn+Leertaste gewählte Stufe (aus, niedrig oder hoch) wieder her, wenn der Bildschirm eingeschaltet wird und wenn Windows startet.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Tastaturbeleuchtung wiederherstellen</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnose</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Protokolldatei schreiben</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Das Protokoll listet auf, welche Tastaturen wann verbunden waren – niemals, was Sie eingeben.</value></data>

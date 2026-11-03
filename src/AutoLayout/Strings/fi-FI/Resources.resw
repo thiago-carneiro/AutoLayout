@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Asetusta ”Käynnistä Windowsin mukana” ei voitu muuttaa.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Näytä ilmoitus, kun asettelu vaihtuu</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Näytä ilmoitus, kun asettelu vaihtuu</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Palauta näppäimistön taustavalo</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Palauttaa Fn+Välilyönti-näppäinyhdistelmällä valitsemasi tason (pois, matala tai korkea), kun näyttö kytketään päälle ja kun Windows käynnistyy.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Palauta näppäimistön taustavalo</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostiikka</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Kirjoita lokitiedosto</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Loki luettelee yhdistetyt näppäimistöt ja ajankohdat — ei koskaan sitä, mitä kirjoitat.</value></data>

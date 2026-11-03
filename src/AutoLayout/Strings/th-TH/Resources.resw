@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>ไม่สามารถเปลี่ยนการตั้งค่า “เริ่มต้นพร้อมกับ Windows” ได้</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>แสดงการแจ้งเตือนเมื่อเค้าโครงเปลี่ยน</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>แสดงการแจ้งเตือนเมื่อเค้าโครงเปลี่ยน</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>คืนค่าไฟแบ็กไลต์ของแป้นพิมพ์</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>คืนระดับที่คุณเลือกด้วย Fn + แป้นเว้นวรรค (ปิด ต่ำ หรือสูง) เมื่อหน้าจอเปิดและเมื่อ Windows เริ่มทำงาน</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>คืนค่าไฟแบ็กไลต์ของแป้นพิมพ์</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>การวินิจฉัย</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>เขียนไฟล์บันทึก</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>บันทึกจะแสดงแป้นพิมพ์ที่เชื่อมต่อและเวลาที่เชื่อมต่อ แต่จะไม่เก็บสิ่งที่คุณพิมพ์เด็ดขาด</value></data>

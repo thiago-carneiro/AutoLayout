@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Nem sikerült módosítani az „Indítás a Windows indításakor” beállítást.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Értesítés megjelenítése a kiosztás változásakor</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Értesítés megjelenítése a kiosztás változásakor</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>A billentyűzet háttérvilágításának visszaállítása</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Visszaállítja az Fn+Szóköz billentyűkombinációval választott szintet (kikapcsolva, alacsony vagy magas), amikor a képernyő bekapcsol, és amikor a Windows elindul.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>A billentyűzet háttérvilágításának visszaállítása</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnosztika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Naplófájl írása</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>A napló a csatlakoztatott billentyűzeteket és az időpontot sorolja fel – soha nem azt, amit begépel.</value></data>

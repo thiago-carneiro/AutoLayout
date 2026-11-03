@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Sätet „Käivita koos Windowsiga“ ei õnnestunud muuta.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Kuva paigutuse muutumisel teatis</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Kuva paigutuse muutumisel teatis</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Taasta klaviatuuri taustavalgustus</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Taastab klahvikombinatsiooniga Fn+tühik valitud taseme (väljas, madal või kõrge), kui ekraan lülitatakse sisse ja kui Windows käivitub.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Taasta klaviatuuri taustavalgustus</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Kirjuta logifail</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Logi loetleb ühendatud klaviatuurid ja ajad — mitte kunagi seda, mida te kirjutate.</value></data>

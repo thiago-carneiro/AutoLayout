@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Nepodařilo se změnit nastavení „Spouštět při spuštění Windows“.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Zobrazit oznámení při změně rozložení</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zobrazit oznámení při změně rozložení</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Obnovovat podsvícení klávesnice</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Po zapnutí obrazovky a po spuštění Windows obnoví úroveň, kterou jste zvolili pomocí Fn+mezerník (vypnuto, nízká nebo vysoká).</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Obnovovat podsvícení klávesnice</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisovat soubor protokolu</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Protokol uvádí připojené klávesnice a kdy byly připojeny – nikdy ne to, co píšete.</value></data>

@@ -32,6 +32,8 @@ public static class Program
         if (demo && language >= 0 && language + 1 < args.Length)
         {
             Microsoft.Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = args[language + 1];
+            // WinUI's own text (the On/Off of switches) follows the process's UI language
+            Shell.SetProcessPreferredUILanguages(Shell.MUI_LANGUAGE_NAME, args[language + 1] + "\0", out _);
         }
         AppInstance instance = AppInstance.FindOrRegisterForKey("AutoLayout-" + mode + user);
         if (!instance.IsCurrent)

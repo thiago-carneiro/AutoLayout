@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Nepodarilo sa zmeniť nastavenie „Spúšťať pri spustení Windowsu“.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Zobraziť oznámenie pri zmene rozloženia</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zobraziť oznámenie pri zmene rozloženia</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Obnovovať podsvietenie klávesnice</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Po zapnutí obrazovky a po spustení Windowsu obnoví úroveň, ktorú ste zvolili pomocou Fn+medzerník (vypnuté, nízka alebo vysoká).</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Obnovovať podsvietenie klávesnice</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisovať súbor denníka</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Denník uvádza pripojené klávesnice a kedy boli pripojené – nikdy nie to, čo píšete.</value></data>

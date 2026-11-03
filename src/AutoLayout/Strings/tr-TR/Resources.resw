@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>“Windows ile başlat” ayarı değiştirilemedi.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Düzen değiştiğinde bildirim göster</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Düzen değiştiğinde bildirim göster</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Klavye arka ışığını geri yükle</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Ekran açıldığında ve Windows başladığında, Fn+Boşluk ile seçtiğiniz düzeyi (kapalı, düşük veya yüksek) geri getirir.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Klavye arka ışığını geri yükle</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Tanılama</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Günlük dosyası yaz</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Günlükte hangi klavyelerin ne zaman bağlandığı yazar; yazdıklarınız asla kaydedilmez.</value></data>

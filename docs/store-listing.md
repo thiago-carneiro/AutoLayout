@@ -18,8 +18,6 @@ Because it is the default layout that changes, new windows and the session after
 
 When someone uses the PC through Remote Desktop, Windows uses the layout of the remote computer's keyboard, and AutoLayout stays out of the way.
 
-On Lenovo ThinkPads, AutoLayout can also restore the keyboard backlight level you chose with Fn+Space when the screen turns on, after sleep and when Windows starts.
-
 AutoLayout never reads what you type: it does not hook, record or inject keystrokes. It makes no network connections and has no telemetry. It is free and open source (Apache 2.0).
 
 **Features**
@@ -28,7 +26,6 @@ AutoLayout never reads what you type: it does not hook, record or inject keystro
 - Asks for the layout of each new keyboard, once, and remembers it
 - Works with USB and Bluetooth keyboards; ignores mice and receivers you mark
 - Leaves Remote Desktop sessions to the remote computer's layout, or uses one you choose
-- Restores the ThinkPad keyboard backlight after the screen turns off and at startup
 - Never reads what you type; no network access, no telemetry
 - Available in 38 languages; free and open source
 
@@ -48,8 +45,6 @@ Como é o layout padrão que muda, as janelas novas e a sessão depois da tela d
 
 Quando alguém usa o PC pela Área de Trabalho Remota, o Windows usa o layout do teclado do computador remoto, e o AutoLayout não interfere.
 
-Nos ThinkPads da Lenovo, o AutoLayout também pode restaurar o nível da luz do teclado escolhido com Fn+Espaço quando a tela acende, depois da suspensão e quando o Windows inicia.
-
 O AutoLayout nunca lê o que você digita: não intercepta, não grava e não injeta teclas. Não faz conexões de rede e não tem telemetria. É gratuito e de código aberto (Apache 2.0).
 
 **Recursos**
@@ -58,6 +53,5 @@ O AutoLayout nunca lê o que você digita: não intercepta, não grava e não in
 - Pergunta o layout de cada teclado novo uma vez e se lembra dele
 - Funciona com teclados USB e Bluetooth; ignora mouses e receptores que você marcar
 - Na Área de Trabalho Remota, deixa valer o layout do computador remoto, ou usa um que você escolher
-- Restaura a luz do teclado do ThinkPad depois que a tela apaga e ao iniciar
 - Nunca lê o que você digita; sem acesso à rede, sem telemetria
 - Disponível em 38 idiomas; gratuito e de código aberto

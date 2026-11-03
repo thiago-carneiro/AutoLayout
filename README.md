@@ -17,13 +17,7 @@ Because it is the *default* layout that changes, new windows and the session aft
 
 ## Privacy
 
-**AutoLayout never reads what you type.** It does not hook, record or inject keystrokes. It lists keyboard devices (vendor and product ids and the name Windows has for them) and listens for device, session and display notifications. It needs no administrator rights, makes no network connections and has no telemetry. What it keeps, and where, is in [PRIVACY.md](PRIVACY.md).
-
-## ThinkPad keyboard backlight
-
-ThinkPads turn the keyboard backlight off when the screen turns off and at every start, and leave it off. On ThinkPads, AutoLayout can put back the level you chose with Fn+Space (off, low or high) when the screen turns on, after sleep and when Windows starts. Choosing "off" with Fn+Space is respected. The option only appears when Lenovo's ThinkPad power management driver is installed.
-
-Hat tip to [SaltwaterC/KeyboardBacklightForLenovo](https://github.com/SaltwaterC/KeyboardBacklightForLenovo), which showed that Lenovo's own driver exposes the keyboard backlight to applications. AutoLayout's implementation is its own.
+**AutoLayout never reads what you type.** It does not hook, record or inject keystrokes. It lists keyboard devices (vendor and product ids and the name Windows has for them) and listens for device and session notifications. It needs no administrator rights, makes no network connections and has no telemetry. What it keeps, and where, is in [PRIVACY.md](PRIVACY.md).
 
 ## Install
 
@@ -36,7 +30,7 @@ On first start the main window opens with the layout for no external keyboard al
 
 - **Notification area icon:** click it to open AutoLayout, or to set up a keyboard that is waiting. Right-click for the menu.
 - **Keyboards:** the layout in use and why, the layout when no external keyboard is connected, and every keyboard seen, with its layout and status. From a keyboard's "…" menu (or by right-clicking it) you can edit it, ignore it (for mice and receivers that Windows lists as keyboards) or forget it. At the end, the layout for Remote Desktop sessions: automatic (the other computer's layout) or one you choose.
-- **Settings:** start with Windows, a notification when the layout changes, the ThinkPad backlight and a diagnostic log.
+- **Settings:** start with Windows, a notification when the layout changes and a diagnostic log.
 
 Settings and the log are in `%LocalAppData%\AutoLayout` (`settings.json`, `autolayout.log`). The log is off unless you turn it on, or start AutoLayout with `--log`.
 

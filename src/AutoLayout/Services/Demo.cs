@@ -23,7 +23,7 @@ internal static class Demo
     public static AppSettings Settings()
     {
         DateTime now = DateTime.UtcNow;
-        AppSettings settings = new() { DefaultLayoutProfileId = "0409:00020409", FirstRunDone = true, KeepBacklight = true };
+        AppSettings settings = new() { DefaultLayoutProfileId = "0409:00020409", FirstRunDone = true };
         settings.Keyboards.Add(new KeyboardRecord
         {
             Key = ConfiguredKey, VendorId = 0x1A2C, ProductId = 0x0002, ProductName = "USB Keyboard", FriendlyName = "Desk keyboard",

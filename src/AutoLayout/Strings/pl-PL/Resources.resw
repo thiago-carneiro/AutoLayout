@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Nie można zmienić ustawienia „Uruchamiaj razem z systemem Windows”.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Pokazuj powiadomienie po zmianie układu</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pokazuj powiadomienie po zmianie układu</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Przywracaj podświetlenie klawiatury</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Przywraca poziom wybrany klawiszami Fn+Spacja (wyłączone, niskie lub wysokie) po włączeniu ekranu i po uruchomieniu systemu Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Przywracaj podświetlenie klawiatury</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostyka</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisuj plik dziennika</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Dziennik zawiera listę podłączonych klawiatur i czas ich podłączenia — nigdy to, co wpisujesz.</value></data>

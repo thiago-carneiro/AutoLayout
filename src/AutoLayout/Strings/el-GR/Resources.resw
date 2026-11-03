@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Δεν ήταν δυνατή η αλλαγή της ρύθμισης «Εκκίνηση με τα Windows».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Εμφάνιση ειδοποίησης όταν αλλάζει η διάταξη</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Εμφάνιση ειδοποίησης όταν αλλάζει η διάταξη</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Επαναφορά του οπίσθιου φωτισμού του πληκτρολογίου</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Επαναφέρει το επίπεδο που επιλέξατε με Fn+Διάστημα (ανενεργός, χαμηλός ή υψηλός) όταν ανάβει η οθόνη και όταν ξεκινούν τα Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Επαναφορά του οπίσθιου φωτισμού του πληκτρολογίου</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Διαγνωστικά</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Εγγραφή αρχείου καταγραφής</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Η καταγραφή περιέχει τα πληκτρολόγια που συνδέονται και πότε — ποτέ όσα πληκτρολογείτε.</value></data>

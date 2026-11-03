@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Не вдалося змінити параметр «Запускати разом із Windows».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Показувати сповіщення, коли змінюється розкладка</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Показувати сповіщення, коли змінюється розкладка</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Відновлювати підсвічування клавіатури</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Повертає рівень, вибраний за допомогою Fn+пробіл (вимкнено, низький або високий), коли вмикається екран і коли запускається Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Відновлювати підсвічування клавіатури</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Діагностика</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Вести файл журналу</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>У журналі зазначено, які клавіатури підключено і коли, але ніколи не те, що ви вводите.</value></data>

@@ -37,26 +37,6 @@
                 </Grid>
             </Border>
 
-            <!-- ThinkPad -->
-            <StackPanel x:Name="ThinkPadSection">
-                <TextBlock x:Uid="Set_ThinkPad" Style="{StaticResource SectionHeaderStyle}" />
-                <Border Style="{StaticResource CardStyle}">
-                    <Grid ColumnSpacing="16">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="Auto" />
-                        </Grid.ColumnDefinitions>
-                        <FontIcon Glyph="&#xE706;" VerticalAlignment="Center" />
-                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                            <TextBlock x:Uid="Set_Backlight" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="Wrap" />
-                            <TextBlock x:Uid="Set_Backlight_Hint" Style="{StaticResource SecondaryTextStyle}" />
-                        </StackPanel>
-                        <ToggleSwitch x:Name="BacklightToggle" x:Uid="Set_BacklightToggle" Grid.Column="2" Toggled="OnBacklightToggled" />
-                    </Grid>
-                </Border>
-            </StackPanel>
-
             <!-- Diagnostics -->
             <TextBlock x:Uid="Set_Diagnostics" Style="{StaticResource SectionHeaderStyle}" />
             <Border Style="{StaticResource CardStyle}">

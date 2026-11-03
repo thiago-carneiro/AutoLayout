@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Nije moguće promijeniti postavku „Pokreni sa sustavom Windows”.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Prikaži obavijest kad se raspored promijeni</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Prikaži obavijest kad se raspored promijeni</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Vrati pozadinsko osvjetljenje tipkovnice</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Vraća razinu koju ste odabrali pomoću Fn+razmaknica (isključeno, nisko ili visoko) kad se zaslon uključi i kad se Windows pokrene.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Vrati pozadinsko osvjetljenje tipkovnice</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Dijagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisuj datoteku zapisnika</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Zapisnik bilježi koje su tipkovnice povezane i kada — nikad ono što tipkate.</value></data>

@@ -15,7 +15,6 @@ AutoLayout is a free, open-source Windows app that sets the default keyboard lay
 - The list of keyboard devices connected, with their vendor and product ids and the name Windows has for each one.
 - Whether the session is a Remote Desktop session.
 - The keyboard layouts installed in Windows and the current default layout.
-- On ThinkPads with Lenovo's power management driver, the keyboard backlight level.
 
 ## What it keeps, and where
 

@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Não foi possível alterar a opção «Iniciar com o Windows».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Mostrar uma notificação quando a disposição mudar</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Mostrar uma notificação quando a disposição mudar</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restaurar a retroiluminação do teclado</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Repõe o nível escolhido com Fn+Espaço (desligada, baixa ou alta) quando o ecrã liga e quando o Windows arranca.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurar a retroiluminação do teclado</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnóstico</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Escrever um ficheiro de registo</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>O registo indica os teclados ligados e quando, mas nunca o que escreve.</value></data>

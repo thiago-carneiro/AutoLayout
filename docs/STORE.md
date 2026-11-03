@@ -54,7 +54,7 @@ Create a submission and fill in each section.
 
 **Restricted capability `runFullTrust`**: Partner Center asks why. A text that fits:
 
-> AutoLayout is a desktop (Win32) app built with WinUI 3. It needs full trust to list the keyboard devices connected (Configuration Manager API), to set the Windows default input language (input.dll, Text Services Framework), to receive device and session notifications through a hidden window, and, on Lenovo ThinkPads, to read and restore the keyboard backlight level through Lenovo's power management driver. It does not read, hook or inject keystrokes and makes no network connections. Source code: https://github.com/thiago-carneiro/AutoLayout
+> AutoLayout is a desktop (Win32) app built with WinUI 3. It needs full trust to list the keyboard devices connected (Configuration Manager API), to set the Windows default input language (input.dll, Text Services Framework), and to receive device and session notifications through a hidden window. It does not read, hook or inject keystrokes and makes no network connections. Source code: https://github.com/thiago-carneiro/AutoLayout
 
 **Store listing** (at least en-US; the other languages are optional and can reuse `docs/store-listing.md`):
 - Description, short description and features: `docs/store-listing.md`.
@@ -63,7 +63,7 @@ Create a submission and fill in each section.
 
 **Notes for certification** (Submission options):
 
-> AutoLayout runs in the notification area. To see it work, connect a USB or Bluetooth keyboard: a notification asks for its layout. Without one, the main window shows the default layout and the list of keyboards seen. The app does not need a ThinkPad; the backlight option only appears on ThinkPads with Lenovo's driver.
+> AutoLayout runs in the notification area. To see it work, connect a USB or Bluetooth keyboard: a notification asks for its layout. Without one, the main window shows the default layout and the list of keyboards seen.
 
 Submit. Certification usually takes from a few hours to a few days; Partner Center e-mails the result.
 

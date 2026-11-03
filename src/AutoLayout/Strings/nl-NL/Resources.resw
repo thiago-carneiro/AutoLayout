@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Kan de instelling “Starten met Windows” niet wijzigen.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Een melding weergeven wanneer de indeling verandert</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Een melding weergeven wanneer de indeling verandert</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Toetsenbordverlichting herstellen</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Herstelt het niveau dat u met Fn+Spatie hebt gekozen (uit, laag of hoog) wanneer het scherm wordt ingeschakeld en wanneer Windows start.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Toetsenbordverlichting herstellen</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostiek</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Een logboekbestand schrijven</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Het logboek vermeldt welke toetsenborden zijn aangesloten en wanneer — nooit wat u typt.</value></data>

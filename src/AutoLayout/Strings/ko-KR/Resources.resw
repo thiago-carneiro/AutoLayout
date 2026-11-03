@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>“Windows 시작 시 실행” 설정을 변경할 수 없습니다.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>레이아웃이 바뀔 때 알림 표시</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>레이아웃이 바뀔 때 알림 표시</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>키보드 백라이트 복원</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>화면이 켜질 때와 Windows가 시작될 때, Fn+스페이스바로 선택한 밝기(끔, 약, 강)로 되돌립니다.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>키보드 백라이트 복원</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>진단</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>로그 파일 쓰기</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>로그에는 연결된 키보드와 연결 시점이 기록되며, 입력한 내용은 절대 기록되지 않습니다.</value></data>

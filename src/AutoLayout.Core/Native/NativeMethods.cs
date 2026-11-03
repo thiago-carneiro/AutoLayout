@@ -4,7 +4,6 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
-using Microsoft.Win32.SafeHandles;
 
 [assembly: DefaultDllImportSearchPaths(DllImportSearchPath.System32)]
 
@@ -62,31 +61,6 @@ internal static partial class NativeMethods
     public static extern int CM_Get_DevNode_Property(int devInst, ref DevPropKey propertyKey, out uint propertyType,
         [Out] byte[]? buffer, ref int bufferSize, int flags);
 
-    // ---- Files and devices ---------------------------------------------------------------
-
-    public const uint FILE_SHARE_READ = 0x00000001;
-    public const uint FILE_SHARE_WRITE = 0x00000002;
-    public const uint OPEN_EXISTING = 3;
-    public const uint GENERIC_READ = 0x80000000;
-    public const uint GENERIC_WRITE = 0x40000000;
-
-    [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
-    public static extern SafeFileHandle CreateFile(string fileName, uint desiredAccess, uint shareMode, IntPtr securityAttributes,
-        uint creationDisposition, uint flagsAndAttributes, IntPtr templateFile);
-
-    [DllImport("kernel32.dll", SetLastError = true)]
-    [return: MarshalAs(UnmanagedType.Bool)]
-    public static extern bool DeviceIoControl(SafeFileHandle device, uint ioControlCode, byte[] inBuffer, int inBufferSize,
-        byte[] outBuffer, int outBufferSize, out int bytesReturned, IntPtr overlapped);
-
-    [DllImport("kernel32.dll")]
-    public static extern IntPtr GetCurrentProcess();
-
-    /// <summary>Copies memory of this process without crashing on a bad address.</summary>
-    [DllImport("kernel32.dll", SetLastError = true)]
-    [return: MarshalAs(UnmanagedType.Bool)]
-    public static extern bool ReadProcessMemory(IntPtr process, IntPtr address, [Out] byte[] buffer, IntPtr size, out IntPtr bytesRead);
-
     // ---- Windows, messages and timers --------------------------------------------------------
 
     public const int WM_DESTROY = 0x0002;
@@ -95,22 +69,15 @@ internal static partial class NativeMethods
     public const int WM_INPUTLANGCHANGE = 0x0051;
     public const int WM_TIMER = 0x0113;
     public const int WM_DEVICECHANGE = 0x0219;
-    public const int WM_POWERBROADCAST = 0x0218;
     public const int WM_WTSSESSION_CHANGE = 0x02B1;
     public const int WM_APP = 0x8000;
 
-    public const int PBT_APMSUSPEND = 0x0004;
-    public const int PBT_APMRESUMEAUTOMATIC = 0x0012;
-    public const int PBT_POWERSETTINGCHANGE = 0x8013;
     public const int DBT_DEVTYP_DEVICEINTERFACE = 5;
     public const int DEVICE_NOTIFY_WINDOW_HANDLE = 0;
     public const int NOTIFY_FOR_THIS_SESSION = 0;
 
     public const int WS_POPUP = unchecked((int)0x80000000);
     public const int WS_EX_TOOLWINDOW = 0x00000080;
-
-    // Power setting broadcast when the console display turns off (0), on (1) or dims (2)
-    public static readonly Guid GuidConsoleDisplayState = new("6FE69556-704A-47A0-8F24-C28D936FDA47");
 
     public delegate IntPtr WindowProcedure(IntPtr hwnd, int message, IntPtr wParam, IntPtr lParam);
 
@@ -174,13 +141,6 @@ internal static partial class NativeMethods
     [DllImport("user32.dll", SetLastError = true)]
     [return: MarshalAs(UnmanagedType.Bool)]
     public static extern bool UnregisterDeviceNotification(IntPtr handle);
-
-    [DllImport("user32.dll", SetLastError = true)]
-    public static extern IntPtr RegisterPowerSettingNotification(IntPtr recipient, ref Guid powerSettingGuid, int flags);
-
-    [DllImport("user32.dll", SetLastError = true)]
-    [return: MarshalAs(UnmanagedType.Bool)]
-    public static extern bool UnregisterPowerSettingNotification(IntPtr handle);
 
     [DllImport("wtsapi32.dll", SetLastError = true)]
     [return: MarshalAs(UnmanagedType.Bool)]

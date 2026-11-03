@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>無法變更「隨 Windows 啟動」設定。</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>配置變更時顯示通知</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>配置變更時顯示通知</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>還原鍵盤背光</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>在螢幕開啟時以及 Windows 啟動時，還原您用 Fn + 空白鍵選擇的亮度（關閉、低或高）。</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>還原鍵盤背光</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>診斷</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>寫入記錄檔</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>記錄會列出已連線的鍵盤及連線時間，絕不會記錄您輸入的內容。</value></data>

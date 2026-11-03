@@ -141,7 +141,7 @@ public sealed class SettingsFileTests
     public void SavedSettings_LoadBackTheSame()
     {
         string path = Path.Combine(folder, "settings.json");
-        AppSettings settings = new() { DefaultLayoutProfileId = "0416:00020409", LogEnabled = true, BacklightLevel = BacklightLevel.Low };
+        AppSettings settings = new() { DefaultLayoutProfileId = "0416:00020409", LogEnabled = true, NotifyOnSwitch = false };
         settings.Keyboards.Add(new KeyboardRecord { Key = "046D:C31C", ProductName = "K120 \"teclado\" ç 日本", State = KeyboardState.Configured, LayoutProfileId = "0416:00010416" });
         settings.Keyboards.Add(new KeyboardRecord { Key = "RDP", Connection = KeyboardConnection.RemoteDesktop, State = KeyboardState.Configured, LayoutProfileId = "AUTO" });
         new SettingsStore(path).Save(settings);
@@ -150,7 +150,7 @@ public sealed class SettingsFileTests
         AppSettings loaded = new SettingsStore(path).Load();
         Assert.AreEqual("0416:00020409", loaded.DefaultLayoutProfileId);
         Assert.IsTrue(loaded.LogEnabled);
-        Assert.AreEqual(BacklightLevel.Low, loaded.BacklightLevel);
+        Assert.IsFalse(loaded.NotifyOnSwitch);
         Assert.HasCount(2, loaded.Keyboards);
         Assert.AreEqual("K120 \"teclado\" ç 日本", loaded.Keyboards[0].ProductName);
         Assert.AreEqual("0416:00010416", loaded.Keyboards[0].LayoutProfileId);
@@ -201,7 +201,8 @@ public sealed class SettingsFileTests
             """
             {
               "DefaultLayoutProfileId": "0416:00020409; calc.exe",
-              "BacklightLevel": "Low", "MainWindowWidth": 99999999, "Unknown": { "a": [1, 2] },
+              "NotifyOnSwitch": false, "MainWindowWidth": 99999999, "Unknown": { "a": [1, 2] },
+              "KeepBacklight": true, "BacklightLevel": "Low",
               "Keyboards": [
                 { "Key": "..\\..\\evil", "State": "Configured" },
                 { "Key": "046D:C31C", "State": "Configured", "LayoutProfileId": "AUTO" },
@@ -214,7 +215,7 @@ public sealed class SettingsFileTests
             """, out _);
 
         Assert.IsNull(settings.DefaultLayoutProfileId, "Only well-formed profile ids are kept");
-        Assert.AreEqual(BacklightLevel.Low, settings.BacklightLevel);
+        Assert.IsFalse(settings.NotifyOnSwitch, "Settings from older versions (the backlight ones) do not stop the rest from loading");
         Assert.AreEqual(10000, settings.MainWindowWidth);
         Assert.HasCount(2, settings.Keyboards, "Invalid keys, undefined states, nulls and duplicates are dropped");
         Assert.AreEqual(KeyboardState.NotSetUp, settings.Keyboards[0].State, "AUTO is only valid for Remote Desktop");

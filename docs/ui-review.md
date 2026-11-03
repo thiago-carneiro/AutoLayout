@@ -31,6 +31,5 @@ The new and changed strings were translated into the 36 machine-translated langu
 
 - **A distinguishing mark on the tray icon.** The plain keyboard resembles Windows' touch keyboard icon.
 - **Narrow windows and 200% text** were judged from the source, not measured: the setup window's footer could still overflow with very long button labels.
-- **Framework text in screenshots with `--lang`.** WinUI's own strings (the On/Off of switches) follow the Windows display language, so a capture in another language mixes the two. In normal use the app follows the Windows display language and they match.
 
 Not judged from screenshots: Mica, hover and focus visuals, high contrast, Narrator output, and the native tray menu and notifications.

@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Настройката „Стартиране с Windows“ не можа да се промени.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Показване на известие при промяна на подредбата</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Показване на известие при промяна на подредбата</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Възстановяване на подсветката на клавиатурата</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Връща нивото, избрано с Fn+интервал (изключена, ниска или висока), когато екранът се включи и когато Windows стартира.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Възстановяване на подсветката на клавиатурата</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Диагностика</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Записване на журнален файл</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Журналът изброява свързаните клавиатури и кога — но никога какво пишете.</value></data>

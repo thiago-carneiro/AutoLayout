@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Couldn’t change the “Start with Windows” setting.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Show a notification when the layout changes</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Show a notification when the layout changes</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restore the keyboard backlight</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Brings back the level you chose with Fn+Space (off, low or high) when the screen turns on and when Windows starts.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restore the keyboard backlight</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostics</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Write a log file</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>The log lists the keyboards connected and when — never what you type.</value></data>

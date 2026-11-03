@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>No se pudo cambiar la opción «Iniciar con Windows».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Mostrar una notificación cuando cambie la distribución</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Mostrar una notificación cuando cambie la distribución</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restaurar la retroiluminación del teclado</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Recupera el nivel que elegiste con Fn+Barra espaciadora (apagada, baja o alta) cuando se enciende la pantalla y cuando se inicia Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurar la retroiluminación del teclado</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnóstico</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Escribir un archivo de registro</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>El registro enumera los teclados conectados y cuándo, nunca lo que escribes.</value></data>

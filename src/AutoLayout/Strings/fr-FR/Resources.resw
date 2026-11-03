@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Impossible de modifier le paramètre « Démarrer avec Windows ».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Afficher une notification quand la disposition change</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Afficher une notification quand la disposition change</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restaurer le rétroéclairage du clavier</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Rétablit le niveau choisi avec Fn+Espace (éteint, faible ou élevé) quand l’écran s’allume et quand Windows démarre.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurer le rétroéclairage du clavier</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostic</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Écrire un fichier journal</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Le journal indique quels claviers sont connectés et quand, jamais ce que vous tapez.</value></data>

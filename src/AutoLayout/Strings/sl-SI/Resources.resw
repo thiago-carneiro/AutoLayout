@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Nastavitve „Zaženi s sistemom Windows“ ni bilo mogoče spremeniti.</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Pokaži obvestilo, ko se razporeditev spremeni</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pokaži obvestilo, ko se razporeditev spremeni</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Obnovi osvetlitev ozadja tipkovnice</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Obnovi raven, ki ste jo izbrali s tipkama Fn+preslednica (izklopljeno, nizko ali visoko), ko se zaslon vklopi in ko se zažene Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Obnovi osvetlitev ozadja tipkovnice</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisuj datoteko dnevnika</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Dnevnik navaja priključene tipkovnice in kdaj – nikoli tega, kar tipkate.</value></data>

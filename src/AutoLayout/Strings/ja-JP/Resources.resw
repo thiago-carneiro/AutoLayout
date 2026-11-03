@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>「Windows 起動時に開始」の設定を変更できませんでした。</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>レイアウトが変わったときに通知を表示する</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>レイアウトが変わったときに通知を表示する</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>キーボード バックライトを復元する</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Fn + Space で選んだ明るさ (オフ、弱、強) を、画面がオンになったときと Windows の起動時に元に戻します。</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>キーボード バックライトを復元する</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>診断</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>ログ ファイルを書き込む</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>ログには、接続されたキーボードとその時刻が記録されますが、入力内容は記録されません。</value></data>

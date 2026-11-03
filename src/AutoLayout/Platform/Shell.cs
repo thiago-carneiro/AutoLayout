@@ -16,6 +16,13 @@ internal static class Shell
     [return: MarshalAs(UnmanagedType.Bool)]
     public static extern bool SetDllDirectory(string path);
 
+    public const uint MUI_LANGUAGE_NAME = 0x8;
+
+    /// <summary>The UI language of the process's own resources, WinUI's included; languages ends in "\0".</summary>
+    [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    public static extern bool SetProcessPreferredUILanguages(uint flags, string languages, out uint count);
+
     // ---- Tray icon ---------------------------------------------------------------------
 
     public const int WM_SETTINGCHANGE = 0x001A;

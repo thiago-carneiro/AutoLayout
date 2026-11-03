@@ -34,7 +34,6 @@ public partial class App : Application
     private KeyboardWatcher watcher = null!;
     private TrayIcon tray = null!;
     private Notifier notifier = null!;
-    private BacklightKeeper? backlight;
     private MainWindow? mainWindow;
     private LayoutChange? pendingChange;
     private bool exiting;
@@ -65,8 +64,6 @@ public partial class App : Application
     public static new App Current => (App)Application.Current;
 
     internal Engine Engine { get; private set; } = null!;
-
-    internal bool BacklightAvailable => backlight != null || IsDemo;
 
     /// <summary>Sample data for screenshots; nothing is read from or applied to the PC.</summary>
     internal bool IsDemo { get; private set; }
@@ -111,17 +108,6 @@ public partial class App : Application
         notifier = new Notifier((title, text, warning, request) => tray.ShowBalloon(title, text, warning, () => Handle(request)));
         notifier.Invoked += (_, request) => dispatcher.TryEnqueue(() => Handle(request));
         instance.Activated += (_, e) => dispatcher.TryEnqueue(() => OnActivated(e));
-
-        if (!IsDemo && ThinkPadBacklight.IsAvailable)
-        {
-            backlight = new BacklightKeeper(messageWindow, settings.BacklightLevel);
-            backlight.LevelChanged += (_, _) =>
-            {
-                Engine.Settings.BacklightLevel = backlight.Level;
-                store.Save(Engine.Settings);
-            };
-            backlight.Enabled = settings.KeepBacklight;
-        }
 
         Engine.Start();
         UpdateTray();
@@ -191,14 +177,6 @@ public partial class App : Application
         WindowHelper.Bring(window);
     }
 
-    internal void SetBacklight(bool enabled)
-    {
-        if (backlight != null)
-        {
-            backlight.Enabled = enabled;
-        }
-    }
-
     internal void SetLogging(bool enabled)
     {
         Engine.Settings.LogEnabled = enabled;
@@ -216,7 +194,6 @@ public partial class App : Application
             window.Close();
         }
         mainWindow?.Close();
-        backlight?.Dispose();
         notifier.Dispose();
         tray.Dispose();
         watcher.Dispose();

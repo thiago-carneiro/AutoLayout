@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>تعذّر تغيير إعداد «البدء مع Windows».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>إظهار إشعار عند تغيّر التخطيط</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>إظهار إشعار عند تغيّر التخطيط</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>استعادة الإضاءة الخلفية للوحة المفاتيح</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>يعيد المستوى الذي اخترته باستخدام Fn+Space (إيقاف أو منخفض أو مرتفع) عند تشغيل الشاشة وعند بدء تشغيل Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>استعادة الإضاءة الخلفية للوحة المفاتيح</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>التشخيص</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>كتابة ملف سجل</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>يسرد السجل لوحات المفاتيح المتصلة ووقت اتصالها، ولا يسجّل أبدًا ما تكتبه.</value></data>

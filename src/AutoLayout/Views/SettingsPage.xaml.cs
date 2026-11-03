@@ -29,9 +29,7 @@ public sealed partial class SettingsPage : Page
         loading = true;
         StartupToggle.IsOn = await Startup.IsEnabledAsync();
         NotifyToggle.IsOn = engine.Settings.NotifyOnSwitch;
-        BacklightToggle.IsOn = engine.Settings.KeepBacklight;
         LogToggle.IsOn = engine.Settings.LogEnabled;
-        ThinkPadSection.Visibility = App.Current.BacklightAvailable ? Visibility.Visible : Visibility.Collapsed;
         OpenLogButton.IsEnabled = File.Exists(Log.FilePath);
         Version? version = typeof(App).Assembly.GetName().Version;
         VersionText.Text = Loc.Format("About_Version", version != null ? version.ToString(3) : "?");
@@ -77,16 +75,6 @@ public sealed partial class SettingsPage : Page
         {
             engine.Settings.NotifyOnSwitch = NotifyToggle.IsOn;
             App.Current.SaveSettings();
-        }
-    }
-
-    private void OnBacklightToggled(object sender, RoutedEventArgs e)
-    {
-        if (!loading)
-        {
-            engine.Settings.KeepBacklight = BacklightToggle.IsOn;
-            App.Current.SaveSettings();
-            App.Current.SetBacklight(BacklightToggle.IsOn);
         }
     }
 

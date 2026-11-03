@@ -66,10 +66,6 @@ public sealed class AppSettings
     /// <summary>Off by default: the log lists the devices connected and when.</summary>
     public bool LogEnabled { get; set; }
 
-    public bool KeepBacklight { get; set; } = true;
-
-    public BacklightLevel BacklightLevel { get; set; } = BacklightLevel.High;
-
     public int MainWindowWidth { get; set; }
 
     public int MainWindowHeight { get; set; }
@@ -188,10 +184,6 @@ public sealed class SettingsStore : ISettingsStore
         if (!InputProfiles.IsValidId(settings.DefaultLayoutProfileId))
         {
             settings.DefaultLayoutProfileId = null;
-        }
-        if (!Enum.IsDefined(settings.BacklightLevel))
-        {
-            settings.BacklightLevel = BacklightLevel.High;
         }
         settings.MainWindowWidth = Math.Clamp(settings.MainWindowWidth, 0, 10000);
         settings.MainWindowHeight = Math.Clamp(settings.MainWindowHeight, 0, 10000);

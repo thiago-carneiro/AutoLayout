@@ -87,10 +87,6 @@
   <data name="Err_Startup" xml:space="preserve"><value>Не удалось изменить параметр «Запускать вместе с Windows».</value></data>
   <data name="Set_Notify.Text" xml:space="preserve"><value>Показывать уведомление при смене раскладки</value></data>
   <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Показывать уведомление при смене раскладки</value></data>
-  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
-  <data name="Set_Backlight.Text" xml:space="preserve"><value>Восстанавливать подсветку клавиатуры</value></data>
-  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Возвращает уровень, выбранный сочетанием Fn+пробел (выключена, слабая или яркая), когда включается экран и когда запускается Windows.</value></data>
-  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Восстанавливать подсветку клавиатуры</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Диагностика</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Вести файл журнала</value></data>
   <data name="Set_Log_Hint.Text" xml:space="preserve"><value>В журнале указано, какие клавиатуры подключены и когда, но никогда не то, что вы вводите.</value></data>

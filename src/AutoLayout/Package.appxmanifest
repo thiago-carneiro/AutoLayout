@@ -65,7 +65,7 @@
   </Applications>
 
   <Capabilities>
-    <!-- A desktop app: needed to list keyboards, set the default layout and talk to the ThinkPad driver -->
+    <!-- A desktop app: needed to list keyboards and set the default layout -->
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
 </Package>
