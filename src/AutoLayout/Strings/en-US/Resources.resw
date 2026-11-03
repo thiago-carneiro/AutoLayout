@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value><comment>LeftToRight, or RightToLeft for right-to-left languages (Arabic, Hebrew). Not shown.</comment></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value><comment>Product name. Do not translate.</comment></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value><comment>Product name. Do not translate.</comment></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value><comment>Product name in the title bar. Do not translate.</comment></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value><comment>Window title. Do not translate.</comment></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Keyboards</value><comment>Navigation item.</comment></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Keyboards</value><comment>Page title.</comment></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Settings</value><comment>Page title. Use the word Windows uses for Settings.</comment></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Layout in use</value><comment>Label above the name of the keyboard layout in use now. &quot;Layout&quot; = keyboard layout everywhere in this file.</comment></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Because “{0}” is connected.</value><comment>{0} = keyboard name.</comment></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Because no external keyboard is connected.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Remote Desktop session: Windows uses the other computer’s keyboard layout.</value><comment>&quot;The other computer&quot; = the computer the user connects from. Use the Windows name for Remote Desktop.</comment></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Chosen for Remote Desktop sessions.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>You can still switch layouts with Win+Space. AutoLayout acts only when a keyboard is connected or disconnected.</value><comment>Write the shortcut the way Windows writes it in your language.</comment></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Couldn’t switch to {0}</value><comment>Title of an error bar. {0} = layout name.</comment></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>This layout is no longer installed. Choose another one for the keyboard.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>The default layout is no longer installed. Choose another one.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows didn’t accept the change. You can still switch with Win+Space.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Choose layout</value><comment>Button.</comment></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>View log</value><comment>Button that opens the log file.</comment></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>A new keyboard is waiting to be set up.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} new keyboards are waiting to be set up.</value><comment>{0} = number (2 or more).</comment></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Set up…</value><comment>Button. The ellipsis means it opens a window.</comment></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Default layout</value><comment>Section heading.</comment></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Layout with no external keyboard</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Used when no external keyboard is connected, for example for the laptop’s own keyboard.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Default layout</value><comment>Screen-reader name of the drop-down list.</comment></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Add layouts in Windows Settings</value><comment>Link that opens Windows Settings &gt; Time &amp; language &gt; Language &amp; region.</comment></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>External keyboards</value><comment>Section heading.</comment></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>External keyboards</value><comment>Screen-reader name of the list.</comment></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>No external keyboards yet. Connect a USB or Bluetooth keyboard and AutoLayout will ask which layout it uses.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>In use</value><comment>Status of a keyboard: connected, and its layout is the one in use.</comment></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Connected</value><comment>Status of a keyboard: connected, but another keyboard&apos;s layout is in use.</comment></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Not set up</value><comment>Status of a keyboard with no layout chosen yet.</comment></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Waiting to be set up</value><comment>Status of a connected keyboard with no layout chosen yet.</comment></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Disconnected</value><comment>Status of a keyboard.</comment></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignored</value><comment>Status of a device the user marked as not a keyboard.</comment></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value><comment>Shown when there is no layout. Em dash; do not translate.</comment></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatic (the other computer’s layout)</value><comment>Remote Desktop option.</comment></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (not installed)</value><comment>{0} = layout name.</comment></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value><comment>{0} = layout, {1} = language it is installed under. You may change the separator or order.</comment></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Connected now</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Last connected {0}</value><comment>{0} = date and time.</comment></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value><comment>{0} = connection (USB, Bluetooth), {1} = VID:PID, {2} = when it was last connected.</comment></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Set up…</value><comment>Menu command.</comment></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Edit…</value><comment>Menu command.</comment></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignore (not a keyboard)</value><comment>Menu command for mice and receivers that Windows lists as keyboards.</comment></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Stop ignoring</value><comment>Undoes Ignore.</comment></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Forget</value><comment>Like &quot;Forget&quot; for a Wi-Fi network in Windows.</comment></data>
+  <data name="Btn_More" xml:space="preserve"><value>More options for {0}</value><comment>Screen-reader name and tooltip of the &quot;...&quot; button. {0} = keyboard name.</comment></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Forget this keyboard?</value><comment>Dialog title.</comment></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>If you connect “{0}” again, AutoLayout will ask for its layout again.</value><comment>{0} = keyboard name.</comment></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>New keyboard</value><comment>Window title.</comment></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Edit keyboard</value><comment>Window title.</comment></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>A new keyboard was connected</value><comment>Heading. No period.</comment></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Remote Desktop sessions</value><comment>Heading of the window for the Remote Desktop entry.</comment></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Choose the layout printed on its keys. AutoLayout will use it whenever this keyboard is connected. Nothing changes until you save.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value><comment>{0} = product name, {1} = connection, {2} = VID:PID.</comment></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value><comment>{0} = connection, {1} = VID:PID.</comment></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} of {2}</value><comment>{0} = details, {1} = position, {2} = total of new keyboards waiting.</comment></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Name</value><comment>Field label.</comment></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Layout</value><comment>Field label: keyboard layout.</comment></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Choose a layout</value><comment>Shown in the empty drop-down list.</comment></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (suggested)</value><comment>{0} = layout name.</comment></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggested based on the keyboard model. Check it before you save.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>The keyboard doesn’t report its layout, so this is a guess based on your Windows region. Check it before you save.</value><comment>&quot;Region&quot; = the Windows &quot;Country or region&quot; setting.</comment></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>This is probably {0}, which isn’t installed. Add it in Windows Settings, then choose it here.</value><comment>{0} = layout name.</comment></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Applies while this PC is used through Remote Desktop. By default Windows uses the layout of the keyboard on the computer you connect from.</value><comment>Defines &quot;the other computer&quot; used elsewhere.</comment></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>This PC is set to ignore the other computer’s layout (IgnoreRemoteKeyboardLayout). Choose a fixed layout.</value><comment>IgnoreRemoteKeyboardLayout is a registry value name: do not translate it.</comment></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Layout not listed?</value><comment>Link that opens Windows Settings.</comment></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignore this device (it isn’t a keyboard)</value><comment>Check box, for mice and receivers that Windows lists as keyboards.</comment></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Save</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Not a keyboard</value><comment>Button: marks the device as ignored.</comment></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Not now</value><comment>Closes without choosing; the app asks again next time the keyboard is connected.</comment></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>General</value><comment>Section heading.</comment></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Start with Windows</value><comment>Setting.</comment></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Start with Windows</value><comment>Screen-reader name of the switch.</comment></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout is running from a folder like Downloads, a temporary folder or a removable drive. Move it to a permanent folder before starting it with Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Starting with Windows was turned off in Task Manager or Windows Settings. Turn it on there.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Your organization decides whether apps start with Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Couldn’t change the “Start with Windows” setting.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Show a notification when the layout changes</value><comment>Setting.</comment></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Show a notification when the layout changes</value><comment>Screen-reader name.</comment></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value><comment>Section heading. Trademark; do not translate.</comment></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restore the keyboard backlight</value><comment>Use Lenovo&apos;s or Windows&apos; term for keyboard backlight.</comment></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Brings back the level you chose with Fn+Space (off, low or high) when the screen turns on and when Windows starts.</value><comment>Off, low and high are the backlight levels.</comment></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restore the keyboard backlight</value><comment>Screen-reader name.</comment></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostics</value><comment>Section heading.</comment></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Write a log file</value><comment>Setting.</comment></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Off by default. The log lists the keyboards connected and when — never what you type.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Write a log file</value><comment>Screen-reader name.</comment></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Open log</value><comment>Link.</comment></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Open folder</value><comment>Link: opens the folder with the settings and the log.</comment></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacy</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout never reads what you type. It only checks which keyboards are connected, and makes no network connections.</value><comment>Keep &quot;never&quot;.</comment></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>About</value><comment>Section heading.</comment></data>
+  <data name="About_Version" xml:space="preserve"><value>Version {0}</value><comment>{0} = version number.</comment></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 The AutoLayout authors</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Licensed under the Apache License 2.0.</value><comment>Do not translate &quot;Apache License 2.0&quot;.</comment></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>View license</value><comment>Link.</comment></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Third-party notices</value><comment>Link. Use the Microsoft term.</comment></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Project page</value><comment>Link.</comment></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Support on Ko-fi</value><comment>Link to the developer's tip page. Do not translate "Ko-fi".</comment></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Current layout: {0}</value><comment>Tray menu item. {0} = layout name.</comment></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Set up “{0}”…</value><comment>Tray menu command. {0} = keyboard name.</comment></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Keyboards…</value><comment>Tray menu command.</comment></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Settings…</value><comment>Tray menu command.</comment></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Exit</value><comment>Tray menu command. Use Windows&apos; standard Exit.</comment></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value><comment>Tray tooltip. {0} = layout name.</comment></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+New keyboard: click to set up</value><comment>Whole tooltip, at most 120 characters. `n is a line break.</comment></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Click to see what went wrong</value><comment>Whole tooltip, at most 120 characters.</comment></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>New keyboard: {0}</value><comment>Notification title. {0} = keyboard name.</comment></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Choose its layout. Until then, nothing changes.</value><comment>Notification text.</comment></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Looks like {0}. Confirm it to use it. Until then, nothing changes.</value><comment>{0} = layout name.</comment></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Set up</value><comment>Notification button.</comment></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” connected.</value><comment>Notification whose title is the layout name. {0} = keyboard name.</comment></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” disconnected. Back to the default layout.</value><comment>{0} = keyboard name.</comment></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Now using the default layout.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Chosen for this Remote Desktop session.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Layout not installed</value><comment>Notification title.</comment></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” uses {1}, which is no longer installed. Choose another layout.</value><comment>{0} = keyboard name, {1} = layout name.</comment></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>The default layout, {0}, is no longer installed. Choose another layout.</value><comment>{0} = layout name.</comment></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Couldn’t switch the layout</value><comment>Notification title.</comment></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows didn’t accept {0}. You can still switch with Win+Space.</value><comment>{0} = layout name.</comment></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value><comment>Do not translate.</comment></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value><comment>Do not translate.</comment></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Remote Desktop</value><comment>Windows feature name; use Windows&apos; translation (pt-PT: Ambiente de Trabalho Remoto).</comment></data>
+</root>

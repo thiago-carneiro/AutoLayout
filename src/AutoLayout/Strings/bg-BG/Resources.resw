@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Клавиатури</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Клавиатури</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Настройки</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Използвана подредба</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Защото е свързана клавиатурата „{0}“.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Защото не е свързана външна клавиатура.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Сесия на отдалечен работен плот: Windows използва клавиатурната подредба на другия компютър.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Избрана за сесиите на отдалечен работен плот.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Все още можете да превключвате подредбите с Win+интервал. AutoLayout действа само когато клавиатура бъде свързана или изключена.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Не може да се превключи към {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Тази подредба вече не е инсталирана. Изберете друга за клавиатурата.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Подредбата по подразбиране вече не е инсталирана. Изберете друга.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows не прие промяната. Все още можете да превключвате с Win+интервал.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Избор на подредба</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Преглед на журнала</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Нова клавиатура чака да бъде настроена.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Нови клавиатури, чакащи настройка: {0}.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Настройване…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Подредба по подразбиране</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Подредба без външна клавиатура</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Използва се, когато не е свързана външна клавиатура, например за собствената клавиатура на лаптопа.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Подредба по подразбиране</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Добавяне на подредби от настройките на Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Външни клавиатури</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Външни клавиатури</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Все още няма външни клавиатури. Свържете USB или Bluetooth клавиатура и AutoLayout ще попита коя подредба използва.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Използва се</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Свързана</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Не е настроена</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Чака настройка</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Изключена</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Игнорирана</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Автоматично (подредбата на другия компютър)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (не е инсталирана)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Свързана в момента</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Последно свързана: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Настройване…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Редактиране…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Игнориране (не е клавиатура)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Спиране на игнорирането</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Забравяне</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Още опции за {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Да се забрави ли тази клавиатура?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Ако свържете „{0}“ отново, AutoLayout ще попита за подредбата отново.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Нова клавиатура</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Редактиране на клавиатура</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Свързана е нова клавиатура</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Сесии на отдалечен работен плот</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Изберете подредбата, отпечатана на клавишите. AutoLayout ще я използва всеки път, когато тази клавиатура е свързана. Нищо не се променя, докато не запазите.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} от {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Име</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Подредба</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Изберете подредба</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (препоръчана)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Предложена според модела на клавиатурата. Проверете, преди да запазите.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Клавиатурата не съобщава подредбата си, така че това е предположение въз основа на региона на Windows. Проверете, преди да запазите.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Вероятно това е {0}, която не е инсталирана. Добавете я от настройките на Windows и после я изберете тук.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Важи, докато този компютър се използва чрез отдалечен работен плот. По подразбиране Windows използва подредбата на клавиатурата на компютъра, от който се свързвате.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Този компютър е настроен да игнорира подредбата на другия компютър (IgnoreRemoteKeyboardLayout). Изберете фиксирана подредба.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Подредбата не е в списъка?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Игнориране на това устройство (не е клавиатура)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Запазване</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Не е клавиатура</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Не сега</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Отказ</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Общи</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Стартиране с Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Стартиране с Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout работи от папка като „Изтегляния“, временна папка или сменяемо устройство. Преместете го в постоянна папка, преди да го стартирате с Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Стартирането с Windows е изключено в диспетчъра на задачите или в настройките на Windows. Включете го там.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Вашата организация решава дали приложенията да се стартират с Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Настройката „Стартиране с Windows“ не можа да се промени.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Показване на известие при промяна на подредбата</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Показване на известие при промяна на подредбата</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Възстановяване на подсветката на клавиатурата</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Връща нивото, избрано с Fn+интервал (изключена, ниска или висока), когато екранът се включи и когато Windows стартира.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Възстановяване на подсветката на клавиатурата</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Диагностика</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Записване на журнален файл</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Изключено по подразбиране. Журналът изброява свързаните клавиатури и кога — но никога какво пишете.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Записване на журнален файл</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Отваряне на журнала</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Отваряне на папката</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Поверителност</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout никога не чете какво пишете. Той само проверява кои клавиатури са свързани и не прави мрежови връзки.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Относно</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Версия {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Авторите на AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Лицензирано под Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Преглед на лиценза</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Известия от трети страни</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Страница на проекта</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Подкрепете в Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Текуща подредба: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Настройване на „{0}“…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Клавиатури…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Настройки…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Изход</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Нова клавиатура: щракнете за настройване</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Щракнете, за да видите какво не е наред</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Нова клавиатура: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Изберете подредбата ѝ. Дотогава нищо не се променя.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Прилича на {0}. Потвърдете, за да я използвате. Дотогава нищо не се променя.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Настройване</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ е свързана.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ е изключена. Връщане към подредбата по подразбиране.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Сега се използва подредбата по подразбиране.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Избрана за тази сесия на отдалечен работен плот.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Подредбата не е инсталирана</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>„{0}“ използва {1}, която вече не е инсталирана. Изберете друга подредба.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Подредбата по подразбиране, {0}, вече не е инсталирана. Изберете друга подредба.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Подредбата не можа да се превключи</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows не прие {0}. Все още можете да превключвате с Win+интервал.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Отдалечен работен плот</value></data>
+</root>

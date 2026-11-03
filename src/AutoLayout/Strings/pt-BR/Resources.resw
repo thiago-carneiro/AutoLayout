@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Teclados</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Teclados</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Configurações</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Layout em uso</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Porque “{0}” está conectado.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Porque nenhum teclado externo está conectado.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Sessão de Área de Trabalho Remota: o Windows usa o layout de teclado do outro computador.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Escolhido para as sessões de Área de Trabalho Remota.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Você ainda pode trocar de layout com Win+Espaço. O AutoLayout só age quando um teclado é conectado ou desconectado.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Não foi possível trocar para {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Este layout não está mais instalado. Escolha outro para o teclado.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>O layout padrão não está mais instalado. Escolha outro.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>O Windows não aceitou a troca. Você ainda pode trocar com Win+Espaço.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Escolher layout</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Ver log</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Um teclado novo está aguardando configuração.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} teclados novos estão aguardando configuração.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Configurar…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Layout padrão</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Layout sem teclado externo</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Usado quando nenhum teclado externo está conectado, por exemplo no teclado do próprio notebook.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Layout padrão</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Adicionar layouts nas Configurações do Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Teclados externos</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Teclados externos</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Nenhum teclado externo ainda. Conecte um teclado USB ou Bluetooth e o AutoLayout vai perguntar qual layout ele usa.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Em uso</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Conectado</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Não configurado</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Aguardando configuração</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Desconectado</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorado</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automático (layout do outro computador)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (não instalado)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Conectado agora</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Última conexão em {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Configurar…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Editar…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorar (não é um teclado)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Parar de ignorar</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Esquecer</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Mais opções de {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Esquecer este teclado?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Se você conectar “{0}” de novo, o AutoLayout vai perguntar o layout outra vez.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Teclado novo</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Editar teclado</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Um teclado novo foi conectado</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sessões de Área de Trabalho Remota</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Escolha o layout impresso nas teclas. O AutoLayout vai usá-lo sempre que este teclado for conectado. Nada muda até você salvar.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} de {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nome</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Layout</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Escolha um layout</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerido)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerido com base no modelo do teclado. Confira antes de salvar.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>O teclado não informa o layout, então este é um palpite pela região do Windows. Confira antes de salvar.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Provavelmente é {0}, que não está instalado. Adicione-o nas Configurações do Windows e escolha-o aqui.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Vale enquanto este PC é usado pela Área de Trabalho Remota. Por padrão, o Windows usa o layout do teclado do computador de onde você se conecta.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Este PC está configurado para ignorar o layout do outro computador (IgnoreRemoteKeyboardLayout). Escolha um layout fixo.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>O layout não está na lista?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorar este dispositivo (não é um teclado)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Salvar</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Não é um teclado</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Agora não</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Geral</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Iniciar com o Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Iniciar com o Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>O AutoLayout está rodando de uma pasta como Downloads, uma pasta temporária ou um drive removível. Mova-o para uma pasta permanente antes de iniciá-lo com o Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>A inicialização com o Windows foi desativada no Gerenciador de Tarefas ou nas Configurações do Windows. Ative-a por lá.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Sua organização decide se os aplicativos iniciam com o Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Não foi possível alterar a opção “Iniciar com o Windows”.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Mostrar uma notificação quando o layout mudar</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Mostrar uma notificação quando o layout mudar</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restaurar a luz de fundo do teclado</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Volta ao nível escolhido com Fn+Espaço (desligada, baixa ou alta) quando a tela acende e quando o Windows inicia.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurar a luz de fundo do teclado</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnóstico</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Gravar um arquivo de log</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Desligado por padrão. O log lista os teclados conectados e quando — nunca o que você digita.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Gravar um arquivo de log</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Abrir log</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Abrir pasta</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacidade</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>O AutoLayout nunca lê o que você digita. Ele só verifica quais teclados estão conectados e não faz conexões de rede.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Sobre</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versão {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Os autores do AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Licenciado sob a Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Ver licença</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Avisos de terceiros</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Página do projeto</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Apoiar no Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Layout atual: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Configurar “{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Teclados…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Configurações…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Sair</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Teclado novo: clique para configurar</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Clique para ver o que deu errado</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Teclado novo: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Escolha o layout dele. Até lá, nada muda.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Parece ser {0}. Confirme para usá-lo. Até lá, nada muda.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Configurar</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” conectado.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” desconectado. De volta ao layout padrão.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Usando o layout padrão.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Escolhido para esta sessão de Área de Trabalho Remota.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Layout não instalado</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” usa {1}, que não está mais instalado. Escolha outro layout.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>O layout padrão, {0}, não está mais instalado. Escolha outro layout.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Não foi possível trocar o layout</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>O Windows não aceitou {0}. Você ainda pode trocar com Win+Espaço.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Área de Trabalho Remota</value></data>
+</root>

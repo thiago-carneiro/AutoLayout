@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>RightToLeft</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>מקלדות</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>מקלדות</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>הגדרות</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>פריסה בשימוש</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>כי המקלדת “{0}” מחוברת.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>כי לא מחוברת מקלדת חיצונית.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>הפעלת שולחן עבודה מרוחק: Windows משתמש בפריסת המקלדת של המחשב השני.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>נבחרה עבור הפעלות של שולחן עבודה מרוחק.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>עדיין אפשר להחליף פריסות באמצעות Win+Space. AutoLayout פועל רק כשמקלדת מחוברת או מנותקת.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>לא ניתן לעבור אל {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>הפריסה הזו כבר לא מותקנת. בחר פריסה אחרת עבור המקלדת.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>פריסת ברירת המחדל כבר לא מותקנת. בחר פריסה אחרת.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows לא קיבל את השינוי. עדיין אפשר לעבור באמצעות Win+Space.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>בחירת פריסה</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>הצגת יומן</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>מקלדת חדשה ממתינה להגדרה.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} מקלדות חדשות ממתינות להגדרה.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>הגדרה…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>פריסת ברירת מחדל</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>פריסה כשאין מקלדת חיצונית</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>בשימוש כשלא מחוברת מקלדת חיצונית, למשל עבור המקלדת של המחשב הנייד עצמו.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>פריסת ברירת מחדל</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>הוספת פריסות בהגדרות של Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>מקלדות חיצוניות</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>מקלדות חיצוניות</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>עדיין אין מקלדות חיצוניות. חבר מקלדת USB או Bluetooth, ו-AutoLayout ישאל באיזו פריסה היא משתמשת.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>בשימוש</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>מחוברת</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>לא הוגדרה</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>ממתינה להגדרה</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>מנותקת</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>מתעלמים</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>אוטומטי (הפריסה של המחשב השני)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (לא מותקן)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>מחוברת עכשיו</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>חוברה לאחרונה {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>הגדרה…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>עריכה…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>התעלם (אין זו מקלדת)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>הפסק להתעלם</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>שכח</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>אפשרויות נוספות עבור {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>לשכוח את המקלדת הזו?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>אם תחבר שוב את “{0}”, AutoLayout ישאל שוב מהי הפריסה שלה.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>מקלדת חדשה</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>עריכת מקלדת</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>חוברה מקלדת חדשה</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>הפעלות של שולחן עבודה מרוחק</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>בחר את הפריסה המודפסת על המקשים שלה. AutoLayout ישתמש בה בכל פעם שמקלדת זו מחוברת. שום דבר לא ישתנה עד שתשמור.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} מתוך {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>שם</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>פריסה</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>בחר פריסה</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (מוצעת)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>מוצעת לפי דגם המקלדת. בדוק אותה לפני השמירה.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>המקלדת לא מדווחת על הפריסה שלה, ולכן זו הערכה לפי האזור ב-Windows. בדוק אותה לפני השמירה.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>כנראה זו {0}, שאינה מותקנת. הוסף אותה בהגדרות של Windows ואז בחר אותה כאן.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>חל כשהמחשב הזה משמש דרך שולחן עבודה מרוחק. כברירת מחדל Windows משתמש בפריסת המקלדת במחשב שממנו אתה מתחבר.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>המחשב הזה מוגדר להתעלם מהפריסה של המחשב השני (IgnoreRemoteKeyboardLayout). בחר פריסה קבועה.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>הפריסה לא מופיעה?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>התעלם מהמכשיר הזה (אין זו מקלדת)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>שמירה</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>אין זו מקלדת</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>לא עכשיו</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>ביטול</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>כללי</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>הפעלה עם Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>הפעלה עם Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout פועל מתיקייה כמו הורדות, מתיקייה זמנית או מכונן נשלף. העבר אותו לתיקייה קבועה לפני שתגדיר הפעלה עם Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>ההפעלה עם Windows בוטלה במנהל המשימות או בהגדרות של Windows. הפעל אותה שם.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>הארגון שלך קובע אם יישומים מופעלים עם Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>לא ניתן היה לשנות את ההגדרה “הפעלה עם Windows”.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>הצגת הודעה כשהפריסה משתנה</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>הצגת הודעה כשהפריסה משתנה</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>שחזור התאורה האחורית של המקלדת</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>מחזיר את הרמה שבחרת באמצעות Fn+Space (כבויה, נמוכה או גבוהה) כשהמסך נדלק וכש-Windows מופעל.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>שחזור התאורה האחורית של המקלדת</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>אבחון</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>כתיבת קובץ יומן</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>כבוי כברירת מחדל. היומן מפרט אילו מקלדות חוברו ומתי, ואף פעם לא מה שאתה מקליד.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>כתיבת קובץ יומן</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>פתיחת היומן</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>פתיחת התיקייה</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>פרטיות</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout אף פעם לא קורא את מה שאתה מקליד. הוא רק בודק אילו מקלדות מחוברות, ואינו יוצר חיבורי רשת.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>אודות</value></data>
+  <data name="About_Version" xml:space="preserve"><value>גרסה {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 מחברי AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>ברישיון Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>הצגת הרישיון</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>הודעות צד שלישי</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>דף הפרויקט</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>תמיכה ב-Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>הפריסה הנוכחית: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>הגדרת “{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>מקלדות…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>הגדרות…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>יציאה</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+מקלדת חדשה: לחץ כדי להגדיר</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+לחץ כדי לראות מה השתבש</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>מקלדת חדשה: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>בחר את הפריסה שלה. עד אז, דבר לא ישתנה.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>נראה שזו {0}. אשר כדי להשתמש בה. עד אז, דבר לא ישתנה.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>הגדרה</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” חוברה.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” נותקה. חוזרים לפריסת ברירת המחדל.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>כעת בשימוש פריסת ברירת המחדל.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>נבחרה עבור הפעלת שולחן העבודה המרוחק הזו.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>הפריסה אינה מותקנת</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” משתמשת ב-{1}, שכבר אינה מותקנת. בחר פריסה אחרת.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>פריסת ברירת המחדל, {0}, כבר אינה מותקנת. בחר פריסה אחרת.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>לא ניתן היה להחליף את הפריסה</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows לא קיבל את {0}. עדיין אפשר לעבור באמצעות Win+Space.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>שולחן עבודה מרוחק</value></data>
+</root>

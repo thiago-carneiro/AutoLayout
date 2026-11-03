@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>键盘</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>键盘</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>设置</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>正在使用的布局</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>因为已连接“{0}”。</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>因为未连接外接键盘。</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>远程桌面会话：Windows 使用另一台计算机的键盘布局。</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>已为远程桌面会话选择。</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>你仍可使用 Windows 徽标键 + 空格键切换布局。AutoLayout 仅在键盘连接或断开时才会操作。</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>无法切换到 {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>此布局已不再安装。请为该键盘选择其他布局。</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>默认布局已不再安装。请选择其他布局。</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows 未接受此更改。你仍可使用 Windows 徽标键 + 空格键进行切换。</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>选择布局</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>查看日志</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>有一个新键盘正在等待设置。</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>有 {0} 个新键盘正在等待设置。</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>设置…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>默认布局</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>无外接键盘时的布局</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>在未连接外接键盘时使用，例如使用笔记本电脑自带键盘时。</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>默认布局</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>在 Windows 设置中添加布局</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>外接键盘</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>外接键盘</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>尚无外接键盘。连接 USB 或 Bluetooth 键盘后，AutoLayout 会询问它使用的布局。</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>使用中</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>已连接</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>未设置</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>等待设置</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>已断开连接</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>已忽略</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>自动（另一台计算机的布局）</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0}（未安装）</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>当前已连接</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>上次连接：{0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>设置…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>编辑…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>忽略（不是键盘）</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>停止忽略</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>忘记</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>{0} 的更多选项</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>要忘记此键盘吗？</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>如果再次连接“{0}”，AutoLayout 将再次询问其布局。</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>新键盘</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>编辑键盘</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>已连接新键盘</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>远程桌面会话</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>请选择键帽上印刷的布局。每当连接此键盘时，AutoLayout 都会使用该布局。保存之前不会更改任何内容。</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · 第 {1} 个，共 {2} 个</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>名称</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>布局</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>选择布局</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0}（建议）</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>根据键盘型号给出的建议。保存前请检查。</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>此键盘不会报告其布局，因此这是根据你的 Windows 区域做出的猜测。保存前请检查。</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>这很可能是 {0}，但它尚未安装。请在 Windows 设置中添加，然后在此处选择。</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>在通过远程桌面使用这台电脑时生效。默认情况下，Windows 使用你所连接的计算机上键盘的布局。</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>这台电脑设置为忽略另一台计算机的布局（IgnoreRemoteKeyboardLayout）。请选择固定的布局。</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>找不到布局？</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>忽略此设备（它不是键盘）</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>保存</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>不是键盘</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>以后再说</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>常规</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>随 Windows 启动</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>随 Windows 启动</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout 正在从“下载”、临时文件夹或可移动驱动器等位置运行。请先将其移到固定的文件夹，再设置随 Windows 启动。</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>随 Windows 启动已在任务管理器或 Windows 设置中关闭。请在那里重新打开。</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>应用是否随 Windows 启动由你的组织决定。</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>无法更改“随 Windows 启动”设置。</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>布局更改时显示通知</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>布局更改时显示通知</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>恢复键盘背光</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>在屏幕打开时以及 Windows 启动时，恢复你用 Fn + 空格键选择的级别（关、低或高）。</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>恢复键盘背光</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>诊断</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>写入日志文件</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>默认关闭。日志会列出已连接的键盘及连接时间，绝不会记录你键入的内容。</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>写入日志文件</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>打开日志</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>打开文件夹</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>隐私</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout 绝不会读取你键入的内容。它只检查已连接哪些键盘，并且不建立任何网络连接。</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>关于</value></data>
+  <data name="About_Version" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout 作者</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>根据 Apache License 2.0 授权。</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>查看许可证</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>第三方通知</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>项目页面</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>在 Ko-fi 上支持</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>当前布局：{0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>设置“{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>键盘…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>设置…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>退出</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+新键盘：单击以设置</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+单击以查看出了什么问题</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>新键盘：{0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>请选择它的布局。在此之前不会更改任何内容。</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>看起来是 {0}。确认后才会使用。在此之前不会更改任何内容。</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>设置</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}”已连接。</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}”已断开连接。已恢复为默认布局。</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>现在使用默认布局。</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>已为此远程桌面会话选择。</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>布局未安装</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}”使用的 {1} 已不再安装。请选择其他布局。</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>默认布局 {0} 已不再安装。请选择其他布局。</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>无法切换布局</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows 未接受 {0}。你仍可使用 Windows 徽标键 + 空格键进行切换。</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>远程桌面</value></data>
+</root>

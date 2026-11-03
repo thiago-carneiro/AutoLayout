@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>RightToLeft</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>لوحات المفاتيح</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>لوحات المفاتيح</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>الإعدادات</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>التخطيط قيد الاستخدام</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>لأن لوحة المفاتيح «{0}» متصلة.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>لأنه لا توجد لوحة مفاتيح خارجية متصلة.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>جلسة اتصال سطح المكتب البعيد: يستخدم Windows تخطيط لوحة المفاتيح الخاص بالكمبيوتر الآخر.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>تم اختياره لجلسات اتصال سطح المكتب البعيد.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>لا يزال بإمكانك تبديل التخطيطات باستخدام Win+Space. يعمل AutoLayout فقط عند توصيل لوحة مفاتيح أو فصلها.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>تعذّر التبديل إلى {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>لم يعد هذا التخطيط مثبّتًا. اختر تخطيطًا آخر للوحة المفاتيح.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>لم يعد التخطيط الافتراضي مثبّتًا. اختر تخطيطًا آخر.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>لم يقبل Windows هذا التغيير. لا يزال بإمكانك التبديل باستخدام Win+Space.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>اختيار تخطيط</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>عرض السجل</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>توجد لوحة مفاتيح جديدة بانتظار الإعداد.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>توجد {0} من لوحات المفاتيح الجديدة بانتظار الإعداد.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>إعداد…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>التخطيط الافتراضي</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>التخطيط عند عدم وجود لوحة مفاتيح خارجية</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>يُستخدم عند عدم توصيل أي لوحة مفاتيح خارجية، مثل لوحة مفاتيح الكمبيوتر المحمول نفسه.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>التخطيط الافتراضي</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>إضافة تخطيطات في إعدادات Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>لوحات المفاتيح الخارجية</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>لوحات المفاتيح الخارجية</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>لا توجد لوحات مفاتيح خارجية بعد. صِل لوحة مفاتيح USB أو Bluetooth وسيسألك AutoLayout عن التخطيط الذي تستخدمه.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>قيد الاستخدام</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>متصلة</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>لم يتم الإعداد</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>بانتظار الإعداد</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>غير متصلة</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>متجاهَلة</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>تلقائي (تخطيط الكمبيوتر الآخر)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (غير مثبّت)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>متصلة الآن</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>آخر اتصال {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>إعداد…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>تحرير…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>تجاهل (ليست لوحة مفاتيح)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>إيقاف التجاهل</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>نسيان</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>خيارات إضافية لـ {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>هل تريد نسيان لوحة المفاتيح هذه؟</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>إذا وصلت «{0}» مرة أخرى، فسيسألك AutoLayout عن تخطيطها مجددًا.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>لوحة مفاتيح جديدة</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>تحرير لوحة المفاتيح</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>تم توصيل لوحة مفاتيح جديدة</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>جلسات اتصال سطح المكتب البعيد</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>اختر التخطيط المطبوع على مفاتيحها. سيستخدمه AutoLayout كلما تم توصيل لوحة المفاتيح هذه. لن يتغير شيء حتى تحفظ.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} من {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>الاسم</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>التخطيط</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>اختر تخطيطًا</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (مقترح)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>مقترح بناءً على طراز لوحة المفاتيح. تحقق منه قبل الحفظ.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>لا تُبلغ لوحة المفاتيح عن تخطيطها، لذا فهذا تخمين مبني على منطقة Windows لديك. تحقق منه قبل الحفظ.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>على الأرجح هو {0}، وهو غير مثبّت. أضفه في إعدادات Windows، ثم اختره هنا.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>يسري أثناء استخدام هذا الكمبيوتر عبر اتصال سطح المكتب البعيد. افتراضيًا يستخدم Windows تخطيط لوحة المفاتيح في الكمبيوتر الذي تتصل منه.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>تم ضبط هذا الكمبيوتر لتجاهل تخطيط الكمبيوتر الآخر (IgnoreRemoteKeyboardLayout). اختر تخطيطًا ثابتًا.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>التخطيط غير مدرج؟</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>تجاهل هذا الجهاز (ليس لوحة مفاتيح)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>حفظ</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>ليست لوحة مفاتيح</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>ليس الآن</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>إلغاء</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>عام</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>البدء مع Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>البدء مع Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>يعمل AutoLayout من مجلد مثل التنزيلات أو مجلد مؤقت أو محرك أقراص قابل للإزالة. انقله إلى مجلد دائم قبل تشغيله مع Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>تم إيقاف البدء مع Windows في إدارة المهام أو إعدادات Windows. قم بتشغيله من هناك.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>تقرر مؤسستك ما إذا كانت التطبيقات تبدأ مع Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>تعذّر تغيير إعداد «البدء مع Windows».</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>إظهار إشعار عند تغيّر التخطيط</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>إظهار إشعار عند تغيّر التخطيط</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>استعادة الإضاءة الخلفية للوحة المفاتيح</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>يعيد المستوى الذي اخترته باستخدام Fn+Space (إيقاف أو منخفض أو مرتفع) عند تشغيل الشاشة وعند بدء تشغيل Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>استعادة الإضاءة الخلفية للوحة المفاتيح</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>التشخيص</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>كتابة ملف سجل</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>متوقف افتراضيًا. يسرد السجل لوحات المفاتيح المتصلة ووقت اتصالها، ولا يسجّل أبدًا ما تكتبه.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>كتابة ملف سجل</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>فتح السجل</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>فتح المجلد</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>الخصوصية</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>لا يقرأ AutoLayout أبدًا ما تكتبه. يتحقق فقط من لوحات المفاتيح المتصلة، ولا يُجري أي اتصالات بالشبكة.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>حول</value></data>
+  <data name="About_Version" xml:space="preserve"><value>الإصدار {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 مؤلفو AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>مرخَّص بموجب Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>عرض الترخيص</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>إشعارات الجهات الخارجية</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>صفحة المشروع</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>ادعم المشروع على Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>التخطيط الحالي: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>إعداد «{0}»…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>لوحات المفاتيح…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>الإعدادات…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>خروج</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+لوحة مفاتيح جديدة: انقر للإعداد</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+انقر لمعرفة ما حدث</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>لوحة مفاتيح جديدة: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>اختر تخطيطها. إلى ذلك الحين، لن يتغير شيء.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>يبدو أنها {0}. أكّد ذلك لاستخدامه. إلى ذلك الحين، لن يتغير شيء.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>إعداد</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>تم توصيل «{0}».</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>تم فصل «{0}». العودة إلى التخطيط الافتراضي.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>يتم الآن استخدام التخطيط الافتراضي.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>تم اختياره لجلسة اتصال سطح المكتب البعيد هذه.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>التخطيط غير مثبّت</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>تستخدم «{0}» التخطيط {1}، ولم يعد مثبّتًا. اختر تخطيطًا آخر.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>التخطيط الافتراضي، {0}، لم يعد مثبّتًا. اختر تخطيطًا آخر.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>تعذّر تبديل التخطيط</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>لم يقبل Windows {0}. لا يزال بإمكانك التبديل باستخدام Win+Space.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>اتصال سطح المكتب البعيد</value></data>
+</root>

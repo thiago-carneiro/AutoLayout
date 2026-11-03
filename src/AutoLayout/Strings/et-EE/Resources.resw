@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Klaviatuurid</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Klaviatuurid</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Sätted</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Kasutatav paigutus</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Sest „{0}“ on ühendatud.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Sest väline klaviatuur pole ühendatud.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Kaugtöölaua seanss: Windows kasutab teise arvuti klaviatuuripaigutust.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Valitud kaugtöölaua seansside jaoks.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Paigutust saab endiselt vahetada klahvikombinatsiooniga Win+tühik. AutoLayout tegutseb ainult siis, kui klaviatuur ühendatakse või ühendus katkestatakse.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Paigutusele {0} üleminek ebaõnnestus</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>See paigutus pole enam installitud. Valige klaviatuurile mõni muu paigutus.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Vaikepaigutus pole enam installitud. Valige mõni muu paigutus.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows ei võtnud muudatust vastu. Paigutust saab endiselt vahetada klahvikombinatsiooniga Win+tühik.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Vali paigutus</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Kuva logi</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Uus klaviatuur ootab seadistamist.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} uut klaviatuuri ootab seadistamist.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Seadista…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Vaikepaigutus</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Paigutus ilma välise klaviatuurita</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Kasutatakse siis, kui välist klaviatuuri pole ühendatud, näiteks sülearvuti enda klaviatuuri jaoks.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Vaikepaigutus</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Lisa paigutusi Windowsi sätetes</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Välised klaviatuurid</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Välised klaviatuurid</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Väliseid klaviatuure veel pole. Ühendage USB- või Bluetooth-klaviatuur ja AutoLayout küsib, millist paigutust see kasutab.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Kasutusel</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Ühendatud</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Seadistamata</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Ootab seadistamist</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Ühendus katkestatud</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Eiratud</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automaatne (teise arvuti paigutus)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (pole installitud)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Ühendatud praegu</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Viimati ühendatud {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Seadista…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Muuda…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Eira (pole klaviatuur)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Lõpeta eiramine</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Unusta</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Veel valikuid: {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Kas unustada see klaviatuur?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Kui ühendate „{0}“ uuesti, küsib AutoLayout paigutust uuesti.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Uus klaviatuur</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Muuda klaviatuuri</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Ühendati uus klaviatuur</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Kaugtöölaua seansid</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Valige klahvidele trükitud paigutus. AutoLayout kasutab seda alati, kui see klaviatuur on ühendatud. Midagi ei muutu enne salvestamist.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1}/{2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nimi</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Paigutus</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Valige paigutus</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (soovitatud)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Soovitatud klaviatuurimudeli põhjal. Kontrollige seda enne salvestamist.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klaviatuur ei teata oma paigutust, seega on see Windowsi regiooni põhjal tehtud oletus. Kontrollige seda enne salvestamist.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>See on tõenäoliselt {0}, mis pole installitud. Lisage see Windowsi sätetes ja valige siis siin.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Kehtib siis, kui seda arvutit kasutatakse kaugtöölaua kaudu. Vaikimisi kasutab Windows selle arvuti klaviatuuri paigutust, millelt ühendate.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>See arvuti on seadistatud eirama teise arvuti paigutust (IgnoreRemoteKeyboardLayout). Valige kindel paigutus.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Paigutust pole loendis?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Eira seda seadet (see pole klaviatuur)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Salvesta</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Pole klaviatuur</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Mitte praegu</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Loobu</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Üldine</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Käivita koos Windowsiga</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Käivita koos Windowsiga</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout töötab kaustast, näiteks Allalaadimised, ajutisest kaustast või eemaldatavalt draivilt. Teisaldage rakendus püsivasse kausta, enne kui lubate selle koos Windowsiga käivitada.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Koos Windowsiga käivitamine on tegumihalduris või Windowsi sätetes välja lülitatud. Lülitage see seal sisse.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Teie organisatsioon otsustab, kas rakendused käivituvad koos Windowsiga.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Sätet „Käivita koos Windowsiga“ ei õnnestunud muuta.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Kuva paigutuse muutumisel teatis</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Kuva paigutuse muutumisel teatis</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Taasta klaviatuuri taustavalgustus</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Taastab klahvikombinatsiooniga Fn+tühik valitud taseme (väljas, madal või kõrge), kui ekraan lülitatakse sisse ja kui Windows käivitub.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Taasta klaviatuuri taustavalgustus</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Kirjuta logifail</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Vaikimisi väljas. Logi loetleb ühendatud klaviatuurid ja ajad — mitte kunagi seda, mida te kirjutate.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Kirjuta logifail</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Ava logi</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Ava kaust</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privaatsus</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ei loe kunagi seda, mida te kirjutate. See kontrollib ainult, millised klaviatuurid on ühendatud, ega loo võrguühendusi.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Teave</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versioon {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayouti autorid</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Litsentsitud litsentsi Apache License 2.0 alusel.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Kuva litsents</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Kolmanda osapoole teatised</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projekti leht</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Toeta Ko-fis</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Praegune paigutus: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Seadista „{0}“…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Klaviatuurid…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Sätted…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Välju</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Uus klaviatuur: seadistamiseks klõpsake</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Klõpsake, et näha, mis valesti läks</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Uus klaviatuur: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Valige selle paigutus. Seni midagi ei muutu.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Paistab olevat {0}. Kinnitage, et seda kasutada. Seni midagi ei muutu.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Seadista</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ ühendatud.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ ühendus katkestatud. Tagasi vaikepaigutuse juurde.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Nüüd kasutatakse vaikepaigutust.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Valitud selle kaugtöölaua seansi jaoks.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Paigutus pole installitud</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>„{0}“ kasutab paigutust {1}, mis pole enam installitud. Valige mõni muu paigutus.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Vaikepaigutus {0} pole enam installitud. Valige mõni muu paigutus.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Paigutuse vahetamine ebaõnnestus</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows ei võtnud paigutust {0} vastu. Paigutust saab endiselt vahetada klahvikombinatsiooniga Win+tühik.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Kaugtöölaud</value></data>
+</root>

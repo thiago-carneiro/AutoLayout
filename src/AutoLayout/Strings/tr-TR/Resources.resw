@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Klavyeler</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Klavyeler</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Ayarlar</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Kullanılan düzen</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Çünkü “{0}” bağlı.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Çünkü harici klavye bağlı değil.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Uzak Masaüstü oturumu: Windows, diğer bilgisayarın klavye düzenini kullanıyor.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Uzak Masaüstü oturumları için seçildi.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Düzenleri yine de Windows logo tuşu + Boşluk çubuğu ile değiştirebilirsiniz. AutoLayout yalnızca bir klavye bağlandığında veya çıkarıldığında çalışır.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Geçiş yapılamadı: {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Bu düzen artık yüklü değil. Klavye için başka bir düzen seçin.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Varsayılan düzen artık yüklü değil. Başka bir düzen seçin.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows değişikliği kabul etmedi. Windows logo tuşu + Boşluk çubuğu ile yine de geçiş yapabilirsiniz.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Düzen seç</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Günlüğü görüntüle</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Yeni bir klavyenin ayarlanması bekleniyor.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} yeni klavyenin ayarlanması bekleniyor.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Ayarla…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Varsayılan düzen</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Harici klavye olmadığında düzen</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Harici klavye bağlı olmadığında kullanılır, örneğin dizüstü bilgisayarın kendi klavyesi için.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Varsayılan düzen</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Windows Ayarları’nda düzen ekle</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Harici klavyeler</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Harici klavyeler</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Henüz harici klavye yok. Bir USB veya Bluetooth klavye bağlayın; AutoLayout hangi düzeni kullandığını soracak.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Kullanımda</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Bağlı</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Ayarlanmadı</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Ayarlanmayı bekliyor</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Bağlantısı kesildi</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Yoksayıldı</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Otomatik (diğer bilgisayarın düzeni)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (yüklü değil)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Şu anda bağlı</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Son bağlanma: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Ayarla…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Düzenle…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Yoksay (klavye değil)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Yoksaymayı durdur</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Unut</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>{0} için diğer seçenekler</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Bu klavye unutulsun mu?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>“{0}” klavyesini yeniden bağlarsanız AutoLayout düzeni yeniden soracak.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Yeni klavye</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Klavyeyi düzenle</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Yeni bir klavye bağlandı</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Uzak Masaüstü oturumları</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Tuşların üzerinde basılı olan düzeni seçin. AutoLayout, bu klavye bağlandığında her seferinde o düzeni kullanacak. Kaydedene kadar hiçbir şey değişmez.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} / {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Ad</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Düzen</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Bir düzen seçin</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (önerilen)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Klavye modeline göre önerildi. Kaydetmeden önce kontrol edin.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klavye düzenini bildirmiyor; bu nedenle bu, Windows bölgenize göre yapılmış bir tahmindir. Kaydetmeden önce kontrol edin.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Büyük olasılıkla {0} düzeni; ancak yüklü değil. Windows Ayarları’nda ekleyin, ardından burada seçin.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Bu bilgisayar Uzak Masaüstü ile kullanılırken geçerlidir. Varsayılan olarak Windows, bağlandığınız bilgisayardaki klavyenin düzenini kullanır.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Bu bilgisayar, diğer bilgisayarın düzenini yoksayacak şekilde ayarlanmış (IgnoreRemoteKeyboardLayout). Sabit bir düzen seçin.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Düzen listede yok mu?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Bu aygıtı yoksay (klavye değil)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Kaydet</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Klavye değil</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Şimdi değil</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>İptal</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Genel</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Windows ile başlat</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Windows ile başlat</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout; İndirilenler, geçici klasör veya çıkarılabilir sürücü gibi bir konumdan çalışıyor. Windows ile başlatmadan önce kalıcı bir klasöre taşıyın.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Windows ile başlatma, Görev Yöneticisi’nde veya Windows Ayarları’nda kapatılmış. Oradan açın.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Uygulamaların Windows ile başlayıp başlamayacağına kuruluşunuz karar verir.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>“Windows ile başlat” ayarı değiştirilemedi.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Düzen değiştiğinde bildirim göster</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Düzen değiştiğinde bildirim göster</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Klavye arka ışığını geri yükle</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Ekran açıldığında ve Windows başladığında, Fn+Boşluk ile seçtiğiniz düzeyi (kapalı, düşük veya yüksek) geri getirir.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Klavye arka ışığını geri yükle</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Tanılama</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Günlük dosyası yaz</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Varsayılan olarak kapalı. Günlükte hangi klavyelerin ne zaman bağlandığı yazar; yazdıklarınız asla kaydedilmez.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Günlük dosyası yaz</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Günlüğü aç</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Klasörü aç</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Gizlilik</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout yazdıklarınızı asla okumaz. Yalnızca hangi klavyelerin bağlı olduğunu denetler ve ağ bağlantısı kurmaz.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Hakkında</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Sürüm {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout yazarları</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Apache License 2.0 kapsamında lisanslanmıştır.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Lisansı görüntüle</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Üçüncü taraf bildirimleri</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Proje sayfası</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Ko-fi'de destekle</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Geçerli düzen: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>“{0}” klavyesini ayarla…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Klavyeler…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Ayarlar…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Çıkış</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Yeni klavye: ayarlamak için tıklayın</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Nelerin ters gittiğini görmek için tıklayın</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Yeni klavye: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Düzenini seçin. O zamana kadar hiçbir şey değişmez.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Görünüşe göre {0}. Kullanmak için onaylayın. O zamana kadar hiçbir şey değişmez.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Ayarla</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” bağlandı.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” bağlantısı kesildi. Varsayılan düzene dönüldü.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Artık varsayılan düzen kullanılıyor.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Bu Uzak Masaüstü oturumu için seçildi.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Düzen yüklü değil</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” klavyesi, artık yüklü olmayan {1} düzenini kullanıyor. Başka bir düzen seçin.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Varsayılan düzen olan {0} artık yüklü değil. Başka bir düzen seçin.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Düzen değiştirilemedi</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows şu düzeni kabul etmedi: {0}. Windows logo tuşu + Boşluk çubuğu ile yine de geçiş yapabilirsiniz.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Uzak Masaüstü</value></data>
+</root>

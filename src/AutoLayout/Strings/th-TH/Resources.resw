@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>แป้นพิมพ์</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>แป้นพิมพ์</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>การตั้งค่า</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>เค้าโครงที่ใช้อยู่</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>เนื่องจากเชื่อมต่อ “{0}” อยู่</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>เนื่องจากไม่ได้เชื่อมต่อแป้นพิมพ์ภายนอก</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>เซสชันเดสก์ท็อประยะไกล: Windows ใช้เค้าโครงแป้นพิมพ์ของคอมพิวเตอร์เครื่องอื่น</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>เลือกไว้สำหรับเซสชันเดสก์ท็อประยะไกล</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>คุณยังสลับเค้าโครงได้ด้วยแป้น Windows + แป้นเว้นวรรค AutoLayout จะทำงานเฉพาะเมื่อมีการเชื่อมต่อหรือถอดแป้นพิมพ์เท่านั้น</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>ไม่สามารถสลับเป็น {0} ได้</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>ไม่ได้ติดตั้งเค้าโครงนี้อีกต่อไป เลือกเค้าโครงอื่นสำหรับแป้นพิมพ์</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>ไม่ได้ติดตั้งเค้าโครงเริ่มต้นอีกต่อไป เลือกเค้าโครงอื่น</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows ไม่ยอมรับการเปลี่ยนแปลง คุณยังสลับได้ด้วยแป้น Windows + แป้นเว้นวรรค</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>เลือกเค้าโครง</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>ดูบันทึก</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>แป้นพิมพ์ใหม่กำลังรอการตั้งค่า</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>แป้นพิมพ์ใหม่ {0} รายการกำลังรอการตั้งค่า</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>ตั้งค่า…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>เค้าโครงเริ่มต้น</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>เค้าโครงเมื่อไม่มีแป้นพิมพ์ภายนอก</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>ใช้เมื่อไม่ได้เชื่อมต่อแป้นพิมพ์ภายนอก เช่น แป้นพิมพ์ในตัวของแล็ปท็อป</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>เค้าโครงเริ่มต้น</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>เพิ่มเค้าโครงในการตั้งค่า Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>แป้นพิมพ์ภายนอก</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>แป้นพิมพ์ภายนอก</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>ยังไม่มีแป้นพิมพ์ภายนอก เชื่อมต่อแป้นพิมพ์ USB หรือ Bluetooth แล้ว AutoLayout จะถามว่าแป้นพิมพ์นั้นใช้เค้าโครงใด</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>กำลังใช้งาน</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>เชื่อมต่อแล้ว</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>ยังไม่ได้ตั้งค่า</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>กำลังรอการตั้งค่า</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>ตัดการเชื่อมต่อแล้ว</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>ละเว้น</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>อัตโนมัติ (เค้าโครงของคอมพิวเตอร์เครื่องอื่น)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (ไม่ได้ติดตั้ง)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>เชื่อมต่ออยู่ตอนนี้</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>เชื่อมต่อล่าสุด {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>ตั้งค่า…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>แก้ไข…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>ละเว้น (ไม่ใช่แป้นพิมพ์)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>เลิกละเว้น</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>ลืม</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>ตัวเลือกเพิ่มเติมสำหรับ {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>ลืมแป้นพิมพ์นี้หรือไม่</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>หากคุณเชื่อมต่อ “{0}” อีกครั้ง AutoLayout จะถามเค้าโครงอีกครั้ง</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>แป้นพิมพ์ใหม่</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>แก้ไขแป้นพิมพ์</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>เชื่อมต่อแป้นพิมพ์ใหม่แล้ว</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>เซสชันเดสก์ท็อประยะไกล</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>เลือกเค้าโครงที่พิมพ์อยู่บนปุ่ม AutoLayout จะใช้เค้าโครงนั้นทุกครั้งที่เชื่อมต่อแป้นพิมพ์นี้ จะไม่มีอะไรเปลี่ยนแปลงจนกว่าคุณจะบันทึก</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} จาก {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>ชื่อ</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>เค้าโครง</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>เลือกเค้าโครง</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (แนะนำ)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>แนะนำตามรุ่นของแป้นพิมพ์ ตรวจสอบก่อนบันทึก</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>แป้นพิมพ์ไม่รายงานเค้าโครงของตนเอง จึงเป็นการคาดเดาจากภูมิภาคของ Windows ตรวจสอบก่อนบันทึก</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>น่าจะเป็น {0} ซึ่งยังไม่ได้ติดตั้ง เพิ่มในการตั้งค่า Windows แล้วเลือกที่นี่</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>มีผลขณะใช้พีซีเครื่องนี้ผ่านเดสก์ท็อประยะไกล ตามค่าเริ่มต้น Windows จะใช้เค้าโครงของแป้นพิมพ์บนคอมพิวเตอร์ที่คุณเชื่อมต่อมา</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>พีซีเครื่องนี้ถูกตั้งค่าให้ละเว้นเค้าโครงของคอมพิวเตอร์เครื่องอื่น (IgnoreRemoteKeyboardLayout) เลือกเค้าโครงแบบคงที่</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>ไม่พบเค้าโครงในรายการใช่หรือไม่</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>ละเว้นอุปกรณ์นี้ (ไม่ใช่แป้นพิมพ์)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>บันทึก</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>ไม่ใช่แป้นพิมพ์</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>ไม่ใช่ตอนนี้</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>ยกเลิก</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>ทั่วไป</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>เริ่มต้นพร้อมกับ Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>เริ่มต้นพร้อมกับ Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout กำลังทำงานจากโฟลเดอร์ เช่น ดาวน์โหลด โฟลเดอร์ชั่วคราว หรือไดรฟ์แบบถอดได้ ย้ายไปยังโฟลเดอร์ถาวรก่อนตั้งให้เริ่มต้นพร้อมกับ Windows</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>การเริ่มต้นพร้อมกับ Windows ถูกปิดไว้ในตัวจัดการงานหรือการตั้งค่า Windows ให้เปิดที่นั่น</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>องค์กรของคุณเป็นผู้กำหนดว่าแอปจะเริ่มต้นพร้อมกับ Windows หรือไม่</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>ไม่สามารถเปลี่ยนการตั้งค่า “เริ่มต้นพร้อมกับ Windows” ได้</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>แสดงการแจ้งเตือนเมื่อเค้าโครงเปลี่ยน</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>แสดงการแจ้งเตือนเมื่อเค้าโครงเปลี่ยน</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>คืนค่าไฟแบ็กไลต์ของแป้นพิมพ์</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>คืนระดับที่คุณเลือกด้วย Fn + แป้นเว้นวรรค (ปิด ต่ำ หรือสูง) เมื่อหน้าจอเปิดและเมื่อ Windows เริ่มทำงาน</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>คืนค่าไฟแบ็กไลต์ของแป้นพิมพ์</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>การวินิจฉัย</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>เขียนไฟล์บันทึก</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>ปิดไว้ตามค่าเริ่มต้น บันทึกจะแสดงแป้นพิมพ์ที่เชื่อมต่อและเวลาที่เชื่อมต่อ แต่จะไม่เก็บสิ่งที่คุณพิมพ์เด็ดขาด</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>เขียนไฟล์บันทึก</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>เปิดบันทึก</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>เปิดโฟลเดอร์</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>ความเป็นส่วนตัว</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout จะไม่อ่านสิ่งที่คุณพิมพ์เด็ดขาด โดยจะตรวจสอบเฉพาะว่ามีแป้นพิมพ์ใดเชื่อมต่ออยู่ และไม่สร้างการเชื่อมต่อเครือข่าย</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>เกี่ยวกับ</value></data>
+  <data name="About_Version" xml:space="preserve"><value>เวอร์ชัน {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 ผู้พัฒนา AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>ได้รับอนุญาตภายใต้ Apache License 2.0</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>ดูสัญญาอนุญาต</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>ประกาศของบุคคลที่สาม</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>หน้าโครงการ</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>สนับสนุนบน Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>เค้าโครงปัจจุบัน: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>ตั้งค่า “{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>แป้นพิมพ์…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>การตั้งค่า…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>ออก</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+แป้นพิมพ์ใหม่: คลิกเพื่อตั้งค่า</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+คลิกเพื่อดูว่าเกิดอะไรขึ้น</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>แป้นพิมพ์ใหม่: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>เลือกเค้าโครงของแป้นพิมพ์ ก่อนหน้านั้นจะไม่มีอะไรเปลี่ยนแปลง</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>ดูเหมือนจะเป็น {0} ยืนยันเพื่อใช้งาน ก่อนหน้านั้นจะไม่มีอะไรเปลี่ยนแปลง</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>ตั้งค่า</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>เชื่อมต่อ “{0}” แล้ว</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>ตัดการเชื่อมต่อ “{0}” แล้ว กลับไปใช้เค้าโครงเริ่มต้น</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>ตอนนี้ใช้เค้าโครงเริ่มต้น</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>เลือกไว้สำหรับเซสชันเดสก์ท็อประยะไกลนี้</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>ไม่ได้ติดตั้งเค้าโครง</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” ใช้ {1} ซึ่งไม่ได้ติดตั้งอีกต่อไป เลือกเค้าโครงอื่น</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>ไม่ได้ติดตั้งเค้าโครงเริ่มต้น {0} อีกต่อไป เลือกเค้าโครงอื่น</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>ไม่สามารถสลับเค้าโครงได้</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows ไม่ยอมรับ {0} คุณยังสลับได้ด้วยแป้น Windows + แป้นเว้นวรรค</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>เดสก์ท็อประยะไกล</value></data>
+</root>

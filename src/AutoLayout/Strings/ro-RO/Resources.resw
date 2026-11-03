@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tastaturi</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tastaturi</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Setări</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Aranjament utilizat</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Deoarece tastatura „{0}” este conectată.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Deoarece nicio tastatură externă nu este conectată.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Sesiune Desktop la distanță: Windows folosește aranjamentul de tastatură al celuilalt computer.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Ales pentru sesiunile Desktop la distanță.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Puteți în continuare să comutați între aranjamente cu Win+Spațiu. AutoLayout acționează doar când o tastatură este conectată sau deconectată.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Nu s-a putut comuta la aranjamentul {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Acest aranjament nu mai este instalat. Alegeți altul pentru tastatură.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Aranjamentul implicit nu mai este instalat. Alegeți altul.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows nu a acceptat modificarea. Puteți în continuare să comutați cu Win+Spațiu.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Alegeți aranjamentul</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Vizualizați jurnalul</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>O tastatură nouă așteaptă să fie configurată.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} tastaturi noi așteaptă să fie configurate.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Configurați…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Aranjament implicit</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Aranjament fără tastatură externă</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Folosit când nicio tastatură externă nu este conectată, de exemplu pentru tastatura proprie a laptopului.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Aranjament implicit</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Adăugați aranjamente în Setările Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Tastaturi externe</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Tastaturi externe</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Încă nu există tastaturi externe. Conectați o tastatură USB sau Bluetooth, iar AutoLayout va întreba ce aranjament folosește.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>În uz</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Conectată</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Neconfigurată</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Așteaptă configurarea</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Deconectată</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorată</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automat (aranjamentul celuilalt computer)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (neinstalat)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Conectată acum</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Ultima conectare: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Configurați…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Editați…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorați (nu este o tastatură)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Nu mai ignorați</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Uitați</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Mai multe opțiuni pentru {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Uitați această tastatură?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Dacă reconectați „{0}”, AutoLayout va cere din nou aranjamentul acesteia.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Tastatură nouă</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Editare tastatură</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>A fost conectată o tastatură nouă</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sesiuni Desktop la distanță</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Alegeți aranjamentul imprimat pe taste. AutoLayout îl va folosi de fiecare dată când această tastatură este conectată. Nimic nu se schimbă până nu salvați.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} din {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nume</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Aranjament</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Alegeți un aranjament</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerat)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerat pe baza modelului tastaturii. Verificați-l înainte de a salva.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastatura nu raportează aranjamentul, deci este o presupunere pe baza regiunii din Windows. Verificați-l înainte de a salva.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Probabil este aranjamentul {0}, care nu este instalat. Adăugați-l în Setările Windows, apoi alegeți-l aici.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Se aplică atunci când acest computer este folosit prin Desktop la distanță. Implicit, Windows folosește aranjamentul tastaturii de pe computerul de pe care vă conectați.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Acest computer este setat să ignore aranjamentul celuilalt computer (IgnoreRemoteKeyboardLayout). Alegeți un aranjament fix.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Aranjamentul nu apare în listă?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorați acest dispozitiv (nu este o tastatură)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Salvați</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Nu este o tastatură</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Nu acum</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Anulați</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>General</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Pornire odată cu Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pornire odată cu Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout rulează dintr-un folder precum Descărcări, un folder temporar sau o unitate amovibilă. Mutați-l într-un folder permanent înainte de a-l porni odată cu Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Pornirea odată cu Windows a fost dezactivată din Managerul de activități sau din Setările Windows. Activați-o de acolo.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Organizația dvs. decide dacă aplicațiile pornesc odată cu Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Nu s-a putut modifica setarea „Pornire odată cu Windows”.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Afișați o notificare când se schimbă aranjamentul</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Afișați o notificare când se schimbă aranjamentul</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restabiliți iluminarea de fundal a tastaturii</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Readuce nivelul ales cu Fn+Spațiu (oprită, redusă sau ridicată) când se aprinde ecranul și când pornește Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restabiliți iluminarea de fundal a tastaturii</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnosticare</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Scrieți un fișier jurnal</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Dezactivat în mod implicit. Jurnalul listează tastaturile conectate și când – niciodată ce tastați.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Scrieți un fișier jurnal</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Deschideți jurnalul</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Deschideți folderul</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Confidențialitate</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nu citește niciodată ce tastați. Verifică doar ce tastaturi sunt conectate și nu face conexiuni la rețea.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Despre</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versiunea {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Autorii AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Licențiat sub Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Vizualizați licența</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Notificări de la terți</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Pagina proiectului</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Sprijină pe Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Aranjament curent: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Configurați „{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastaturi…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Setări…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Ieșire</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Tastatură nouă: faceți clic pentru a o configura</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Faceți clic pentru a vedea ce nu a mers</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Tastatură nouă: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Alegeți aranjamentul acesteia. Până atunci, nu se schimbă nimic.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Pare să fie aranjamentul {0}. Confirmați-l pentru a-l folosi. Până atunci, nu se schimbă nimic.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Configurați</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}” este conectată.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}” a fost deconectată. Revenire la aranjamentul implicit.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Acum se folosește aranjamentul implicit.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Ales pentru această sesiune Desktop la distanță.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Aranjament neinstalat</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>„{0}” folosește aranjamentul {1}, care nu mai este instalat. Alegeți alt aranjament.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Aranjamentul implicit, {0}, nu mai este instalat. Alegeți alt aranjament.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Nu s-a putut comuta aranjamentul</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows nu a acceptat aranjamentul {0}. Puteți în continuare să comutați cu Win+Spațiu.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Desktop la distanță</value></data>
+</root>

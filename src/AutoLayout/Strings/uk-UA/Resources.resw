@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Клавіатури</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Клавіатури</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Параметри</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Поточна розкладка</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Тому що підключено клавіатуру «{0}».</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Тому що зовнішню клавіатуру не підключено.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Сеанс віддаленого робочого стола: Windows використовує розкладку клавіатури іншого комп’ютера.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Вибрано для сеансів віддаленого робочого стола.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Розкладку, як і раніше, можна змінити за допомогою Win+пробіл. AutoLayout діє лише під час підключення або відключення клавіатури.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Не вдалося перемкнутися на {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Цю розкладку більше не встановлено. Виберіть іншу для клавіатури.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Розкладку за замовчуванням більше не встановлено. Виберіть іншу.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows не прийняла зміну. Розкладку, як і раніше, можна змінити за допомогою Win+пробіл.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Вибрати розкладку</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Переглянути журнал</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Нова клавіатура очікує налаштування.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Нових клавіатур, що очікують налаштування: {0}.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Налаштувати…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Розкладка за замовчуванням</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Розкладка без зовнішньої клавіатури</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Використовується, коли зовнішню клавіатуру не підключено, наприклад для вбудованої клавіатури ноутбука.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Розкладка за замовчуванням</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Додати розкладки в параметрах Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Зовнішні клавіатури</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Зовнішні клавіатури</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Зовнішніх клавіатур поки немає. Підключіть клавіатуру USB або Bluetooth, і AutoLayout запитає, яку розкладку вона використовує.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Використовується</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Підключено</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Не налаштовано</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Очікує налаштування</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Відключено</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ігнорується</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Автоматично (розкладка іншого комп’ютера)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (не встановлено)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Підключено зараз</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Останнє підключення: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Налаштувати…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Змінити…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ігнорувати (це не клавіатура)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Припинити ігнорувати</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Забути</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Додаткові параметри для {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Забути цю клавіатуру?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Якщо знову підключити «{0}», AutoLayout ще раз запитає розкладку.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Нова клавіатура</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Змінення клавіатури</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Підключено нову клавіатуру</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Сеанси віддаленого робочого стола</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Виберіть розкладку, надруковану на клавішах. AutoLayout використовуватиме її щоразу, коли цю клавіатуру буде підключено. Доки ви не збережете, нічого не зміниться.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} з {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Ім’я</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Розкладка</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Виберіть розкладку</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (рекомендовано)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Запропоновано за моделлю клавіатури. Перевірте перед збереженням.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Клавіатура не повідомляє свою розкладку, тому це припущення на основі регіону Windows. Перевірте перед збереженням.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Імовірно, це розкладка {0}, яку не встановлено. Додайте її в параметрах Windows, а потім виберіть тут.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Діє, коли цей ПК використовується через віддалений робочий стіл. За замовчуванням Windows використовує розкладку клавіатури комп’ютера, з якого ви підключаєтеся.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Цей ПК налаштовано ігнорувати розкладку іншого комп’ютера (IgnoreRemoteKeyboardLayout). Виберіть фіксовану розкладку.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Немає потрібної розкладки?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ігнорувати цей пристрій (це не клавіатура)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Зберегти</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Це не клавіатура</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Не зараз</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Скасувати</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Загальні</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Запускати разом із Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Запускати разом із Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout запущено з папки на кшталт «Завантаження», тимчасової папки або зі знімного диска. Перемістіть його в постійну папку, перш ніж налаштовувати запуск разом із Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Автозапуск разом із Windows вимкнено в диспетчері завдань або в параметрах Windows. Увімкніть його там.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Ваша організація вирішує, чи запускаються програми разом із Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Не вдалося змінити параметр «Запускати разом із Windows».</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Показувати сповіщення, коли змінюється розкладка</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Показувати сповіщення, коли змінюється розкладка</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Відновлювати підсвічування клавіатури</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Повертає рівень, вибраний за допомогою Fn+пробіл (вимкнено, низький або високий), коли вмикається екран і коли запускається Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Відновлювати підсвічування клавіатури</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Діагностика</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Вести файл журналу</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>За замовчуванням вимкнено. У журналі зазначено, які клавіатури підключено і коли, але ніколи не те, що ви вводите.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Вести файл журналу</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Відкрити журнал</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Відкрити папку</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Конфіденційність</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ніколи не зчитує те, що ви вводите. Програма лише перевіряє, які клавіатури підключено, і не встановлює мережевих з’єднань.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Про програму</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Версія {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Автори AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Розповсюджується за ліцензією Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Переглянути ліцензію</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Повідомлення третіх сторін</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Сторінка проєкту</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Підтримати на Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Поточна розкладка: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Налаштувати «{0}»…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Клавіатури…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Параметри…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Вихід</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Нова клавіатура: натисніть, щоб налаштувати</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Натисніть, щоб побачити, що пішло не так</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Нова клавіатура: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Виберіть її розкладку. Доти нічого не зміниться.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Схоже на {0}. Підтвердьте, щоб використовувати. Доти нічого не зміниться.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Налаштувати</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» підключено.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» відключено. Повернення до розкладки за замовчуванням.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Тепер використовується розкладка за замовчуванням.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Вибрано для цього сеансу віддаленого робочого стола.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Розкладку не встановлено</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>Для «{0}» вибрано розкладку {1}, яку більше не встановлено. Виберіть іншу розкладку.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Розкладку за замовчуванням ({0}) більше не встановлено. Виберіть іншу розкладку.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Не вдалося перемкнути розкладку</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows не вдалося застосувати {0}. Розкладку, як і раніше, можна змінити за допомогою Win+пробіл.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Віддалений робочий стіл</value></data>
+</root>

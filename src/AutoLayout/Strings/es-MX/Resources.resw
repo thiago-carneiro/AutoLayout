@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Teclados</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Teclados</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Configuración</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Distribución en uso</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Porque «{0}» está conectado.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Porque no hay ningún teclado externo conectado.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Sesión de Escritorio remoto: Windows usa la distribución de teclado del otro equipo.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Elegida para las sesiones de Escritorio remoto.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Todavía puedes cambiar de distribución con Windows+Barra espaciadora. AutoLayout solo actúa cuando se conecta o se desconecta un teclado.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>No se pudo cambiar a {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Esta distribución ya no está instalada. Elige otra para el teclado.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>La distribución predeterminada ya no está instalada. Elige otra.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows no aceptó el cambio. Todavía puedes cambiar con Windows+Barra espaciadora.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Elegir distribución</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Ver registro</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Hay un teclado nuevo pendiente de configurar.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Hay {0} teclados nuevos pendientes de configurar.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Configurar…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Distribución predeterminada</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Distribución sin teclado externo</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Se usa cuando no hay ningún teclado externo conectado, por ejemplo, con el teclado de la laptop.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Distribución predeterminada</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Agregar distribuciones en Configuración de Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Teclados externos</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Teclados externos</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Aún no hay teclados externos. Conecta un teclado USB o Bluetooth y AutoLayout te preguntará qué distribución usa.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>En uso</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Conectado</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Sin configurar</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Pendiente de configurar</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Desconectado</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorado</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automática (distribución del otro equipo)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (no instalada)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Conectado ahora</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Última conexión: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Configurar…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Editar…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorar (no es un teclado)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Dejar de ignorar</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Olvidar</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Más opciones para {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>¿Olvidar este teclado?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Si vuelves a conectar «{0}», AutoLayout te volverá a preguntar la distribución.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Teclado nuevo</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Editar teclado</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Se conectó un teclado nuevo</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sesiones de Escritorio remoto</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Elige la distribución impresa en las teclas. AutoLayout la usará siempre que este teclado esté conectado. No cambia nada hasta que guardes.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} de {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nombre</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Distribución</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Elige una distribución</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerida)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerida según el modelo del teclado. Verifícala antes de guardar.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>El teclado no indica su distribución, así que es una estimación basada en tu región de Windows. Verifícala antes de guardar.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Probablemente es {0}, que no está instalada. Agrégala en Configuración de Windows y elígela aquí.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Se aplica mientras este equipo se usa mediante Escritorio remoto. De forma predeterminada, Windows usa la distribución del teclado del equipo desde el que te conectas.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Este equipo está configurado para ignorar la distribución del otro equipo (IgnoreRemoteKeyboardLayout). Elige una distribución fija.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>¿No aparece la distribución?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorar este dispositivo (no es un teclado)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Guardar</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>No es un teclado</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ahora no</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>General</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Iniciar con Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Iniciar con Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout se está ejecutando desde una carpeta como Descargas, una carpeta temporal o una unidad extraíble. Muévelo a una carpeta permanente antes de iniciarlo con Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>El inicio con Windows se desactivó en el Administrador de tareas o en la Configuración de Windows. Actívalo ahí.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Tu organización decide si las aplicaciones se inician con Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>No se pudo cambiar la opción «Iniciar con Windows».</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Mostrar una notificación cuando cambie la distribución</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Mostrar una notificación cuando cambie la distribución</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restaurar la iluminación del teclado</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Recupera el nivel que elegiste con Fn+Barra espaciadora (apagada, baja o alta) cuando se enciende la pantalla y cuando se inicia Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurar la iluminación del teclado</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnóstico</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Escribir un archivo de registro</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Desactivado de forma predeterminada. El registro enumera los teclados conectados y cuándo, nunca lo que escribes.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Escribir un archivo de registro</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Abrir registro</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Abrir carpeta</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacidad</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nunca lee lo que escribes. Solo verifica qué teclados están conectados y no establece conexiones de red.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Acerca de</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versión {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Los autores de AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Con licencia Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Ver licencia</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Avisos de terceros</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Página del proyecto</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Apoyar en Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Distribución actual: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Configurar «{0}»…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Teclados…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Configuración…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Salir</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Teclado nuevo: haz clic para configurarlo</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Haz clic para ver qué salió mal</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Teclado nuevo: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Elige su distribución. Hasta entonces, no cambia nada.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Parece {0}. Confírmala para usarla. Hasta entonces, no cambia nada.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Configurar</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» conectado.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» desconectado. Se vuelve a la distribución predeterminada.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Ahora se usa la distribución predeterminada.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Elegida para esta sesión de Escritorio remoto.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Distribución no instalada</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>«{0}» usa {1}, que ya no está instalada. Elige otra distribución.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>La distribución predeterminada, {0}, ya no está instalada. Elige otra distribución.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>No se pudo cambiar la distribución</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows no aceptó {0}. Todavía puedes cambiar con Windows+Barra espaciadora.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Escritorio remoto</value></data>
+</root>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Klávesnice</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Klávesnice</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Nastavenia</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Používané rozloženie</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Pretože je pripojená klávesnica „{0}“.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Pretože nie je pripojená žiadna externá klávesnica.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Relácia Vzdialenej plochy: Windows používa rozloženie klávesnice druhého počítača.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Vybraté pre relácie Vzdialenej plochy.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Rozloženia môžete stále prepínať pomocou Win+medzerník. AutoLayout koná iba vtedy, keď sa klávesnica pripojí alebo odpojí.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Nepodarilo sa prepnúť na rozloženie {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Toto rozloženie už nie je nainštalované. Vyberte pre klávesnicu iné.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Predvolené rozloženie už nie je nainštalované. Vyberte iné.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows zmenu neprijal. Stále môžete prepínať pomocou Win+medzerník.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Vybrať rozloženie</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Zobraziť denník</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Nová klávesnica čaká na nastavenie.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Nové klávesnice čakajúce na nastavenie: {0}.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Nastaviť…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Predvolené rozloženie</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Rozloženie bez externej klávesnice</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Používa sa, keď nie je pripojená žiadna externá klávesnica, napríklad pre vstavanú klávesnicu notebooka.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Predvolené rozloženie</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Pridať rozloženia v nastaveniach Windowsu</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Externé klávesnice</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Externé klávesnice</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Zatiaľ žiadne externé klávesnice. Pripojte klávesnicu USB alebo Bluetooth a AutoLayout sa opýta, aké rozloženie používa.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Používa sa</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Pripojená</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Nenastavená</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Čaká na nastavenie</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Odpojená</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorovaná</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automaticky (rozloženie druhého počítača)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (nenainštalované)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Pripojená teraz</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Naposledy pripojená {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Nastaviť…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Upraviť…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorovať (nie je to klávesnica)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Prestať ignorovať</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Zabudnúť</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Ďalšie možnosti pre {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Zabudnúť túto klávesnicu?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Ak klávesnicu „{0}“ znova pripojíte, AutoLayout sa znova opýta na jej rozloženie.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nová klávesnica</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Upraviť klávesnicu</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Pripojila sa nová klávesnica</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Relácie Vzdialenej plochy</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Vyberte rozloženie vytlačené na klávesoch. AutoLayout ho použije vždy, keď sa táto klávesnica pripojí. Kým neuložíte, nič sa nezmení.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} z {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Názov</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Rozloženie</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Vyberte rozloženie</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (navrhnuté)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Návrh podľa modelu klávesnice. Pred uložením ho skontrolujte.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klávesnica svoje rozloženie nehlási, takže ide len o odhad podľa oblasti vo Windowse. Pred uložením ho skontrolujte.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Pravdepodobne ide o rozloženie {0}, ktoré nie je nainštalované. Pridajte ho v nastaveniach Windowsu a potom ho vyberte tu.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Platí, keď sa tento počítač používa cez Vzdialenú plochu. Windows predvolene používa rozloženie klávesnice počítača, z ktorého sa pripájate.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Tento počítač je nastavený tak, aby rozloženie druhého počítača ignoroval (IgnoreRemoteKeyboardLayout). Vyberte pevné rozloženie.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Rozloženie nie je v zozname?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorovať toto zariadenie (nie je to klávesnica)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Uložiť</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Nie je to klávesnica</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Teraz nie</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Zrušiť</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Všeobecné</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Spúšťať pri spustení Windowsu</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Spúšťať pri spustení Windowsu</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout beží z priečinka, ako je Prevzaté súbory, z dočasného priečinka alebo z vymeniteľného disku. Predtým, než ho nastavíte na spúšťanie s Windowsom, presuňte ho do trvalého priečinka.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Spúšťanie s Windowsom bolo vypnuté v Správcovi úloh alebo v nastaveniach Windowsu. Zapnite ho tam.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>O tom, či sa aplikácie spúšťajú s Windowsom, rozhoduje vaša organizácia.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Nepodarilo sa zmeniť nastavenie „Spúšťať pri spustení Windowsu“.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Zobraziť oznámenie pri zmene rozloženia</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zobraziť oznámenie pri zmene rozloženia</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Obnovovať podsvietenie klávesnice</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Po zapnutí obrazovky a po spustení Windowsu obnoví úroveň, ktorú ste zvolili pomocou Fn+medzerník (vypnuté, nízka alebo vysoká).</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Obnovovať podsvietenie klávesnice</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Zapisovať súbor denníka</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Predvolene vypnuté. Denník uvádza pripojené klávesnice a kedy boli pripojené – nikdy nie to, čo píšete.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zapisovať súbor denníka</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Otvoriť denník</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Otvoriť priečinok</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Ochrana osobných údajov</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nikdy nečíta, čo píšete. Iba zisťuje, ktoré klávesnice sú pripojené, a nevytvára žiadne sieťové pripojenia.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>O aplikácii</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Verzia {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Autori AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Licencované pod licenciou Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Zobraziť licenciu</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Oznámenia tretích strán</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Stránka projektu</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Podporiť na Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Aktuálne rozloženie: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Nastaviť „{0}“…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Klávesnice…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Nastavenia…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Ukončiť</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nová klávesnica: kliknutím ju nastavíte</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Kliknite a zistite, čo sa nepodarilo</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nová klávesnica: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Vyberte jej rozloženie. Dovtedy sa nič nezmení.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Vyzerá to na rozloženie {0}. Potvrďte ho a použije sa. Dovtedy sa nič nezmení.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Nastaviť</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>Klávesnica „{0}“ je pripojená.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>Klávesnica „{0}“ bola odpojená. Vracia sa predvolené rozloženie.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Teraz sa používa predvolené rozloženie.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Vybraté pre túto reláciu Vzdialenej plochy.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Rozloženie nie je nainštalované</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>Klávesnica „{0}“ používa rozloženie {1}, ktoré už nie je nainštalované. Vyberte iné rozloženie.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Predvolené rozloženie {0} už nie je nainštalované. Vyberte iné rozloženie.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Nepodarilo sa prepnúť rozloženie</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows neprijal rozloženie {0}. Stále môžete prepínať pomocou Win+medzerník.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Vzdialená plocha</value></data>
+</root>

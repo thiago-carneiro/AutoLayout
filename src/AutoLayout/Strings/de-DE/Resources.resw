@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tastaturen</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tastaturen</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Verwendetes Tastaturlayout</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Weil „{0}“ verbunden ist.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Weil keine externe Tastatur verbunden ist.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Remotedesktopsitzung: Windows verwendet das Tastaturlayout des anderen Computers.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Für Remotedesktopsitzungen ausgewählt.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Mit Windows-Taste+Leertaste können Sie weiterhin das Layout wechseln. AutoLayout greift nur ein, wenn eine Tastatur verbunden oder getrennt wird.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Wechsel zu {0} nicht möglich</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Dieses Layout ist nicht mehr installiert. Wählen Sie ein anderes für die Tastatur aus.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Das Standardlayout ist nicht mehr installiert. Wählen Sie ein anderes aus.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows hat die Änderung nicht übernommen. Sie können weiterhin mit Windows-Taste+Leertaste wechseln.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Layout auswählen</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Protokoll anzeigen</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Eine neue Tastatur wartet auf die Einrichtung.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} neue Tastaturen warten auf die Einrichtung.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Einrichten…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Standardlayout</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Layout ohne externe Tastatur</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Wird verwendet, wenn keine externe Tastatur verbunden ist, z. B. für die Tastatur des Laptops.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Standardlayout</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Layouts in den Windows-Einstellungen hinzufügen</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Externe Tastaturen</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Externe Tastaturen</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Noch keine externen Tastaturen. Schließen Sie eine USB- oder Bluetooth-Tastatur an, dann fragt AutoLayout, welches Layout sie verwendet.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>In Verwendung</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Verbunden</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Nicht eingerichtet</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Wartet auf Einrichtung</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Getrennt</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignoriert</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatisch (Layout des anderen Computers)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (nicht installiert)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Jetzt verbunden</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Zuletzt verbunden: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Einrichten…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Bearbeiten…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorieren (keine Tastatur)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Nicht mehr ignorieren</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Nicht mehr speichern</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Weitere Optionen für {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Diese Tastatur nicht mehr speichern?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Wenn Sie „{0}“ erneut verbinden, fragt AutoLayout erneut nach dem Layout.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Neue Tastatur</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Tastatur bearbeiten</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Eine neue Tastatur wurde verbunden</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Remotedesktopsitzungen</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Wählen Sie das auf den Tasten aufgedruckte Layout aus. AutoLayout verwendet es immer, wenn diese Tastatur verbunden ist. Bis zum Speichern ändert sich nichts.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} von {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Name</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Layout</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Layout auswählen</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (empfohlen)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Auf Grundlage des Tastaturmodells vorgeschlagen. Überprüfen Sie es vor dem Speichern.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Die Tastatur meldet ihr Layout nicht. Es handelt sich daher um eine Vermutung anhand Ihrer Windows-Region. Überprüfen Sie es vor dem Speichern.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Vermutlich ist es {0}, das nicht installiert ist. Fügen Sie es in den Windows-Einstellungen hinzu und wählen Sie es dann hier aus.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gilt, solange dieser PC über Remotedesktop verwendet wird. Standardmäßig verwendet Windows das Layout der Tastatur an dem Computer, von dem aus Sie die Verbindung herstellen.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Dieser PC ignoriert das Layout des anderen Computers (IgnoreRemoteKeyboardLayout). Wählen Sie ein festes Layout aus.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Layout nicht aufgeführt?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Dieses Gerät ignorieren (es ist keine Tastatur)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Speichern</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Keine Tastatur</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Nicht jetzt</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Allgemein</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Mit Windows starten</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Mit Windows starten</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout wird aus einem Ordner wie „Downloads“, einem temporären Ordner oder von einem Wechseldatenträger ausgeführt. Verschieben Sie die App in einen dauerhaften Ordner, bevor Sie sie mit Windows starten.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Der Start mit Windows wurde im Task-Manager oder in den Windows-Einstellungen deaktiviert. Aktivieren Sie ihn dort.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Ihre Organisation legt fest, ob Apps mit Windows gestartet werden.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Die Einstellung „Mit Windows starten“ konnte nicht geändert werden.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Benachrichtigung anzeigen, wenn sich das Layout ändert</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Benachrichtigung anzeigen, wenn sich das Layout ändert</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Tastaturbeleuchtung wiederherstellen</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Stellt die mit Fn+Leertaste gewählte Stufe (aus, niedrig oder hoch) wieder her, wenn der Bildschirm eingeschaltet wird und wenn Windows startet.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Tastaturbeleuchtung wiederherstellen</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnose</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Protokolldatei schreiben</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Standardmäßig deaktiviert. Das Protokoll listet auf, welche Tastaturen wann verbunden waren – niemals, was Sie eingeben.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Protokolldatei schreiben</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Protokoll öffnen</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Ordner öffnen</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Datenschutz</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout liest niemals, was Sie eingeben. Es prüft nur, welche Tastaturen verbunden sind, und stellt keine Netzwerkverbindungen her.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Info</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Die AutoLayout-Autoren</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Lizenziert unter der Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Lizenz anzeigen</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Hinweise von Drittanbietern</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projektseite</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Auf Ko-fi unterstützen</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Aktuelles Layout: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>„{0}“ einrichten…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastaturen…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Einstellungen…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Beenden</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Neue Tastatur: zum Einrichten klicken</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Klicken, um das Problem anzuzeigen</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Neue Tastatur: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Wählen Sie das Layout aus. Bis dahin ändert sich nichts.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Sieht nach {0} aus. Bestätigen Sie es, um es zu verwenden. Bis dahin ändert sich nichts.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Einrichten</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ verbunden.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ getrennt. Zurück zum Standardlayout.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Das Standardlayout wird jetzt verwendet.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Für diese Remotedesktopsitzung ausgewählt.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Layout nicht installiert</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>„{0}“ verwendet {1}, das nicht mehr installiert ist. Wählen Sie ein anderes Layout aus.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Das Standardlayout {0} ist nicht mehr installiert. Wählen Sie ein anderes Layout aus.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Layoutwechsel nicht möglich</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows hat {0} nicht übernommen. Sie können weiterhin mit Windows-Taste+Leertaste wechseln.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Remotedesktop</value></data>
+</root>

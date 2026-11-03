@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>キーボード</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>キーボード</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>設定</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>使用中のレイアウト</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>「{0}」が接続されているためです。</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>外付けキーボードが接続されていないためです。</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>リモート デスクトップ セッション: Windows は接続元のコンピューターのキーボード レイアウトを使用します。</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>リモート デスクトップ セッション用に選択済みです。</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Windows キー + Space で、いつでもレイアウトを切り替えられます。AutoLayout が動作するのは、キーボードの接続時と取り外し時だけです。</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>{0} に切り替えられませんでした</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>このレイアウトはインストールされていません。このキーボードに別のレイアウトを選んでください。</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>既定のレイアウトがインストールされていません。別のレイアウトを選んでください。</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows が変更を受け付けませんでした。Windows キー + Space で切り替えることはできます。</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>レイアウトを選択</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>ログを表示</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>新しいキーボードのセットアップを待っています。</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} 台の新しいキーボードのセットアップを待っています。</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>セットアップ…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>既定のレイアウト</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>外付けキーボードがないときのレイアウト</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>外付けキーボードが接続されていないとき (ノート PC 本体のキーボードなど) に使用されます。</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>既定のレイアウト</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Windows の設定でレイアウトを追加する</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>外付けキーボード</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>外付けキーボード</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>外付けキーボードはまだありません。USB または Bluetooth キーボードを接続すると、AutoLayout が使用するレイアウトを尋ねます。</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>使用中</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>接続済み</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>未セットアップ</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>セットアップ待ち</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>未接続</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>無視</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>自動 (接続元のコンピューターのレイアウト)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (未インストール)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>現在接続中</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>最終接続: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>セットアップ…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>編集…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>無視 (キーボードではない)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>無視を解除</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>削除</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>{0} のその他のオプション</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>このキーボードを削除しますか？</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>「{0}」を再び接続すると、AutoLayout はもう一度レイアウトを尋ねます。</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>新しいキーボード</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>キーボードの編集</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>新しいキーボードが接続されました</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>リモート デスクトップ セッション</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>キーに印字されているレイアウトを選んでください。このキーボードが接続されるたびに、AutoLayout がそのレイアウトを使用します。保存するまで何も変更されません。</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1}/{2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>名前</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>レイアウト</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>レイアウトを選択してください</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (推奨)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>キーボードのモデルに基づく推奨です。保存する前に確認してください。</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>このキーボードはレイアウトを通知しないため、Windows の地域設定に基づく推測です。保存する前に確認してください。</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>おそらく {0} ですが、インストールされていません。Windows の設定で追加してから、ここで選択してください。</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>この PC をリモート デスクトップで使用している間に適用されます。既定では、Windows は接続元のコンピューターのキーボードのレイアウトを使用します。</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>この PC は、接続元のコンピューターのレイアウトを無視するように設定されています (IgnoreRemoteKeyboardLayout)。固定のレイアウトを選んでください。</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>レイアウトが一覧にありませんか？</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>このデバイスを無視する (キーボードではない)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>保存</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>キーボードではない</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>今はしない</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>全般</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Windows 起動時に開始</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Windows 起動時に開始</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout は、ダウンロード、一時フォルダー、リムーバブル ドライブなどのフォルダーから実行されています。Windows 起動時に開始する前に、固定のフォルダーに移動してください。</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Windows 起動時の開始は、タスク マネージャーまたは Windows の設定でオフにされています。そちらでオンにしてください。</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>アプリを Windows 起動時に開始するかどうかは、組織が管理しています。</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>「Windows 起動時に開始」の設定を変更できませんでした。</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>レイアウトが変わったときに通知を表示する</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>レイアウトが変わったときに通知を表示する</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>キーボード バックライトを復元する</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Fn + Space で選んだ明るさ (オフ、弱、強) を、画面がオンになったときと Windows の起動時に元に戻します。</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>キーボード バックライトを復元する</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>診断</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>ログ ファイルを書き込む</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>既定ではオフです。ログには、接続されたキーボードとその時刻が記録されますが、入力内容は記録されません。</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>ログ ファイルを書き込む</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>ログを開く</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>フォルダーを開く</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>プライバシー</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout が入力内容を読み取ることはありません。接続されているキーボードを確認するだけで、ネットワーク接続も行いません。</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>バージョン情報</value></data>
+  <data name="About_Version" xml:space="preserve"><value>バージョン {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout の作成者</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Apache License 2.0 でライセンスされています。</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>ライセンスを表示</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>サードパーティの通知</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>プロジェクト ページ</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Ko-fi で支援する</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>現在のレイアウト: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>「{0}」をセットアップ…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>キーボード…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>設定…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>終了</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+新しいキーボード: クリックしてセットアップ</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+クリックして問題を確認</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>新しいキーボード: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>レイアウトを選んでください。それまでは何も変更されません。</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>{0} のようです。使用するには確認してください。それまでは何も変更されません。</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>セットアップ</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>「{0}」が接続されました。</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>「{0}」が取り外されました。既定のレイアウトに戻りました。</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>既定のレイアウトを使用しています。</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>このリモート デスクトップ セッション用に選択済みです。</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>レイアウトが未インストール</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>「{0}」は {1} を使用しますが、インストールされていません。別のレイアウトを選んでください。</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>既定のレイアウト {0} がインストールされていません。別のレイアウトを選んでください。</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>レイアウトを切り替えられませんでした</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows が {0} を受け付けませんでした。Windows キー + Space で切り替えることはできます。</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>リモート デスクトップ</value></data>
+</root>

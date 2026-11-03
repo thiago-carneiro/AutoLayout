@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tastaturer</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tastaturer</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Indstillinger</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Layout i brug</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Fordi »{0}« er tilsluttet.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Fordi der ikke er tilsluttet noget eksternt tastatur.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Fjernskrivebordssession: Windows bruger den anden computers tastaturlayout.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Valgt til fjernskrivebordssessioner.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Du kan stadig skifte layout med Win+Mellemrum. AutoLayout handler kun, når et tastatur tilsluttes eller frakobles.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Kunne ikke skifte til {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Dette layout er ikke længere installeret. Vælg et andet layout til tastaturet.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Standardlayoutet er ikke længere installeret. Vælg et andet layout.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows accepterede ikke ændringen. Du kan stadig skifte med Win+Mellemrum.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Vælg layout</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Vis log</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Et nyt tastatur venter på at blive konfigureret.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} nye tastaturer venter på at blive konfigureret.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Konfigurer…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Standardlayout</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Layout uden eksternt tastatur</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Bruges, når der ikke er tilsluttet noget eksternt tastatur, for eksempel til den bærbare computers eget tastatur.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Standardlayout</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Tilføj layouts i Windows-indstillinger</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Eksterne tastaturer</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Eksterne tastaturer</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Ingen eksterne tastaturer endnu. Tilslut et USB- eller Bluetooth-tastatur, så spørger AutoLayout, hvilket layout det bruger.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>I brug</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Tilsluttet</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Ikke konfigureret</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Venter på konfiguration</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Frakoblet</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignoreret</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatisk (den anden computers layout)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (ikke installeret)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Tilsluttet nu</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Sidst tilsluttet {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Konfigurer…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Rediger…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorer (ikke et tastatur)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Stop med at ignorere</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Glem</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Flere indstillinger for {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Glem dette tastatur?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Hvis du tilslutter »{0}« igen, spørger AutoLayout igen om layoutet.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nyt tastatur</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Rediger tastatur</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Et nyt tastatur er tilsluttet</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Fjernskrivebordssessioner</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Vælg det layout, der er trykt på tasterne. AutoLayout bruger det, hver gang dette tastatur er tilsluttet. Der ændres ikke noget, før du gemmer.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} af {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Navn</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Layout</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Vælg et layout</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (foreslået)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Foreslået ud fra tastaturmodellen. Kontroller det, før du gemmer.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastaturet oplyser ikke sit layout, så dette er et gæt baseret på din Windows-region. Kontroller det, før du gemmer.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Det er sandsynligvis {0}, som ikke er installeret. Tilføj det i Windows-indstillinger, og vælg det derefter her.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gælder, når denne pc bruges via Fjernskrivebord. Som standard bruger Windows layoutet fra tastaturet på den computer, du opretter forbindelse fra.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Denne pc er indstillet til at ignorere den anden computers layout (IgnoreRemoteKeyboardLayout). Vælg et fast layout.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Mangler layoutet på listen?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorer denne enhed (det er ikke et tastatur)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Gem</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ikke et tastatur</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ikke nu</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annuller</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Generelt</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Start sammen med Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Start sammen med Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout kører fra en mappe som Overførsler, en midlertidig mappe eller et flytbart drev. Flyt appen til en permanent mappe, før du lader den starte sammen med Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Start sammen med Windows er slået fra i Jobliste eller Windows-indstillinger. Slå det til dér.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Din organisation bestemmer, om apps starter sammen med Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Kunne ikke ændre indstillingen »Start sammen med Windows«.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Vis en meddelelse, når layoutet skifter</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Vis en meddelelse, når layoutet skifter</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Gendan tastaturets baggrundsbelysning</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Gendanner det niveau, du valgte med Fn+Mellemrum (slukket, lav eller høj), når skærmen tændes, og når Windows starter.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Gendan tastaturets baggrundsbelysning</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnosticering</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Skriv en logfil</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Slået fra som standard. Loggen viser, hvilke tastaturer der er tilsluttet, og hvornår — aldrig hvad du skriver.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Skriv en logfil</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Åbn log</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Åbn mappe</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Anonymitet</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout læser aldrig, hvad du skriver. Den kontrollerer kun, hvilke tastaturer der er tilsluttet, og opretter ingen netværksforbindelser.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Om</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Forfatterne af AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Udgivet under Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Vis licens</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Meddelelser fra tredjepart</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projektside</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Støt på Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Aktuelt layout: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Konfigurer »{0}«…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastaturer…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Indstillinger…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Afslut</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nyt tastatur: klik for at konfigurere</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Klik for at se, hvad der gik galt</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nyt tastatur: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Vælg dets layout. Indtil da ændres der ikke noget.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Ligner {0}. Bekræft for at bruge det. Indtil da ændres der ikke noget.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Konfigurer</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>»{0}« tilsluttet.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>»{0}« frakoblet. Tilbage til standardlayoutet.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Bruger nu standardlayoutet.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Valgt til denne fjernskrivebordssession.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Layout ikke installeret</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>»{0}« bruger {1}, som ikke længere er installeret. Vælg et andet layout.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Standardlayoutet, {0}, er ikke længere installeret. Vælg et andet layout.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Kunne ikke skifte layout</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows accepterede ikke {0}. Du kan stadig skifte med Win+Mellemrum.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Fjernskrivebord</value></data>
+</root>

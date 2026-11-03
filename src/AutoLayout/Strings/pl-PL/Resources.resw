@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Klawiatury</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Klawiatury</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Ustawienia</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Używany układ</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Ponieważ jest podłączona klawiatura „{0}”.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Ponieważ nie jest podłączona żadna klawiatura zewnętrzna.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Sesja Pulpitu zdalnego: system Windows używa układu klawiatury drugiego komputera.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Wybrano dla sesji Pulpitu zdalnego.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Nadal możesz przełączać układy za pomocą klawiszy Win+Spacja. AutoLayout działa tylko wtedy, gdy klawiatura zostanie podłączona lub odłączona.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Nie można przełączyć na układ {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Ten układ nie jest już zainstalowany. Wybierz inny dla tej klawiatury.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Układ domyślny nie jest już zainstalowany. Wybierz inny.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>System Windows nie zaakceptował zmiany. Nadal możesz przełączać układy za pomocą klawiszy Win+Spacja.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Wybierz układ</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Wyświetl dziennik</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Nowa klawiatura czeka na skonfigurowanie.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Nowe klawiatury czekające na skonfigurowanie: {0}.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Skonfiguruj…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Układ domyślny</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Układ bez klawiatury zewnętrznej</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Używany, gdy nie jest podłączona żadna klawiatura zewnętrzna, na przykład dla wbudowanej klawiatury laptopa.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Układ domyślny</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Dodaj układy w ustawieniach systemu Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Klawiatury zewnętrzne</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Klawiatury zewnętrzne</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Nie ma jeszcze klawiatur zewnętrznych. Podłącz klawiaturę USB lub Bluetooth, a AutoLayout zapyta, jakiego układu używa.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Używana</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Podłączona</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Nieskonfigurowana</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Czeka na skonfigurowanie</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Odłączona</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorowana</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatycznie (układ drugiego komputera)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (niezainstalowany)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Podłączona teraz</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Ostatnio podłączona: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Skonfiguruj…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Edytuj…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignoruj (to nie klawiatura)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Przestań ignorować</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Zapomnij</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Więcej opcji dla: {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Zapomnieć tę klawiaturę?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Jeśli ponownie podłączysz klawiaturę „{0}”, AutoLayout ponownie zapyta o jej układ.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nowa klawiatura</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Edytowanie klawiatury</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Podłączono nową klawiaturę</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sesje Pulpitu zdalnego</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Wybierz układ nadrukowany na klawiszach. AutoLayout będzie go używać za każdym razem, gdy ta klawiatura zostanie podłączona. Nic się nie zmieni, dopóki nie zapiszesz.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} z {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nazwa</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Układ</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Wybierz układ</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerowany)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugestia na podstawie modelu klawiatury. Sprawdź ją przed zapisaniem.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klawiatura nie podaje swojego układu, więc to jedynie przypuszczenie na podstawie regionu systemu Windows. Sprawdź je przed zapisaniem.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>To prawdopodobnie układ {0}, który nie jest zainstalowany. Dodaj go w ustawieniach systemu Windows, a następnie wybierz tutaj.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Obowiązuje, gdy ten komputer jest używany przez Pulpit zdalny. Domyślnie system Windows używa układu klawiatury komputera, z którego się łączysz.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ten komputer jest skonfigurowany tak, aby ignorować układ drugiego komputera (IgnoreRemoteKeyboardLayout). Wybierz stały układ.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Nie ma układu na liście?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignoruj to urządzenie (to nie klawiatura)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Zapisz</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>To nie klawiatura</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Nie teraz</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Anuluj</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Ogólne</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Uruchamiaj razem z systemem Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Uruchamiaj razem z systemem Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout działa z folderu takiego jak Pobrane, z folderu tymczasowego lub z dysku wymiennego. Przenieś aplikację do stałego folderu, zanim ustawisz jej uruchamianie razem z systemem Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Uruchamianie razem z systemem Windows zostało wyłączone w Menedżerze zadań lub w ustawieniach systemu Windows. Włącz je tam.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Twoja organizacja decyduje, czy aplikacje uruchamiają się razem z systemem Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Nie można zmienić ustawienia „Uruchamiaj razem z systemem Windows”.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Pokazuj powiadomienie po zmianie układu</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pokazuj powiadomienie po zmianie układu</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Przywracaj podświetlenie klawiatury</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Przywraca poziom wybrany klawiszami Fn+Spacja (wyłączone, niskie lub wysokie) po włączeniu ekranu i po uruchomieniu systemu Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Przywracaj podświetlenie klawiatury</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostyka</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Zapisuj plik dziennika</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Domyślnie wyłączone. Dziennik zawiera listę podłączonych klawiatur i czas ich podłączenia — nigdy to, co wpisujesz.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zapisuj plik dziennika</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Otwórz dziennik</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Otwórz folder</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Prywatność</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nigdy nie odczytuje tego, co wpisujesz. Sprawdza tylko, które klawiatury są podłączone, i nie nawiązuje połączeń sieciowych.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Informacje</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Wersja {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Autorzy AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Na licencji Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Wyświetl licencję</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Informacje o oprogramowaniu innych firm</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Strona projektu</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Wesprzyj w serwisie Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Bieżący układ: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Skonfiguruj „{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Klawiatury…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Ustawienia…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Zakończ</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nowa klawiatura: kliknij, aby skonfigurować</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Kliknij, aby zobaczyć, co poszło nie tak</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nowa klawiatura: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Wybierz jej układ. Do tego czasu nic się nie zmieni.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Wygląda na układ {0}. Potwierdź, aby go używać. Do tego czasu nic się nie zmieni.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Skonfiguruj</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>Podłączono „{0}”.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>Odłączono „{0}”. Przywrócono układ domyślny.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Używany jest teraz układ domyślny.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Wybrano dla tej sesji Pulpitu zdalnego.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Układ nie jest zainstalowany</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>Klawiatura „{0}” używa układu {1}, który nie jest już zainstalowany. Wybierz inny układ.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Układ domyślny, {0}, nie jest już zainstalowany. Wybierz inny układ.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Nie można przełączyć układu</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>System Windows nie zaakceptował układu {0}. Nadal możesz przełączać układy za pomocą klawiszy Win+Spacja.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Pulpit zdalny</value></data>
+</root>

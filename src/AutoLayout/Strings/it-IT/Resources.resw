@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tastiere</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tastiere</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Impostazioni</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Layout in uso</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Perché «{0}» è connessa.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Perché non è connessa nessuna tastiera esterna.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Sessione Desktop remoto: Windows usa il layout di tastiera dell’altro computer.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Scelto per le sessioni Desktop remoto.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Puoi comunque cambiare layout con Windows+Barra spaziatrice. AutoLayout interviene solo quando una tastiera viene connessa o disconnessa.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Impossibile passare a {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Questo layout non è più installato. Scegline un altro per la tastiera.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Il layout predefinito non è più installato. Scegline un altro.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows non ha accettato la modifica. Puoi comunque cambiare con Windows+Barra spaziatrice.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Scegli layout</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Visualizza log</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Una nuova tastiera è in attesa di configurazione.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} nuove tastiere sono in attesa di configurazione.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Configura…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Layout predefinito</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Layout senza tastiera esterna</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Usato quando non è connessa nessuna tastiera esterna, ad esempio per la tastiera del portatile.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Layout predefinito</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Aggiungi layout nelle Impostazioni di Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Tastiere esterne</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Tastiere esterne</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Ancora nessuna tastiera esterna. Collega una tastiera USB o Bluetooth e AutoLayout chiederà quale layout usa.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>In uso</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Connessa</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Non configurata</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>In attesa di configurazione</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Disconnessa</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorata</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatico (layout dell’altro computer)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (non installato)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Connessa ora</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Ultima connessione: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Configura…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Modifica…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignora (non è una tastiera)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Smetti di ignorare</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Dimentica</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Altre opzioni per {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Dimenticare questa tastiera?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Se connetti di nuovo «{0}», AutoLayout chiederà di nuovo il layout.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nuova tastiera</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Modifica tastiera</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>È stata connessa una nuova tastiera</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sessioni Desktop remoto</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Scegli il layout stampato sui tasti. AutoLayout lo userà ogni volta che questa tastiera è connessa. Non cambia nulla finché non salvi.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} di {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nome</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Layout</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Scegli un layout</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (suggerito)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggerito in base al modello della tastiera. Controllalo prima di salvare.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>La tastiera non comunica il proprio layout, quindi questa è una stima basata sull’area geografica di Windows. Controllalo prima di salvare.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Probabilmente è {0}, che non è installato. Aggiungilo nelle Impostazioni di Windows, poi sceglilo qui.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Vale quando questo PC viene usato tramite Desktop remoto. Per impostazione predefinita, Windows usa il layout della tastiera del computer da cui ti connetti.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Questo PC è impostato per ignorare il layout dell’altro computer (IgnoreRemoteKeyboardLayout). Scegli un layout fisso.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Layout non presente nell’elenco?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignora questo dispositivo (non è una tastiera)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Salva</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Non è una tastiera</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Non ora</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annulla</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Generale</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Avvia con Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Avvia con Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout è in esecuzione da una cartella come Download, una cartella temporanea o un’unità rimovibile. Spostalo in una cartella permanente prima di avviarlo con Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>L’avvio con Windows è stato disattivato in Gestione attività o nelle Impostazioni di Windows. Attivalo da lì.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>La tua organizzazione decide se le app si avviano con Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Impossibile modificare l’impostazione «Avvia con Windows».</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Mostra una notifica quando cambia il layout</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Mostra una notifica quando cambia il layout</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Ripristina la retroilluminazione della tastiera</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Ripristina il livello scelto con Fn+Barra spaziatrice (spenta, bassa o alta) quando lo schermo si accende e all’avvio di Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Ripristina la retroilluminazione della tastiera</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostica</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Scrivi un file di log</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Disattivato per impostazione predefinita. Il log elenca le tastiere connesse e quando, mai ciò che digiti.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Scrivi un file di log</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Apri log</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Apri cartella</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacy</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout non legge mai ciò che digiti. Controlla soltanto quali tastiere sono connesse e non effettua connessioni di rete.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Informazioni</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versione {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Gli autori di AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Concesso in licenza con Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Visualizza licenza</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Avvisi di terze parti</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Pagina del progetto</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Sostieni su Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Layout attuale: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Configura «{0}»…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastiere…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Impostazioni…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Esci</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nuova tastiera: fai clic per configurare</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Fai clic per vedere cosa è andato storto</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nuova tastiera: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Scegli il suo layout. Fino ad allora non cambia nulla.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Sembra {0}. Confermalo per usarlo. Fino ad allora non cambia nulla.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Configura</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» connessa.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» disconnessa. Si torna al layout predefinito.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Ora viene usato il layout predefinito.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Scelto per questa sessione Desktop remoto.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Layout non installato</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>«{0}» usa {1}, che non è più installato. Scegli un altro layout.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Il layout predefinito, {0}, non è più installato. Scegli un altro layout.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Impossibile cambiare layout</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows non ha accettato {0}. Puoi comunque cambiare con Windows+Barra spaziatrice.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Desktop remoto</value></data>
+</root>

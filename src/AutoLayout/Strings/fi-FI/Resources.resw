@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Näppäimistöt</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Näppäimistöt</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Asetukset</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Käytössä oleva asettelu</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Koska ”{0}” on yhdistetty.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Koska ulkoista näppäimistöä ei ole yhdistetty.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Etätyöpöytäistunto: Windows käyttää toisen tietokoneen näppäimistöasettelua.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Valittu etätyöpöytäistuntoja varten.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Voit edelleen vaihtaa asettelua Win+Välilyönti-näppäinyhdistelmällä. AutoLayout toimii vain, kun näppäimistö yhdistetään tai irrotetaan.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Asetteluun {0} ei voitu vaihtaa</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Tätä asettelua ei ole enää asennettuna. Valitse näppäimistölle toinen asettelu.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Oletusasettelua ei ole enää asennettuna. Valitse toinen asettelu.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows ei hyväksynyt muutosta. Voit edelleen vaihtaa asettelua Win+Välilyönti-näppäinyhdistelmällä.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Valitse asettelu</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Näytä loki</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Uusi näppäimistö odottaa määrittämistä.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} uutta näppäimistöä odottaa määrittämistä.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Määritä…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Oletusasettelu</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Asettelu ilman ulkoista näppäimistöä</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Käytetään, kun ulkoista näppäimistöä ei ole yhdistetty, esimerkiksi kannettavan tietokoneen omalle näppäimistölle.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Oletusasettelu</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Lisää asetteluja Windowsin asetuksissa</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Ulkoiset näppäimistöt</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Ulkoiset näppäimistöt</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Ulkoisia näppäimistöjä ei ole vielä. Yhdistä USB- tai Bluetooth-näppäimistö, niin AutoLayout kysyy, mitä asettelua se käyttää.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Käytössä</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Yhdistetty</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Ei määritetty</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Odottaa määrittämistä</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Ei yhdistetty</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ohitettu</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automaattinen (toisen tietokoneen asettelu)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (ei asennettu)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Yhdistetty nyt</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Viimeksi yhdistetty {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Määritä…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Muokkaa…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ohita (ei ole näppäimistö)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Lopeta ohittaminen</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Unohda</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Lisää asetuksia: {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Unohdetaanko tämä näppäimistö?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Jos yhdistät ”{0}” uudelleen, AutoLayout kysyy asettelua uudestaan.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Uusi näppäimistö</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Muokkaa näppäimistöä</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Uusi näppäimistö yhdistettiin</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Etätyöpöytäistunnot</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Valitse näppäimiin painettu asettelu. AutoLayout käyttää sitä aina, kun tämä näppäimistö on yhdistettynä. Mikään ei muutu ennen kuin tallennat.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1}/{2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nimi</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Asettelu</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Valitse asettelu</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (ehdotus)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Ehdotettu näppäimistömallin perusteella. Tarkista se ennen tallentamista.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Näppäimistö ei ilmoita asetteluaan, joten tämä on arvaus Windowsin alueen perusteella. Tarkista se ennen tallentamista.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Tämä on todennäköisesti {0}, jota ei ole asennettu. Lisää se Windowsin asetuksissa ja valitse se sitten tästä.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Koskee tilannetta, jossa tätä tietokonetta käytetään Etätyöpöydän kautta. Oletuksena Windows käyttää sen tietokoneen näppäimistön asettelua, jolta muodostat yhteyden.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Tämä tietokone on asetettu ohittamaan toisen tietokoneen asettelu (IgnoreRemoteKeyboardLayout). Valitse kiinteä asettelu.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Puuttuuko asettelu luettelosta?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ohita tämä laite (se ei ole näppäimistö)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Tallenna</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ei ole näppäimistö</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ei nyt</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Peruuta</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Yleiset</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Käynnistä Windowsin mukana</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Käynnistä Windowsin mukana</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout on käynnissä kansiosta, kuten Lataukset, tilapäiskansiosta tai irrotettavasta asemasta. Siirrä sovellus pysyvään kansioon, ennen kuin otat sen käynnistymisen Windowsin mukana käyttöön.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Käynnistyminen Windowsin mukana on poistettu käytöstä Tehtävienhallinnassa tai Windowsin asetuksissa. Ota se käyttöön siellä.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Organisaatiosi päättää, käynnistyvätkö sovellukset Windowsin mukana.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Asetusta ”Käynnistä Windowsin mukana” ei voitu muuttaa.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Näytä ilmoitus, kun asettelu vaihtuu</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Näytä ilmoitus, kun asettelu vaihtuu</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Palauta näppäimistön taustavalo</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Palauttaa Fn+Välilyönti-näppäinyhdistelmällä valitsemasi tason (pois, matala tai korkea), kun näyttö kytketään päälle ja kun Windows käynnistyy.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Palauta näppäimistön taustavalo</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostiikka</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Kirjoita lokitiedosto</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Pois käytöstä oletuksena. Loki luettelee yhdistetyt näppäimistöt ja ajankohdat — ei koskaan sitä, mitä kirjoitat.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Kirjoita lokitiedosto</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Avaa loki</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Avaa kansio</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Tietosuoja</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ei koskaan lue kirjoittamaasi tekstiä. Se tarkistaa vain, mitkä näppäimistöt on yhdistetty, eikä muodosta verkkoyhteyksiä.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Tietoja</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versio {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayoutin tekijät</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Käyttöoikeus: Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Näytä käyttöoikeus</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Kolmannen osapuolen ilmoitukset</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projektin sivu</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Tue Ko-fissa</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Nykyinen asettelu: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Määritä ”{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Näppäimistöt…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Asetukset…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Lopeta</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Uusi näppäimistö: määritä napsauttamalla</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Napsauta nähdäksesi, mikä meni pieleen</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Uusi näppäimistö: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Valitse sen asettelu. Siihen asti mikään ei muutu.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Vaikuttaa asettelulta {0}. Vahvista, niin sitä aletaan käyttää. Siihen asti mikään ei muutu.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Määritä</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>”{0}” yhdistetty.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>”{0}” irrotettu. Palattu oletusasetteluun.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Oletusasettelu on nyt käytössä.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Valittu tälle etätyöpöytäistunnolle.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Asettelua ei ole asennettu</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>”{0}” käyttää asettelua {1}, jota ei ole enää asennettuna. Valitse toinen asettelu.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Oletusasettelua {0} ei ole enää asennettuna. Valitse toinen asettelu.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Asettelua ei voitu vaihtaa</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows ei hyväksynyt asettelua {0}. Voit edelleen vaihtaa Win+Välilyönti-näppäinyhdistelmällä.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Etätyöpöytä</value></data>
+</root>

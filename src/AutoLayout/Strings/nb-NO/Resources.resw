@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tastaturer</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tastaturer</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Innstillinger</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Oppsett i bruk</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Fordi «{0}» er tilkoblet.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Fordi det ikke er koblet til noe eksternt tastatur.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Økt i Eksternt skrivebord: Windows bruker tastaturoppsettet til den andre datamaskinen.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Valgt for økter i Eksternt skrivebord.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Du kan fortsatt bytte oppsett med Win+Mellomrom. AutoLayout gjør bare noe når et tastatur kobles til eller fra.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Kunne ikke bytte til {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Dette oppsettet er ikke lenger installert. Velg et annet oppsett for tastaturet.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Standardoppsettet er ikke lenger installert. Velg et annet oppsett.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows godtok ikke endringen. Du kan fortsatt bytte med Win+Mellomrom.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Velg oppsett</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Vis logg</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Et nytt tastatur venter på å bli konfigurert.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} nye tastaturer venter på å bli konfigurert.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Konfigurer…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Standardoppsett</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Oppsett uten eksternt tastatur</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Brukes når ingen eksterne tastaturer er tilkoblet, for eksempel for den bærbare datamaskinens eget tastatur.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Standardoppsett</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Legg til oppsett i Windows-innstillinger</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Eksterne tastaturer</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Eksterne tastaturer</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Ingen eksterne tastaturer ennå. Koble til et USB- eller Bluetooth-tastatur, så spør AutoLayout hvilket oppsett det bruker.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>I bruk</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Tilkoblet</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Ikke konfigurert</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Venter på konfigurering</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Frakoblet</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorert</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatisk (den andre datamaskinens oppsett)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (ikke installert)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Tilkoblet nå</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Sist tilkoblet {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Konfigurer…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Rediger…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorer (ikke et tastatur)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Slutt å ignorere</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Glem</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Flere alternativer for {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Glemme dette tastaturet?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Hvis du kobler til «{0}» igjen, spør AutoLayout om oppsettet på nytt.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nytt tastatur</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Rediger tastatur</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Et nytt tastatur er tilkoblet</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Økter i Eksternt skrivebord</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Velg oppsettet som er trykt på tastene. AutoLayout bruker det hver gang dette tastaturet er tilkoblet. Ingenting endres før du lagrer.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} av {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Navn</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Oppsett</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Velg et oppsett</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (foreslått)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Foreslått ut fra tastaturmodellen. Kontroller det før du lagrer.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastaturet oppgir ikke oppsettet sitt, så dette er et gjett basert på Windows-regionen din. Kontroller det før du lagrer.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Dette er sannsynligvis {0}, som ikke er installert. Legg det til i Windows-innstillinger, og velg det deretter her.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gjelder når denne PC-en brukes via Eksternt skrivebord. Som standard bruker Windows oppsettet til tastaturet på datamaskinen du kobler til fra.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Denne PC-en er satt til å ignorere den andre datamaskinens oppsett (IgnoreRemoteKeyboardLayout). Velg et fast oppsett.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Mangler oppsettet i listen?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorer denne enheten (det er ikke et tastatur)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Lagre</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ikke et tastatur</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ikke nå</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Generelt</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Start sammen med Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Start sammen med Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout kjører fra en mappe som Nedlastinger, en midlertidig mappe eller en flyttbar stasjon. Flytt appen til en permanent mappe før du lar den starte sammen med Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Oppstart sammen med Windows er slått av i Oppgavebehandling eller Windows-innstillinger. Slå det på der.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Organisasjonen din bestemmer om apper starter sammen med Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Kunne ikke endre innstillingen «Start sammen med Windows».</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Vis et varsel når oppsettet endres</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Vis et varsel når oppsettet endres</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Gjenopprett tastaturbelysningen</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Gjenoppretter nivået du valgte med Fn+Mellomrom (av, lav eller høy) når skjermen slås på og når Windows starter.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Gjenopprett tastaturbelysningen</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostikk</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Skriv en loggfil</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Av som standard. Loggen viser hvilke tastaturer som er tilkoblet og når — aldri hva du skriver.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Skriv en loggfil</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Åpne logg</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Åpne mappe</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Personvern</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout leser aldri hva du skriver. Appen sjekker bare hvilke tastaturer som er tilkoblet, og oppretter ingen nettverkstilkoblinger.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Om</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versjon {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Utviklerne av AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Lisensiert under Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Vis lisens</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Merknader fra tredjepart</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Prosjektside</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Støtt på Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Gjeldende oppsett: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Konfigurer «{0}»…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastaturer…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Innstillinger…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Avslutt</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nytt tastatur: klikk for å konfigurere</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Klikk for å se hva som gikk galt</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nytt tastatur: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Velg oppsettet. Inntil da endres ingenting.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Ser ut som {0}. Bekreft for å bruke det. Inntil da endres ingenting.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Konfigurer</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» tilkoblet.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» frakoblet. Tilbake til standardoppsettet.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Bruker nå standardoppsettet.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Valgt for denne økten i Eksternt skrivebord.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Oppsettet er ikke installert</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>«{0}» bruker {1}, som ikke lenger er installert. Velg et annet oppsett.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Standardoppsettet, {0}, er ikke lenger installert. Velg et annet oppsett.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Kunne ikke bytte oppsett</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows godtok ikke {0}. Du kan fortsatt bytte med Win+Mellomrom.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Eksternt skrivebord</value></data>
+</root>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>鍵盤</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>鍵盤</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>設定</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>使用中的配置</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>因為已連線「{0}」。</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>因為未連線外接鍵盤。</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>遠端桌面工作階段：Windows 會使用另一部電腦的鍵盤配置。</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>已為遠端桌面工作階段選擇。</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>您仍可使用 Windows 標誌鍵 + 空白鍵切換配置。AutoLayout 只會在連線或中斷鍵盤時動作。</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>無法切換到 {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>此配置已不再安裝。請為該鍵盤選擇其他配置。</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>預設配置已不再安裝。請選擇其他配置。</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows 未接受此變更。您仍可使用 Windows 標誌鍵 + 空白鍵進行切換。</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>選擇配置</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>檢視記錄</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>有一個新鍵盤正在等候設定。</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>有 {0} 個新鍵盤正在等候設定。</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>設定…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>預設配置</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>無外接鍵盤時的配置</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>在未連線外接鍵盤時使用，例如使用筆記型電腦內建鍵盤時。</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>預設配置</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>在 Windows 設定中新增配置</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>外接鍵盤</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>外接鍵盤</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>尚無外接鍵盤。連接 USB 或 Bluetooth 鍵盤後，AutoLayout 會詢問它使用的配置。</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>使用中</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>已連線</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>未設定</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>等候設定</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>已中斷連線</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>已略過</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>自動（另一部電腦的配置）</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0}（未安裝）</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>目前已連線</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>上次連線：{0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>設定…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>編輯…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>略過（不是鍵盤）</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>停止略過</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>忘記</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>{0} 的更多選項</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>要忘記此鍵盤嗎？</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>如果再次連接「{0}」，AutoLayout 將再次詢問其配置。</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>新鍵盤</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>編輯鍵盤</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>已連接新鍵盤</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>遠端桌面工作階段</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>請選擇按鍵上印刷的配置。每當連接此鍵盤時，AutoLayout 都會使用該配置。儲存之前不會變更任何內容。</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · 第 {1} 個，共 {2} 個</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>名稱</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>配置</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>選擇配置</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0}（建議）</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>根據鍵盤型號所做的建議。儲存前請檢查。</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>此鍵盤不會回報其配置，因此這是根據您的 Windows 地區所做的猜測。儲存前請檢查。</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>這很可能是 {0}，但尚未安裝。請在 Windows 設定中新增，然後在此處選擇。</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>在透過遠端桌面使用這部電腦時生效。根據預設，Windows 會使用您所連線電腦上鍵盤的配置。</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>這部電腦設定為略過另一部電腦的配置（IgnoreRemoteKeyboardLayout）。請選擇固定的配置。</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>找不到配置？</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>略過此裝置（它不是鍵盤）</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>儲存</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>不是鍵盤</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>暫時不要</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>一般</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>隨 Windows 啟動</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>隨 Windows 啟動</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout 正在從「下載」、暫存資料夾或卸除式磁碟機等位置執行。請先將其移到固定的資料夾，再設定隨 Windows 啟動。</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>隨 Windows 啟動已在工作管理員或 Windows 設定中關閉。請在該處重新開啟。</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>應用程式是否隨 Windows 啟動，由您的組織決定。</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>無法變更「隨 Windows 啟動」設定。</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>配置變更時顯示通知</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>配置變更時顯示通知</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>還原鍵盤背光</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>在螢幕開啟時以及 Windows 啟動時，還原您用 Fn + 空白鍵選擇的亮度（關閉、低或高）。</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>還原鍵盤背光</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>診斷</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>寫入記錄檔</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>預設為關閉。記錄會列出已連線的鍵盤及連線時間，絕不會記錄您輸入的內容。</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>寫入記錄檔</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>開啟記錄</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>開啟資料夾</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>隱私權</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout 絕不會讀取您輸入的內容。它只檢查已連線哪些鍵盤，且不會建立任何網路連線。</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>關於</value></data>
+  <data name="About_Version" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout 作者</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>依據 Apache License 2.0 授權。</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>檢視授權</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>協力廠商通知</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>專案頁面</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>在 Ko-fi 上支持</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>目前的配置：{0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>設定「{0}」…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>鍵盤…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>設定…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>結束</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+新鍵盤：按一下以設定</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+按一下以查看發生什麼問題</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>新鍵盤：{0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>請選擇其配置。在此之前不會變更任何內容。</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>看起來是 {0}。確認後才會使用。在此之前不會變更任何內容。</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>設定</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>「{0}」已連線。</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>「{0}」已中斷連線。已還原為預設配置。</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>目前使用預設配置。</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>已為此遠端桌面工作階段選擇。</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>配置未安裝</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>「{0}」使用的 {1} 已不再安裝。請選擇其他配置。</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>預設配置 {0} 已不再安裝。請選擇其他配置。</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>無法切換配置</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows 未接受 {0}。您仍可使用 Windows 標誌鍵 + 空白鍵進行切換。</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>遠端桌面</value></data>
+</root>

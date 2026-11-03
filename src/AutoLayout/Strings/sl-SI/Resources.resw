@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tipkovnice</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tipkovnice</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Nastavitve</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Uporabljena razporeditev</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Ker je priključena tipkovnica „{0}“.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Ker ni priključena nobena zunanja tipkovnica.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Seja oddaljenega namizja: Windows uporablja razporeditev tipkovnice drugega računalnika.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Izbrano za seje oddaljenega namizja.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Razporeditve lahko še vedno preklapljate s tipkama Win+preslednica. AutoLayout deluje le, ko se tipkovnica priključi ali odklopi.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Preklop na razporeditev {0} ni uspel</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Ta razporeditev ni več nameščena. Za tipkovnico izberite drugo.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Privzeta razporeditev ni več nameščena. Izberite drugo.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows ni sprejel spremembe. Še vedno lahko preklapljate s tipkama Win+preslednica.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Izberi razporeditev</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Prikaži dnevnik</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Nova tipkovnica čaka na nastavitev.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Število novih tipkovnic, ki čakajo na nastavitev: {0}.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Nastavi…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Privzeta razporeditev</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Razporeditev brez zunanje tipkovnice</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Uporabljena, ko ni priključena nobena zunanja tipkovnica, na primer za tipkovnico prenosnika.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Privzeta razporeditev</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Dodaj razporeditve v nastavitvah sistema Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Zunanje tipkovnice</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zunanje tipkovnice</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Zunanjih tipkovnic še ni. Priključite tipkovnico USB ali Bluetooth in AutoLayout bo vprašal, katero razporeditev uporablja.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>V uporabi</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Priključena</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Ni nastavljena</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Čaka na nastavitev</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Odklopljena</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Prezrta</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Samodejno (razporeditev drugega računalnika)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (ni nameščena)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Zdaj priključena</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Nazadnje priključena: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Nastavi…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Uredi…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Prezri (ni tipkovnica)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Prenehaj prezirati</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Pozabi</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Več možnosti za {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Želite pozabiti to tipkovnico?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Če znova priključite tipkovnico „{0}“, bo AutoLayout znova vprašal po njeni razporeditvi.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nova tipkovnica</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Urejanje tipkovnice</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Priključena je bila nova tipkovnica</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Seje oddaljenega namizja</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Izberite razporeditev, natisnjeno na tipkah. AutoLayout jo bo uporabil, kadar koli bo ta tipkovnica priključena. Dokler ne shranite, se nič ne spremeni.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} od {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Ime</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Razporeditev</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Izberite razporeditev</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (predlagano)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Predlagano glede na model tipkovnice. Preverite pred shranjevanjem.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tipkovnica ne sporoča svoje razporeditve, zato je to ugibanje na podlagi regije sistema Windows. Preverite pred shranjevanjem.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Verjetno gre za razporeditev {0}, ki ni nameščena. Dodajte jo v nastavitvah sistema Windows in jo nato izberite tukaj.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Velja, ko se ta računalnik uporablja prek oddaljenega namizja. Windows privzeto uporabi razporeditev tipkovnice računalnika, iz katerega se povezujete.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ta računalnik je nastavljen tako, da prezre razporeditev drugega računalnika (IgnoreRemoteKeyboardLayout). Izberite fiksno razporeditev.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Razporeditve ni na seznamu?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Prezri to napravo (ni tipkovnica)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Shrani</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ni tipkovnica</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ne zdaj</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Prekliči</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Splošno</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Zaženi s sistemom Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zaženi s sistemom Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout se izvaja iz mape, kot je Prenosi, iz začasne mape ali z izmenljivega pogona. Premaknite ga v trajno mapo, preden nastavite zagon s sistemom Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Zagon s sistemom Windows je bil izklopljen v upravitelju opravil ali v nastavitvah sistema Windows. Vklopite ga tam.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>O tem, ali se aplikacije zaženejo s sistemom Windows, odloča vaša organizacija.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Nastavitve „Zaženi s sistemom Windows“ ni bilo mogoče spremeniti.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Pokaži obvestilo, ko se razporeditev spremeni</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pokaži obvestilo, ko se razporeditev spremeni</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Obnovi osvetlitev ozadja tipkovnice</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Obnovi raven, ki ste jo izbrali s tipkama Fn+preslednica (izklopljeno, nizko ali visoko), ko se zaslon vklopi in ko se zažene Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Obnovi osvetlitev ozadja tipkovnice</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Zapisuj datoteko dnevnika</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Privzeto izklopljeno. Dnevnik navaja priključene tipkovnice in kdaj – nikoli tega, kar tipkate.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zapisuj datoteko dnevnika</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Odpri dnevnik</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Odpri mapo</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Zasebnost</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nikoli ne bere, kaj tipkate. Preverja samo, katere tipkovnice so priključene, in ne vzpostavlja omrežnih povezav.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>O programu</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Različica {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Avtorji AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Z licenco Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Prikaži licenco</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Obvestila tretjih oseb</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Stran projekta</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Podpri na Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Trenutna razporeditev: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Nastavi „{0}“…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tipkovnice…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Nastavitve…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Izhod</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nova tipkovnica: kliknite za nastavitev</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Kliknite, da vidite, kaj je šlo narobe</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nova tipkovnica: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Izberite njeno razporeditev. Do takrat se nič ne spremeni.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Videti je, da gre za razporeditev {0}. Potrdite jo, če jo želite uporabljati. Do takrat se nič ne spremeni.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Nastavi</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>Tipkovnica „{0}“ je priključena.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>Tipkovnica „{0}“ je odklopljena. Vrnitev na privzeto razporeditev.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Zdaj se uporablja privzeta razporeditev.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Izbrano za to sejo oddaljenega namizja.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Razporeditev ni nameščena</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>Tipkovnica „{0}“ uporablja razporeditev {1}, ki ni več nameščena. Izberite drugo razporeditev.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Privzeta razporeditev {0} ni več nameščena. Izberite drugo razporeditev.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Razporeditve ni bilo mogoče preklopiti</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows ni sprejel razporeditve {0}. Še vedno lahko preklapljate s tipkama Win+preslednica.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Oddaljeno namizje</value></data>
+</root>

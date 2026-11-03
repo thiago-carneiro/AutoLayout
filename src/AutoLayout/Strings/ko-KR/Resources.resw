@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>키보드</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>키보드</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>설정</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>사용 중인 레이아웃</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>“{0}” 키보드가 연결되어 있기 때문입니다.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>외부 키보드가 연결되어 있지 않기 때문입니다.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>원격 데스크톱 세션: Windows는 다른 컴퓨터의 키보드 레이아웃을 사용합니다.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>원격 데스크톱 세션용으로 선택되었습니다.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Windows 로고 키 + 스페이스바를 눌러 언제든지 레이아웃을 전환할 수 있습니다. AutoLayout은 키보드를 연결하거나 분리할 때만 동작합니다.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>{0}(으)로 전환할 수 없습니다</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>이 레이아웃이 더 이상 설치되어 있지 않습니다. 이 키보드에 사용할 다른 레이아웃을 선택하세요.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>기본 레이아웃이 더 이상 설치되어 있지 않습니다. 다른 레이아웃을 선택하세요.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows에서 변경 내용을 적용하지 못했습니다. Windows 로고 키 + 스페이스바로 직접 전환할 수 있습니다.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>레이아웃 선택</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>로그 보기</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>새 키보드 설정을 기다리고 있습니다.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>새 키보드 {0}개의 설정을 기다리고 있습니다.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>설정하기…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>기본 레이아웃</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>외부 키보드가 없을 때의 레이아웃</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>외부 키보드가 연결되어 있지 않을 때(예: 노트북 자체 키보드) 사용됩니다.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>기본 레이아웃</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Windows 설정에서 레이아웃 추가</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>외부 키보드</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>외부 키보드</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>아직 외부 키보드가 없습니다. USB 또는 Bluetooth 키보드를 연결하면 AutoLayout이 사용할 레이아웃을 물어봅니다.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>사용 중</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>연결됨</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>설정되지 않음</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>설정 대기 중</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>연결 끊김</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>무시됨</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>자동(다른 컴퓨터의 레이아웃)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0}(설치되지 않음)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>지금 연결됨</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>마지막 연결: {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>설정하기…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>편집…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>무시(키보드 아님)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>무시 해제</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>삭제</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>{0}에 대한 기타 옵션</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>이 키보드를 삭제하시겠습니까?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>“{0}” 키보드를 다시 연결하면 AutoLayout이 레이아웃을 다시 물어봅니다.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>새 키보드</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>키보드 편집</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>새 키보드가 연결되었습니다</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>원격 데스크톱 세션</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>키에 인쇄된 레이아웃을 선택하세요. 이 키보드가 연결될 때마다 AutoLayout이 해당 레이아웃을 사용합니다. 저장하기 전에는 아무것도 변경되지 않습니다.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1}/{2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>이름</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>레이아웃</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>레이아웃 선택</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0}(추천)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>키보드 모델을 기준으로 추천한 레이아웃입니다. 저장하기 전에 확인하세요.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>이 키보드는 레이아웃을 알려 주지 않으므로 Windows 지역 설정을 바탕으로 추측한 값입니다. 저장하기 전에 확인하세요.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>{0}일 가능성이 높지만 설치되어 있지 않습니다. Windows 설정에서 추가한 다음 여기에서 선택하세요.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>이 PC를 원격 데스크톱으로 사용하는 동안 적용됩니다. 기본적으로 Windows는 연결한 컴퓨터에 있는 키보드의 레이아웃을 사용합니다.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>이 PC는 다른 컴퓨터의 레이아웃을 무시하도록 설정되어 있습니다(IgnoreRemoteKeyboardLayout). 고정 레이아웃을 선택하세요.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>레이아웃이 목록에 없나요?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>이 장치 무시(키보드가 아님)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>저장</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>키보드 아님</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>나중에</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>취소</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>일반</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Windows 시작 시 실행</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Windows 시작 시 실행</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout이 다운로드, 임시 폴더, 이동식 드라이브 같은 폴더에서 실행되고 있습니다. Windows 시작 시 실행하려면 먼저 영구적인 폴더로 옮기세요.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Windows 시작 시 실행이 작업 관리자 또는 Windows 설정에서 꺼져 있습니다. 해당 위치에서 켜세요.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>앱을 Windows 시작 시 실행할지 여부는 조직에서 결정합니다.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>“Windows 시작 시 실행” 설정을 변경할 수 없습니다.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>레이아웃이 바뀔 때 알림 표시</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>레이아웃이 바뀔 때 알림 표시</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>키보드 백라이트 복원</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>화면이 켜질 때와 Windows가 시작될 때, Fn+스페이스바로 선택한 밝기(끔, 약, 강)로 되돌립니다.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>키보드 백라이트 복원</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>진단</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>로그 파일 쓰기</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>기본적으로 꺼져 있습니다. 로그에는 연결된 키보드와 연결 시점이 기록되며, 입력한 내용은 절대 기록되지 않습니다.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>로그 파일 쓰기</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>로그 열기</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>폴더 열기</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>개인 정보</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout은 입력한 내용을 절대 읽지 않습니다. 어떤 키보드가 연결되어 있는지만 확인하며 네트워크에 연결하지 않습니다.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>정보</value></data>
+  <data name="About_Version" xml:space="preserve"><value>버전 {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout 작성자</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Apache License 2.0에 따라 사용이 허가됩니다.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>라이선스 보기</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>타사 알림</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>프로젝트 페이지</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Ko-fi에서 후원하기</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>현재 레이아웃: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>“{0}” 설정하기…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>키보드…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>설정…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>끝내기</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+새 키보드: 클릭하여 설정</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+클릭하여 문제 확인</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>새 키보드: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>레이아웃을 선택하세요. 그때까지는 아무것도 변경되지 않습니다.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>{0}인 것 같습니다. 사용하려면 확인하세요. 그때까지는 아무것도 변경되지 않습니다.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>설정하기</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” 키보드가 연결되었습니다.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” 키보드 연결이 끊어졌습니다. 기본 레이아웃으로 돌아갑니다.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>이제 기본 레이아웃을 사용합니다.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>이 원격 데스크톱 세션용으로 선택되었습니다.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>레이아웃이 설치되지 않음</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” 키보드는 {1}을(를) 사용하지만 더 이상 설치되어 있지 않습니다. 다른 레이아웃을 선택하세요.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>기본 레이아웃인 {0}이(가) 더 이상 설치되어 있지 않습니다. 다른 레이아웃을 선택하세요.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>레이아웃을 전환할 수 없습니다</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows에서 {0}을(를) 적용하지 못했습니다. Windows 로고 키 + 스페이스바로 직접 전환할 수 있습니다.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>원격 데스크톱</value></data>
+</root>

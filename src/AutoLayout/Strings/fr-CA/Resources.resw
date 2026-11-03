@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Claviers</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Claviers</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Paramètres</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Disposition en cours d’utilisation</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Parce que « {0} » est connecté.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Parce qu’aucun clavier externe n’est connecté.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Session Bureau à distance : Windows utilise la disposition du clavier de l’autre ordinateur.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Choisie pour les sessions Bureau à distance.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Vous pouvez toujours changer de disposition avec Windows+Espace. AutoLayout n’intervient que lorsqu’un clavier est connecté ou déconnecté.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Impossible de passer à {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Cette disposition n’est plus installée. Choisissez-en une autre pour le clavier.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>La disposition par défaut n’est plus installée. Choisissez-en une autre.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows n’a pas accepté le changement. Vous pouvez toujours changer avec Windows+Espace.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Choisir une disposition</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Afficher le journal</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Un nouveau clavier attend d’être configuré.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} nouveaux claviers attendent d’être configurés.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Configurer…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Disposition par défaut</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Disposition sans clavier externe</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Utilisée quand aucun clavier externe n’est connecté, par exemple pour le clavier de l’ordinateur portable.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Disposition par défaut</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Ajouter des dispositions dans les paramètres Windows</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Claviers externes</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Claviers externes</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Aucun clavier externe pour le moment. Connectez un clavier USB ou Bluetooth, et AutoLayout demandera quelle disposition il utilise.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>En cours d’utilisation</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Connecté</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Non configuré</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>En attente de configuration</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Déconnecté</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignoré</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatique (disposition de l’autre ordinateur)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (non installée)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Connecté maintenant</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Dernière connexion : {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Configurer…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Modifier…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorer (n’est pas un clavier)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Ne plus ignorer</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Oublier</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Plus d’options pour {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Oublier ce clavier ?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Si vous reconnectez « {0} », AutoLayout redemandera sa disposition.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nouveau clavier</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Modifier le clavier</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Un nouveau clavier a été connecté</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sessions Bureau à distance</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Choisissez la disposition imprimée sur ses touches. AutoLayout l’utilisera chaque fois que ce clavier sera connecté. Rien ne change tant que vous n’enregistrez pas.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} sur {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Nom</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Disposition</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Choisir une disposition</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (suggérée)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggérée d’après le modèle du clavier. Vérifiez-la avant d’enregistrer.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Le clavier ne signale pas sa disposition; il s’agit donc d’une estimation fondée sur votre région Windows. Vérifiez-la avant d’enregistrer.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Il s’agit probablement de {0}, qui n’est pas installée. Ajoutez-la dans les paramètres Windows, puis choisissez-la ici.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>S’applique quand ce PC est utilisé par Bureau à distance. Par défaut, Windows utilise la disposition du clavier de l’ordinateur à partir duquel vous vous connectez.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ce PC est configuré pour ignorer la disposition de l’autre ordinateur (IgnoreRemoteKeyboardLayout). Choisissez une disposition fixe.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Disposition introuvable ?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorer cet appareil (ce n’est pas un clavier)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Enregistrer</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Pas un clavier</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Pas maintenant</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annuler</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Général</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Démarrer avec Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Démarrer avec Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout s’exécute depuis un dossier tel que Téléchargements, un dossier temporaire ou un lecteur amovible. Déplacez-le vers un dossier permanent avant de le démarrer avec Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Le démarrage avec Windows a été désactivé dans le Gestionnaire des tâches ou dans les paramètres Windows. Réactivez-le à cet endroit.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Votre organisation décide si les applications démarrent avec Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Impossible de modifier le paramètre « Démarrer avec Windows ».</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Afficher une notification quand la disposition change</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Afficher une notification quand la disposition change</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Restaurer le rétroéclairage du clavier</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Rétablit le niveau choisi avec Fn+Espace (éteint, faible ou élevé) quand l’écran s’allume et quand Windows démarre.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurer le rétroéclairage du clavier</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostic</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Écrire un fichier journal</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Désactivé par défaut. Le journal indique quels claviers sont connectés et quand, jamais ce que vous saisissez.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Écrire un fichier journal</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Ouvrir le journal</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Ouvrir le dossier</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Confidentialité</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ne lit jamais ce que vous saisissez. Il vérifie seulement quels claviers sont connectés et n’établit aucune connexion réseau.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>À propos</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Les auteurs d’AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Distribué sous licence Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Afficher la licence</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Avis de tiers</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Page du projet</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Soutenir sur Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Disposition actuelle : {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Configurer « {0} »…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Claviers…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Paramètres…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Quitter</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nouveau clavier : cliquez pour configurer</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Cliquez pour voir ce qui a mal tourné</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nouveau clavier : {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Choisissez sa disposition. D’ici là, rien ne change.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>On dirait {0}. Confirmez pour l’utiliser. D’ici là, rien ne change.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Configurer</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>« {0} » est connecté.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>« {0} » est déconnecté. Retour à la disposition par défaut.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>La disposition par défaut est maintenant utilisée.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Choisie pour cette session Bureau à distance.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Disposition non installée</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>« {0} » utilise {1}, qui n’est plus installée. Choisissez une autre disposition.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>La disposition par défaut, {0}, n’est plus installée. Choisissez une autre disposition.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Impossible de changer de disposition</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows n’a pas accepté {0}. Vous pouvez toujours changer avec Windows+Espace.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Bureau à distance</value></data>
+</root>

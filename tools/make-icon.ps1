@@ -1,11 +1,11 @@
 # Copyright 2026 The AutoLayout authors
 # SPDX-License-Identifier: Apache-2.0
 #
-# Draws the AutoLayout icon (a keyboard with a small "A") from simple shapes and writes a
-# multi-size .ico with PNG frames. Run it again after changing the drawing.
+# Draws the AutoLayout icon (a keyboard) from simple shapes and writes a multi-size .ico with
+# PNG frames, plus a 256-pixel PNG. Run it again after changing the drawing.
 
 param(
-    [string] $OutFile = (Join-Path $PSScriptRoot '..\src\AutoLayout\Resources\AutoLayout.ico')
+    [string] $OutFile = (Join-Path $PSScriptRoot '..\src\AutoLayout\Assets\AutoLayout.ico')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -78,3 +78,31 @@ finally {
     $out.Close()
 }
 Write-Output "Wrote $OutFile"
+
+$png = [System.IO.Path]::ChangeExtension($OutFile, '.png')
+[System.IO.File]::WriteAllBytes($png, $frames[$frames.Count - 1])
+Write-Output "Wrote $png"
+
+# Images for the MSIX package (Microsoft Store): the icon centered on a transparent canvas
+$storeFolder = Join-Path (Split-Path $OutFile) 'Store'
+New-Item -ItemType Directory -Force $storeFolder | Out-Null
+function Save-Asset([string] $name, [int] $width, [int] $height, [int] $icon) {
+    $frameStream = New-Object System.IO.MemoryStream (, (New-IconFrame $icon))
+    $frame = [System.Drawing.Image]::FromStream($frameStream)
+    $canvas = New-Object System.Drawing.Bitmap $width, $height, ([System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
+    $g = [System.Drawing.Graphics]::FromImage($canvas)
+    $g.Clear([System.Drawing.Color]::Transparent)
+    $g.DrawImage($frame, [int](($width - $icon) / 2), [int](($height - $icon) / 2), $icon, $icon)
+    $g.Dispose()
+    $path = Join-Path $storeFolder $name
+    $canvas.Save($path, [System.Drawing.Imaging.ImageFormat]::Png)
+    $canvas.Dispose(); $frame.Dispose(); $frameStream.Dispose()
+    Write-Output "Wrote $path"
+}
+Save-Asset 'Square44x44Logo.png' 44 44 40
+Save-Asset 'Square44x44Logo.targetsize-24_altform-unplated.png' 24 24 24
+Save-Asset 'Square44x44Logo.targetsize-48_altform-unplated.png' 48 48 48
+Save-Asset 'Square150x150Logo.png' 150 150 96
+Save-Asset 'Wide310x150Logo.png' 310 150 96
+Save-Asset 'StoreLogo.png' 50 50 48
+Save-Asset 'SplashScreen.png' 620 300 160

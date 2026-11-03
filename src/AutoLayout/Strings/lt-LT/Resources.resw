@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Klaviatūros</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Klaviatūros</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Parametrai</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Naudojamas išdėstymas</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Nes prijungta klaviatūra „{0}“.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Nes neprijungta jokia išorinė klaviatūra.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Nuotolinio darbalaukio seansas: Windows naudoja kito kompiuterio klaviatūros išdėstymą.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Pasirinkta nuotolinio darbalaukio seansams.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Išdėstymus vis tiek galite perjungti naudodami Win+tarpas. AutoLayout veikia tik tada, kai klaviatūra prijungiama arba atjungiama.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Nepavyko perjungti išdėstymo: {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Šis išdėstymas nebėra įdiegtas. Pasirinkite kitą šiai klaviatūrai.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Numatytasis išdėstymas nebėra įdiegtas. Pasirinkite kitą.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows nepriėmė pakeitimo. Vis tiek galite perjungti naudodami Win+tarpas.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Pasirinkti išdėstymą</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Peržiūrėti žurnalą</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Nauja klaviatūra laukia nustatymo.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>Naujų klaviatūrų, laukiančių nustatymo: {0}.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Nustatyti…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Numatytasis išdėstymas</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Išdėstymas be išorinės klaviatūros</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Naudojamas, kai neprijungta jokia išorinė klaviatūra, pavyzdžiui, paties nešiojamojo kompiuterio klaviatūrai.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Numatytasis išdėstymas</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Pridėti išdėstymų Windows parametruose</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Išorinės klaviatūros</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Išorinės klaviatūros</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Išorinių klaviatūrų dar nėra. Prijunkite USB arba Bluetooth klaviatūrą, o AutoLayout paklaus, kokį išdėstymą ji naudoja.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Naudojama</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Prijungta</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Nenustatyta</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Laukia nustatymo</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Atjungta</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignoruojama</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatinis (kito kompiuterio išdėstymas)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (neįdiegta)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Prijungta dabar</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Paskutinį kartą prijungta {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Nustatyti…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Redaguoti…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignoruoti (ne klaviatūra)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Nebeignoruoti</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Pamiršti</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Daugiau parinkčių: {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Pamiršti šią klaviatūrą?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Jei „{0}“ prijungsite dar kartą, AutoLayout vėl paklaus jos išdėstymo.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nauja klaviatūra</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Redaguoti klaviatūrą</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Prijungta nauja klaviatūra</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Nuotolinio darbalaukio seansai</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Pasirinkite išdėstymą, atspausdintą ant jos klavišų. AutoLayout naudos jį kaskart, kai ši klaviatūra bus prijungta. Niekas nepasikeis, kol neišsaugosite.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} iš {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Pavadinimas</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Išdėstymas</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Pasirinkite išdėstymą</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (siūloma)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Pasiūlyta pagal klaviatūros modelį. Patikrinkite prieš išsaugodami.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klaviatūra nepraneša savo išdėstymo, todėl tai spėjimas pagal jūsų Windows regioną. Patikrinkite prieš išsaugodami.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Greičiausiai tai {0}, kuris neįdiegtas. Pridėkite jį Windows parametruose, tada pasirinkite čia.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Taikoma, kai šis kompiuteris naudojamas per nuotolinį darbalaukį. Pagal numatytuosius parametrus Windows naudoja kompiuterio, iš kurio jungiatės, klaviatūros išdėstymą.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Šiame kompiuteryje nustatyta ignoruoti kito kompiuterio išdėstymą (IgnoreRemoteKeyboardLayout). Pasirinkite fiksuotą išdėstymą.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Išdėstymo nėra sąraše?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignoruoti šį įrenginį (tai nėra klaviatūra)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Įrašyti</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ne klaviatūra</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ne dabar</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Atšaukti</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Bendra</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Paleisti kartu su Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Paleisti kartu su Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout veikia iš aplanko, pvz., Atsisiuntimų, laikinojo aplanko arba išimamo disko. Perkelkite jį į nuolatinį aplanką prieš nustatydami paleidimą kartu su Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Paleidimas kartu su Windows buvo išjungtas užduočių tvarkytuvėje arba Windows parametruose. Įjunkite jį ten.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Jūsų organizacija nusprendžia, ar programos paleidžiamos kartu su Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Nepavyko pakeisti parametro „Paleisti kartu su Windows“.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Rodyti pranešimą, kai pasikeičia išdėstymas</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Rodyti pranešimą, kai pasikeičia išdėstymas</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Atkurti klaviatūros foninį apšvietimą</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Grąžina lygį, kurį pasirinkote naudodami Fn+tarpas (išjungta, silpnas arba stiprus), kai įsijungia ekranas ir kai paleidžiama Windows.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Atkurti klaviatūros foninį apšvietimą</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Rašyti žurnalo failą</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Pagal numatytuosius parametrus išjungta. Žurnale nurodomos prijungtos klaviatūros ir kada, bet niekada ne tai, ką rašote.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Rašyti žurnalo failą</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Atidaryti žurnalą</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Atidaryti aplanką</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privatumas</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout niekada neskaito, ką rašote. Jis tik patikrina, kurios klaviatūros prijungtos, ir nesudaro jokių tinklo ryšių.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Apie</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versija {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout autoriai</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Licencijuota pagal Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Peržiūrėti licenciją</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Trečiųjų šalių pranešimai</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projekto puslapis</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Paremti per Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Dabartinis išdėstymas: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Nustatyti „{0}“…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Klaviatūros…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Parametrai…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Išeiti</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nauja klaviatūra: spustelėkite, kad nustatytumėte</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Spustelėkite, kad pamatytumėte, kas nepavyko</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nauja klaviatūra: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Pasirinkite jos išdėstymą. Iki tol niekas nepasikeis.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Panašu, kad tai {0}. Patvirtinkite, kad naudotumėte. Iki tol niekas nepasikeis.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Nustatyti</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>Prijungta „{0}“.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ atjungta. Grįžtama prie numatytojo išdėstymo.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Dabar naudojamas numatytasis išdėstymas.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Pasirinkta šiam nuotolinio darbalaukio seansui.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Išdėstymas neįdiegtas</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>„{0}“ naudoja {1}, kuris nebėra įdiegtas. Pasirinkite kitą išdėstymą.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Numatytasis išdėstymas {0} nebėra įdiegtas. Pasirinkite kitą išdėstymą.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Nepavyko perjungti išdėstymo</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows nepriėmė: {0}. Vis tiek galite perjungti naudodami Win+tarpas.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Nuotolinis darbalaukis</value></data>
+</root>

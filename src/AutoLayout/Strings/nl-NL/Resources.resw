@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Toetsenborden</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Toetsenborden</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Instellingen</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Indeling in gebruik</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Omdat “{0}” is aangesloten.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Omdat er geen extern toetsenbord is aangesloten.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Sessie van Extern bureaublad: Windows gebruikt de toetsenbordindeling van de andere computer.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Gekozen voor sessies van Extern bureaublad.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>U kunt nog steeds van indeling wisselen met Win+Spatie. AutoLayout doet alleen iets wanneer een toetsenbord wordt aangesloten of losgekoppeld.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Kan niet overschakelen naar {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Deze indeling is niet meer geïnstalleerd. Kies een andere indeling voor het toetsenbord.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>De standaardindeling is niet meer geïnstalleerd. Kies een andere indeling.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows heeft de wijziging niet geaccepteerd. U kunt nog steeds wisselen met Win+Spatie.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Indeling kiezen</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Logboek weergeven</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Een nieuw toetsenbord wacht op installatie.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} nieuwe toetsenborden wachten op installatie.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Instellen…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Standaardindeling</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Indeling zonder extern toetsenbord</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Wordt gebruikt wanneer er geen extern toetsenbord is aangesloten, bijvoorbeeld voor het toetsenbord van de laptop zelf.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Standaardindeling</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Indelingen toevoegen in Windows-instellingen</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Externe toetsenborden</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Externe toetsenborden</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Nog geen externe toetsenborden. Sluit een USB- of Bluetooth-toetsenbord aan en AutoLayout vraagt welke indeling het gebruikt.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>In gebruik</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Verbonden</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Niet ingesteld</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Wacht op installatie</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Losgekoppeld</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Genegeerd</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatisch (indeling van de andere computer)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (niet geïnstalleerd)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Nu verbonden</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Laatst verbonden {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Instellen…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Bewerken…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Negeren (geen toetsenbord)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Niet meer negeren</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Vergeten</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Meer opties voor {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Dit toetsenbord vergeten?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Als u “{0}” opnieuw aansluit, vraagt AutoLayout opnieuw om de indeling.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nieuw toetsenbord</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Toetsenbord bewerken</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Er is een nieuw toetsenbord aangesloten</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Sessies van Extern bureaublad</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Kies de indeling die op de toetsen staat. AutoLayout gebruikt deze telkens wanneer dit toetsenbord is aangesloten. Er verandert niets totdat u opslaat.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} van {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Naam</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Indeling</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Kies een indeling</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (voorgesteld)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Voorgesteld op basis van het toetsenbordmodel. Controleer dit voordat u opslaat.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Het toetsenbord geeft zijn indeling niet door, dus dit is een gok op basis van uw Windows-regio. Controleer dit voordat u opslaat.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Dit is waarschijnlijk {0}, die niet is geïnstalleerd. Voeg de indeling toe in Windows-instellingen en kies deze dan hier.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Geldt wanneer deze pc wordt gebruikt via Extern bureaublad. Standaard gebruikt Windows de indeling van het toetsenbord van de computer waarmee u verbinding maakt.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Deze pc is ingesteld om de indeling van de andere computer te negeren (IgnoreRemoteKeyboardLayout). Kies een vaste indeling.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Indeling niet in de lijst?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Dit apparaat negeren (het is geen toetsenbord)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Opslaan</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Geen toetsenbord</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Niet nu</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annuleren</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Algemeen</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Starten met Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Starten met Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout wordt uitgevoerd vanuit een map zoals Downloads, een tijdelijke map of een verwisselbare schijf. Verplaats het programma naar een permanente map voordat u het met Windows laat starten.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Starten met Windows is uitgeschakeld in Taakbeheer of Windows-instellingen. Schakel het daar weer in.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Uw organisatie bepaalt of apps met Windows starten.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Kan de instelling “Starten met Windows” niet wijzigen.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Een melding weergeven wanneer de indeling verandert</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Een melding weergeven wanneer de indeling verandert</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Toetsenbordverlichting herstellen</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Herstelt het niveau dat u met Fn+Spatie hebt gekozen (uit, laag of hoog) wanneer het scherm wordt ingeschakeld en wanneer Windows start.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Toetsenbordverlichting herstellen</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostiek</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Een logboekbestand schrijven</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Standaard uitgeschakeld. Het logboek vermeldt welke toetsenborden zijn aangesloten en wanneer — nooit wat u typt.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Een logboekbestand schrijven</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Logboek openen</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Map openen</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacy</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout leest nooit wat u typt. Het controleert alleen welke toetsenborden zijn aangesloten en maakt geen netwerkverbindingen.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Info</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Versie {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 De auteurs van AutoLayout</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Gelicentieerd onder de Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Licentie weergeven</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Kennisgevingen van derden</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projectpagina</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Steunen via Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Huidige indeling: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>“{0}” instellen…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Toetsenborden…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Instellingen…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Afsluiten</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nieuw toetsenbord: klik om in te stellen</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Klik om te zien wat er misging</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nieuw toetsenbord: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Kies de indeling. Tot die tijd verandert er niets.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Lijkt op {0}. Bevestig om deze te gebruiken. Tot die tijd verandert er niets.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Instellen</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” aangesloten.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” losgekoppeld. Terug naar de standaardindeling.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>De standaardindeling wordt nu gebruikt.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Gekozen voor deze sessie van Extern bureaublad.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Indeling niet geïnstalleerd</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>“{0}” gebruikt {1}, die niet meer is geïnstalleerd. Kies een andere indeling.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>De standaardindeling, {0}, is niet meer geïnstalleerd. Kies een andere indeling.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Kan de indeling niet wijzigen</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows heeft {0} niet geaccepteerd. U kunt nog steeds wisselen met Win+Spatie.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Extern bureaublad</value></data>
+</root>

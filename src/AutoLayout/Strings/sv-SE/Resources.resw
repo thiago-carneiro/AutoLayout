@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_FlowDirection" xml:space="preserve"><value>LeftToRight</value></data>
+  <data name="App_Name" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="App_NameText.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_TitleBar.Text" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Main_Title" xml:space="preserve"><value>AutoLayout</value></data>
+  <data name="Nav_Keyboards.Content" xml:space="preserve"><value>Tangentbord</value></data>
+  <data name="Page_Keyboards.Text" xml:space="preserve"><value>Tangentbord</value></data>
+  <data name="Page_Settings.Text" xml:space="preserve"><value>Inställningar</value></data>
+  <data name="Main_InUse.Text" xml:space="preserve"><value>Layout som används</value></data>
+  <data name="Main_Now_ByKeyboard" xml:space="preserve"><value>Eftersom ”{0}” är ansluten.</value></data>
+  <data name="Main_Now_Default" xml:space="preserve"><value>Eftersom inget externt tangentbord är anslutet.</value></data>
+  <data name="Main_Now_Remote" xml:space="preserve"><value>Fjärrskrivbordssession: Windows använder tangentbordslayouten från den andra datorn.</value></data>
+  <data name="Main_Now_RemoteFixed" xml:space="preserve"><value>Vald för fjärrskrivbordssessioner.</value></data>
+  <data name="Main_Now_Hint.Text" xml:space="preserve"><value>Du kan fortfarande byta layout med Win+Blanksteg. AutoLayout agerar bara när ett tangentbord ansluts eller kopplas från.</value></data>
+  <data name="Main_Now_Error" xml:space="preserve"><value>Det gick inte att byta till {0}</value></data>
+  <data name="Main_Problem_Missing" xml:space="preserve"><value>Den här layouten är inte längre installerad. Välj en annan layout för tangentbordet.</value></data>
+  <data name="Main_Problem_DefaultMissing" xml:space="preserve"><value>Standardlayouten är inte längre installerad. Välj en annan layout.</value></data>
+  <data name="Main_Problem_Apply" xml:space="preserve"><value>Windows godkände inte ändringen. Du kan fortfarande byta med Win+Blanksteg.</value></data>
+  <data name="Main_Problem_Choose" xml:space="preserve"><value>Välj layout</value></data>
+  <data name="Common_ViewLog" xml:space="preserve"><value>Visa logg</value></data>
+  <data name="Main_Waiting_One" xml:space="preserve"><value>Ett nytt tangentbord väntar på att konfigureras.</value></data>
+  <data name="Main_Waiting_Many" xml:space="preserve"><value>{0} nya tangentbord väntar på att konfigureras.</value></data>
+  <data name="Main_SetUpButton.Content" xml:space="preserve"><value>Konfigurera…</value></data>
+  <data name="Main_DefaultSection.Text" xml:space="preserve"><value>Standardlayout</value></data>
+  <data name="Main_Default_Header.Text" xml:space="preserve"><value>Layout utan externt tangentbord</value></data>
+  <data name="Main_Default_Description.Text" xml:space="preserve"><value>Används när inget externt tangentbord är anslutet, till exempel för den bärbara datorns eget tangentbord.</value></data>
+  <data name="Main_Default_Combo.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Standardlayout</value></data>
+  <data name="Common_AddLayouts.Content" xml:space="preserve"><value>Lägg till layouter i Windows-inställningar</value></data>
+  <data name="Main_List_Label.Text" xml:space="preserve"><value>Externa tangentbord</value></data>
+  <data name="Main_List.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Externa tangentbord</value></data>
+  <data name="Main_Empty.Text" xml:space="preserve"><value>Inga externa tangentbord ännu. Anslut ett USB- eller Bluetooth-tangentbord så frågar AutoLayout vilken layout det använder.</value></data>
+  <data name="Status_Active" xml:space="preserve"><value>Används</value></data>
+  <data name="Status_Connected" xml:space="preserve"><value>Ansluten</value></data>
+  <data name="Status_NotSetUp" xml:space="preserve"><value>Inte konfigurerad</value></data>
+  <data name="Status_NotSetUpConnected" xml:space="preserve"><value>Väntar på konfiguration</value></data>
+  <data name="Status_Disconnected" xml:space="preserve"><value>Frånkopplad</value></data>
+  <data name="Status_Ignored" xml:space="preserve"><value>Ignorerad</value></data>
+  <data name="Layout_None" xml:space="preserve"><value>—</value></data>
+  <data name="Layout_Automatic" xml:space="preserve"><value>Automatisk (den andra datorns layout)</value></data>
+  <data name="Layout_NotInstalled" xml:space="preserve"><value>{0} (inte installerad)</value></data>
+  <data name="Layout_WithLanguage" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="LastSeen_Now" xml:space="preserve"><value>Ansluten nu</value></data>
+  <data name="LastSeen_At" xml:space="preserve"><value>Senast ansluten {0}</value></data>
+  <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Btn_SetUp" xml:space="preserve"><value>Konfigurera…</value></data>
+  <data name="Btn_Edit" xml:space="preserve"><value>Redigera…</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorera (inte ett tangentbord)</value></data>
+  <data name="Btn_Unignore" xml:space="preserve"><value>Sluta ignorera</value></data>
+  <data name="Btn_Forget" xml:space="preserve"><value>Glöm</value></data>
+  <data name="Btn_More" xml:space="preserve"><value>Fler alternativ för {0}</value></data>
+  <data name="Forget_Title" xml:space="preserve"><value>Glömma det här tangentbordet?</value></data>
+  <data name="Forget_Confirm" xml:space="preserve"><value>Om du ansluter ”{0}” igen frågar AutoLayout efter layouten på nytt.</value></data>
+  <data name="Kbd_Title_New" xml:space="preserve"><value>Nytt tangentbord</value></data>
+  <data name="Kbd_Title_Edit" xml:space="preserve"><value>Redigera tangentbord</value></data>
+  <data name="Kbd_Heading_New" xml:space="preserve"><value>Ett nytt tangentbord har anslutits</value></data>
+  <data name="Kbd_Heading_Remote" xml:space="preserve"><value>Fjärrskrivbordssessioner</value></data>
+  <data name="Kbd_Intro_New" xml:space="preserve"><value>Välj den layout som är tryckt på tangenterna. AutoLayout använder den varje gång tangentbordet ansluts. Inget ändras förrän du sparar.</value></data>
+  <data name="Kbd_Details" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
+  <data name="Kbd_Details_NoProduct" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Kbd_Queue" xml:space="preserve"><value>{0} · {1} av {2}</value></data>
+  <data name="Kbd_Name.Header" xml:space="preserve"><value>Namn</value></data>
+  <data name="Kbd_Layout.Header" xml:space="preserve"><value>Layout</value></data>
+  <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Välj en layout</value></data>
+  <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (föreslagen)</value></data>
+  <data name="Kbd_Hint_High" xml:space="preserve"><value>Föreslagen utifrån tangentbordsmodellen. Kontrollera den innan du sparar.</value></data>
+  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tangentbordet rapporterar inte sin layout, så detta är en gissning utifrån din Windows-region. Kontrollera den innan du sparar.</value></data>
+  <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Det är troligen {0}, som inte är installerad. Lägg till den i Windows-inställningar och välj den sedan här.</value></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gäller när den här datorn används via Fjärrskrivbord. Som standard använder Windows layouten från tangentbordet på den dator du ansluter från.</value></data>
+  <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Den här datorn är inställd på att ignorera den andra datorns layout (IgnoreRemoteKeyboardLayout). Välj en fast layout.</value></data>
+  <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Saknas layouten i listan?</value></data>
+  <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorera den här enheten (det är inte ett tangentbord)</value></data>
+  <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Spara</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Inte ett tangentbord</value></data>
+  <data name="Kbd_Btn_Later" xml:space="preserve"><value>Inte nu</value></data>
+  <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="Set_General.Text" xml:space="preserve"><value>Allmänt</value></data>
+  <data name="Set_Startup.Text" xml:space="preserve"><value>Starta med Windows</value></data>
+  <data name="Set_StartupToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Starta med Windows</value></data>
+  <data name="Set_Startup_RiskyLocation" xml:space="preserve"><value>AutoLayout körs från en mapp som Hämtade filer, en tillfällig mapp eller en flyttbar enhet. Flytta appen till en permanent mapp innan du låter den starta med Windows.</value></data>
+  <data name="Set_Startup_BlockedByUser" xml:space="preserve"><value>Start med Windows har inaktiverats i Aktivitetshanteraren eller Windows-inställningar. Aktivera det där.</value></data>
+  <data name="Set_Startup_BlockedByPolicy" xml:space="preserve"><value>Din organisation bestämmer om appar startar med Windows.</value></data>
+  <data name="Err_Startup" xml:space="preserve"><value>Det gick inte att ändra inställningen ”Starta med Windows”.</value></data>
+  <data name="Set_Notify.Text" xml:space="preserve"><value>Visa en avisering när layouten ändras</value></data>
+  <data name="Set_NotifyToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Visa en avisering när layouten ändras</value></data>
+  <data name="Set_ThinkPad.Text" xml:space="preserve"><value>ThinkPad</value></data>
+  <data name="Set_Backlight.Text" xml:space="preserve"><value>Återställ tangentbordsbelysningen</value></data>
+  <data name="Set_Backlight_Hint.Text" xml:space="preserve"><value>Återställer den nivå du valde med Fn+Blanksteg (av, låg eller hög) när skärmen slås på och när Windows startar.</value></data>
+  <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Återställ tangentbordsbelysningen</value></data>
+  <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostik</value></data>
+  <data name="Set_Log.Text" xml:space="preserve"><value>Skriv en loggfil</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Av som standard. Loggen visar vilka tangentbord som är anslutna och när — aldrig vad du skriver.</value></data>
+  <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Skriv en loggfil</value></data>
+  <data name="Set_OpenLog.Content" xml:space="preserve"><value>Öppna logg</value></data>
+  <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Öppna mapp</value></data>
+  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Sekretess</value></data>
+  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout läser aldrig vad du skriver. Appen kontrollerar bara vilka tangentbord som är anslutna och gör inga nätverksanslutningar.</value></data>
+  <data name="Set_AboutSection.Text" xml:space="preserve"><value>Om</value></data>
+  <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayouts upphovspersoner</value></data>
+  <data name="About_License.Text" xml:space="preserve"><value>Licensierad under Apache License 2.0.</value></data>
+  <data name="About_ViewLicense.Content" xml:space="preserve"><value>Visa licens</value></data>
+  <data name="About_Credits.Content" xml:space="preserve"><value>Meddelanden från tredje part</value></data>
+  <data name="About_Website.Content" xml:space="preserve"><value>Projektsida</value></data>
+  <data name="About_Tip.Content" xml:space="preserve"><value>Stöd på Ko-fi</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Aktuell layout: {0}</value></data>
+  <data name="Menu_SetUp" xml:space="preserve"><value>Konfigurera ”{0}”…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Tangentbord…</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Inställningar…</value></data>
+  <data name="Menu_Exit" xml:space="preserve"><value>Avsluta</value></data>
+  <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
+  <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
+Nytt tangentbord: klicka för att konfigurera</value></data>
+  <data name="Tray_Tip_Error" xml:space="preserve"><value>AutoLayout
+Klicka för att se vad som gick fel</value></data>
+  <data name="Toast_New_Title" xml:space="preserve"><value>Nytt tangentbord: {0}</value></data>
+  <data name="Toast_New_Text" xml:space="preserve"><value>Välj dess layout. Tills dess ändras inget.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Ser ut som {0}. Bekräfta för att använda den. Tills dess ändras inget.</value></data>
+  <data name="Toast_New_Button" xml:space="preserve"><value>Konfigurera</value></data>
+  <data name="Toast_Applied_Text" xml:space="preserve"><value>”{0}” ansluten.</value></data>
+  <data name="Toast_Reverted_Text" xml:space="preserve"><value>”{0}” frånkopplad. Tillbaka till standardlayouten.</value></data>
+  <data name="Toast_Default_Text" xml:space="preserve"><value>Standardlayouten används nu.</value></data>
+  <data name="Toast_Remote_Text" xml:space="preserve"><value>Vald för den här fjärrskrivbordssessionen.</value></data>
+  <data name="Toast_Err_Missing_Title" xml:space="preserve"><value>Layouten är inte installerad</value></data>
+  <data name="Toast_Err_Missing" xml:space="preserve"><value>”{0}” använder {1}, som inte längre är installerad. Välj en annan layout.</value></data>
+  <data name="Toast_Err_DefaultMissing" xml:space="preserve"><value>Standardlayouten, {0}, är inte längre installerad. Välj en annan layout.</value></data>
+  <data name="Toast_Err_Apply_Title" xml:space="preserve"><value>Det gick inte att byta layout</value></data>
+  <data name="Toast_Err_Apply" xml:space="preserve"><value>Windows godkände inte {0}. Du kan fortfarande byta med Win+Blanksteg.</value></data>
+  <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
+  <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Fjärrskrivbord</value></data>
+</root>
