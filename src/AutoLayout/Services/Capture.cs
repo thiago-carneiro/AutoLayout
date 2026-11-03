@@ -48,6 +48,16 @@ internal static class Capture
             ScrollPage(main, toEnd: true);
             await Task.Delay(ShortWait);
             await SaveAsync(main, Path("keyboards-end"));
+
+            // Choosing a Remote Desktop layout reaches the engine (checks the item tags under Native AOT)
+            if (Descendants(main).OfType<ComboBox>().FirstOrDefault(c => c.Name == "RemoteCombo") is ComboBox remote && remote.Items.Count > 1)
+            {
+                remote.SelectedIndex = remote.Items.Count - 1;
+                await Task.Delay(ShortWait);
+                Log.Write("Capture: Remote Desktop layout chosen: " + app.Engine.Find(ExternalKeyboards.RemoteDesktopKey)?.LayoutProfileId);
+                app.Engine.SetRemoteLayout(null);
+                await Task.Delay(ShortWait);
+            }
             ScrollPage(main, toEnd: false);
             await Task.Delay(ShortWait);
 
@@ -92,10 +102,21 @@ internal static class Capture
                 }
             }
 
+            // The list is rebuilt here: the focus must stay in it (logged, to check)
+            string FocusName() => Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement(main.XamlRoot) is FrameworkElement f
+                ? f.GetType().Name + (f.DataContext is Views.KeyboardItem k ? " in row " + k.Key : string.Empty) : "none";
+            // As a keyboard user would be: on the "…" button of the first row
+            if (Descendants(main).OfType<Border>().FirstOrDefault(b => b.ContextFlyout != null) is Border firstRow)
+            {
+                Descendants(firstRow).OfType<Button>().LastOrDefault()?.Focus(FocusState.Keyboard);
+            }
+            await Task.Delay(ShortWait);
+            string before = FocusName();
             Demo.LayoutMissing = true;
             app.Engine.ReloadProfiles();
             app.Engine.Refresh();
             await Task.Delay(LongWait);
+            Log.Write("Capture: focus before the list was rebuilt: " + before + "; after: " + FocusName());
             await SaveAsync(main, Path("keyboards-problem"));
             Demo.LayoutMissing = false;
             app.Engine.ReloadProfiles();
@@ -178,6 +199,21 @@ internal static class Capture
         if (element == null)
         {
             return;
+        }
+        // No keyboard focus ring in screenshots (WinUI may give the window's first button keyboard
+        // focus): the focus goes, without a ring, to the first control of the content
+        DependencyObject content = Descendants(element).OfType<Frame>().FirstOrDefault()?.Content as DependencyObject ?? element;
+        DependencyObject? focused = element.XamlRoot != null
+            ? Microsoft.UI.Xaml.Input.FocusManager.GetFocusedElement(element.XamlRoot) as DependencyObject : null;
+        while (focused != null && focused != content)
+        {
+            focused = VisualTreeHelper.GetParent(focused);
+        }
+        if (focused == null
+            && Descendants(content).OfType<Control>().FirstOrDefault(c => c.IsTabStop && c.IsEnabled && c.Visibility == Visibility.Visible) is Control first)
+        {
+            first.Focus(FocusState.Programmatic);
+            await Task.Delay(100);
         }
         RenderTargetBitmap bitmap = new();
         await bitmap.RenderAsync(element);

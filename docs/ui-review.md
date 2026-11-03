@@ -11,7 +11,7 @@ An independent design review of every window, page state, menu and dialog, from 
 | 3 | The ignored row, at 60% opacity, failed text contrast | Full opacity; the name and icon in the secondary text color |
 | 4 | With a keyboard's layout uninstalled, the page said its layout was in use because it was connected | "“{0}” is connected, but its layout isn’t installed, so the default layout is in use." |
 | 5 | Forgetting a connected keyboard said "if you connect it again" | A text for the connected case: it goes back to waiting at once |
-| 6 | Remote Desktop looked like a disconnected keyboard, could be "forgotten", and its window had a Name field | Own description and status ("No remote session"), no Forget, no Name field, its own window title |
+| 6 | Remote Desktop looked like a disconnected keyboard, could be "forgotten", and its window had a Name field | Its own section under the keyboards: the explanation and a layout box ("Automatic (the other computer’s layout)" or any installed layout), which works before the first remote session (`Engine.SetRemoteLayout`). Its window, still opened from a problem notification, has no Name field |
 | 7 | Status pills were inconsistent in the light theme and kept old colors after a theme change | Pills only for "In use" and "Waiting"; other states are plain secondary text; colors refresh on theme change |
 | 8 | A stray "—" for keyboards with no layout; no direct action on a waiting keyboard | No layout text; an accent "Set up…" button on the waiting row |
 | 9 | "Ignore" used the warning icon; no right-click menu | Hide/View icons; the menu is the card's context menu (right-click, Shift+F10) and the "…" button opens it |
@@ -23,12 +23,12 @@ An independent design review of every window, page state, menu and dialog, from 
 | 15 | Monitor icon for "no external keyboard", collapse-like icon for Remote Desktop | Laptop and monitor |
 | 16 | Tray menu said "Current layout" and used "…" without a following dialog; the new-keyboard notification said "Confirm it to use it"; "USB Keyboard · USB" | "Layout in use", "Open AutoLayout", "Settings"; "Until you confirm it, nothing changes."; the product name is dropped when it repeats the connection; layout-change notifications are silent |
 | 17 | The setup window's footer divider was invisible in the dark theme | Divider brush |
+| — | Found while checking the fixes: every change rebuilt the keyboard list and the focus jumped out of it, to the first button of the window | The focus goes back to the same row, in the same focus state (checked under Native AOT by capture mode) |
 
 The new and changed strings were translated into the 36 machine-translated languages; the translation tests check every language for every key and placeholder.
 
 ## Not changed yet
 
-- **Remote Desktop as its own section** (an inline card with a layout selector, like the default layout) instead of a row in the keyboard list. The row now explains itself; a section would be clearer still.
 - **A distinguishing mark on the tray icon.** The plain keyboard resembles Windows' touch keyboard icon.
 - **Narrow windows and 200% text** were judged from the source, not measured: the setup window's footer could still overflow with very long button labels.
 - **Framework text in screenshots with `--lang`.** WinUI's own strings (the On/Off of switches) follow the Windows display language, so a capture in another language mixes the two. In normal use the app follows the Windows display language and they match.

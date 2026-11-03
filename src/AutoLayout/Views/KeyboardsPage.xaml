@@ -125,6 +125,29 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
+            <!-- Remote Desktop: a setting of this PC, not a device; texts set in code -->
+            <TextBlock x:Name="RemoteSectionText" Style="{StaticResource SectionHeaderStyle}" />
+            <!-- The explanation is long: the choice goes under it, at full width, so neither is squeezed -->
+            <Border Style="{StaticResource CardStyle}">
+                <Grid ColumnSpacing="16" RowSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <FontIcon Glyph="&#xE7F4;" VerticalAlignment="Center" />
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                        <TextBlock x:Name="RemoteHeaderText" Style="{StaticResource BodyTextBlockStyle}" />
+                        <TextBlock x:Name="RemoteDescriptionText" Style="{StaticResource SecondaryTextStyle}" TextWrapping="Wrap" />
+                    </StackPanel>
+                    <ComboBox x:Name="RemoteCombo" Grid.Row="1" Grid.Column="1" MinWidth="280" MaxWidth="480"
+                              HorizontalAlignment="Left" SelectionChanged="OnRemoteChanged" />
+                </Grid>
+            </Border>
         </StackPanel>
     </ScrollViewer>
 </Page>

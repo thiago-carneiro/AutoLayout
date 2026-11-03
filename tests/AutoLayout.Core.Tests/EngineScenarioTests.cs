@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AutoLayout.Core.Tests;
@@ -340,6 +341,30 @@ public sealed class EngineScenarioTests
         rig.Engine.SetRemoteAutomatic(null);
         rig.Engine.SetIgnored(ExternalKeyboards.RemoteDesktopKey, true);
         Assert.AreEqual(KeyboardState.Configured, rig.Engine.Find(ExternalKeyboards.RemoteDesktopKey)!.State, "Remote Desktop cannot be ignored");
+    }
+
+    [TestMethod]
+    public void RemoteDesktop_LayoutCanBeChosenBeforeTheFirstSession()
+    {
+        Rig rig = new Rig().Start();
+        Assert.IsNull(rig.Engine.Find(ExternalKeyboards.RemoteDesktopKey), "No entry until a session or a choice");
+
+        rig.Engine.SetRemoteLayout(FakeInputs.German);
+        KeyboardRecord rdp = rig.Engine.Find(ExternalKeyboards.RemoteDesktopKey)!;
+        Assert.AreEqual(FakeInputs.German.Id, rdp.LayoutProfileId);
+        Assert.AreEqual(KeyboardState.Configured, rdp.State);
+        Assert.AreEqual(FakeInputs.UsIntl.Id, rig.Inputs.CurrentId, "Nothing changes outside a remote session");
+
+        rig.Devices.IsRemoteSession = true;
+        rig.Engine.Refresh();
+        Assert.AreEqual(FakeInputs.German.Id, rig.Inputs.CurrentId);
+
+        rig.Engine.SetRemoteLayout(null);
+        Assert.AreEqual(SettingsStore.AutomaticProfileId, rdp.LayoutProfileId);
+        Assert.IsNull(rdp.LayoutKlid);
+        Assert.IsTrue(rig.Engine.IsRemoteAutomatic);
+        Assert.AreEqual(SettingsStore.AutomaticProfileId, rig.Store.Reload()!.Keyboards.Single(k => k.Key == ExternalKeyboards.RemoteDesktopKey).LayoutProfileId,
+            "Saved");
     }
 
     [TestMethod]

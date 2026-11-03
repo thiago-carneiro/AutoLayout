@@ -35,7 +35,7 @@ Hat tip to [SaltwaterC/KeyboardBacklightForLenovo](https://github.com/SaltwaterC
 On first start the main window opens with your current default layout selected. Close it and AutoLayout keeps running in the notification area.
 
 - **Notification area icon:** click it to open AutoLayout, or to set up a keyboard that is waiting. Right-click for the menu.
-- **Keyboards:** the layout in use and why, the layout when no external keyboard is connected, and every keyboard seen, with its layout and status. From a keyboard's "…" menu you can edit it, ignore it (for mice and receivers that Windows lists as keyboards) or forget it.
+- **Keyboards:** the layout in use and why, the layout when no external keyboard is connected, and every keyboard seen, with its layout and status. From a keyboard's "…" menu (or by right-clicking it) you can edit it, ignore it (for mice and receivers that Windows lists as keyboards) or forget it. At the end, the layout for Remote Desktop sessions: automatic (the other computer's layout) or one you choose.
 - **Settings:** start with Windows, a notification when the layout changes, the ThinkPad backlight and a diagnostic log.
 
 Settings and the log are in `%LocalAppData%\AutoLayout` (`settings.json`, `autolayout.log`). The log is off unless you turn it on, or start AutoLayout with `--log`.

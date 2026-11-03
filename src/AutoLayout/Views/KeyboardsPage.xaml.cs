@@ -8,9 +8,11 @@ using System.Linq;
 using AutoLayout.Core;
 using AutoLayout.Services;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 
 namespace AutoLayout.Views;
@@ -50,11 +52,16 @@ public sealed partial class KeyboardsPage : Page
     private readonly Engine engine = App.Current.Engine;
     private readonly ObservableCollection<KeyboardItem> items = new();
     private bool updatingDefault;
+    private bool updatingRemote;
 
     public KeyboardsPage()
     {
         InitializeComponent();
         KeyboardList.ItemsSource = items;
+        RemoteSectionText.Text = Loc.Get("Conn_RemoteDesktop");
+        RemoteHeaderText.Text = Loc.Get("Kbd_Heading_Remote");
+        RemoteDescriptionText.Text = Loc.Get("Kbd_Hint_Remote");
+        AutomationProperties.SetName(RemoteCombo, Loc.Get("Kbd_Heading_Remote"));
 
         // The status colors are looked up in code: look them up again for the other theme
         ActualThemeChanged += (_, _) => RefreshList();
@@ -73,6 +80,58 @@ public sealed partial class KeyboardsPage : Page
         RefreshStatus();
         RefreshDefault();
         RefreshList();
+        RefreshRemote();
+    }
+
+    /// <summary>"Automatic (the other computer's layout)" and the installed layouts.</summary>
+    private void RefreshRemote()
+    {
+        updatingRemote = true;
+        try
+        {
+            RemoteCombo.Items.Clear();
+            KeyboardRecord? remote = engine.Find(ExternalKeyboards.RemoteDesktopKey);
+            string selected = remote?.LayoutProfileId ?? SettingsStore.AutomaticProfileId;
+
+            ComboBoxItem automatic = new() { Content = Loc.Get("Layout_Automatic"), Tag = SettingsStore.AutomaticProfileId };
+            RemoteCombo.Items.Add(automatic);
+            RemoteCombo.SelectedItem = selected == SettingsStore.AutomaticProfileId ? automatic : null;
+            foreach (InputProfile profile in engine.InstalledProfiles.OrderBy(p => Ui.ProfileName(engine, p), StringComparer.CurrentCultureIgnoreCase))
+            {
+                ComboBoxItem item = new() { Content = Ui.ProfileName(engine, profile), Tag = profile };
+                RemoteCombo.Items.Add(item);
+                if (string.Equals(profile.Id, selected, StringComparison.OrdinalIgnoreCase))
+                {
+                    RemoteCombo.SelectedItem = item;
+                }
+            }
+            if (RemoteCombo.SelectedItem == null && remote != null)
+            {
+                // The chosen layout was uninstalled: show it, but it can't be chosen again
+                ComboBoxItem missing = new() { Content = Ui.LayoutText(engine, remote), IsEnabled = false };
+                RemoteCombo.Items.Insert(1, missing);
+                RemoteCombo.SelectedItem = missing;
+            }
+        }
+        finally
+        {
+            updatingRemote = false;
+        }
+    }
+
+    private void OnRemoteChanged(object sender, SelectionChangedEventArgs e)
+    {
+        if (updatingRemote || RemoteCombo.SelectedItem is not ComboBoxItem { IsEnabled: true } item)
+        {
+            return;
+        }
+        InputProfile? profile = item.Tag as InputProfile;
+        string chosen = profile?.Id ?? SettingsStore.AutomaticProfileId;
+        string current = engine.Find(ExternalKeyboards.RemoteDesktopKey)?.LayoutProfileId ?? SettingsStore.AutomaticProfileId;
+        if (!string.Equals(chosen, current, StringComparison.OrdinalIgnoreCase))
+        {
+            engine.SetRemoteLayout(profile);
+        }
     }
 
     private void RefreshStatus()
@@ -159,8 +218,12 @@ public sealed partial class KeyboardsPage : Page
 
     private void RefreshList()
     {
-        List<KeyboardRecord> keyboards = engine.Keyboards.ToList();
+        // Remote Desktop has its own section below the list
+        List<KeyboardRecord> keyboards = engine.Keyboards.Where(k => k.Connection != KeyboardConnection.RemoteDesktop).ToList();
         keyboards.Sort(Compare);
+
+        // Rebuilding the rows takes the focus away from them: give it back to the same row
+        (string? focusedKey, FocusState focusState) = FocusedRow();
 
         items.Clear();
         foreach (KeyboardRecord keyboard in keyboards)
@@ -169,6 +232,40 @@ public sealed partial class KeyboardsPage : Page
         }
         EmptyText.Visibility = items.Count == 0 ? Visibility.Visible : Visibility.Collapsed;
         KeyboardList.Visibility = items.Count == 0 ? Visibility.Collapsed : Visibility.Visible;
+
+        if (focusedKey != null)
+        {
+            DispatcherQueue.TryEnqueue(() =>
+            {
+                KeyboardItem? row = items.FirstOrDefault(i => i.Key == focusedKey);
+                if (row != null && KeyboardList.ContainerFromItem(row) is UIElement container)
+                {
+                    container.Focus(focusState);
+                }
+                else if (items.Count > 0)
+                {
+                    // The row is gone (forgotten): stay in the list
+                    KeyboardList.Focus(focusState);
+                }
+            });
+        }
+    }
+
+    /// <summary>The keyboard row that has the focus (the row or a control in it), and how it got it.</summary>
+    private (string? Key, FocusState State) FocusedRow()
+    {
+        if (XamlRoot == null || FocusManager.GetFocusedElement(XamlRoot) is not UIElement focused)
+        {
+            return (null, FocusState.Unfocused);
+        }
+        for (DependencyObject? element = focused; element != null && element != KeyboardList; element = VisualTreeHelper.GetParent(element))
+        {
+            if (element is FrameworkElement { DataContext: KeyboardItem item })
+            {
+                return (item.Key, focused.FocusState);
+            }
+        }
+        return (null, FocusState.Unfocused);
     }
 
     private KeyboardItem ToItem(KeyboardRecord keyboard)
@@ -347,7 +444,12 @@ public sealed partial class KeyboardsPage : Page
         {
             return;
         }
-        if (problem.Kind == ProblemKind.LayoutMissing && problem.Keyboard != null)
+        if (problem.Kind == ProblemKind.LayoutMissing && problem.Keyboard?.Connection == KeyboardConnection.RemoteDesktop)
+        {
+            RemoteCombo.Focus(FocusState.Programmatic);
+            RemoteCombo.IsDropDownOpen = true;
+        }
+        else if (problem.Kind == ProblemKind.LayoutMissing && problem.Keyboard != null)
         {
             App.Current.ShowKeyboardWindow(problem.Keyboard.Key);
         }

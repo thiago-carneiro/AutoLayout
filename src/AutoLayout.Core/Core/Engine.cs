@@ -233,6 +233,21 @@ public sealed class Engine
         RunUpdate(null);
     }
 
+    /// <summary>
+    /// The layout for Remote Desktop sessions, or null to leave it to Windows (the other
+    /// computer's layout). Works before the first remote session, unlike <see cref="Configure"/>.
+    /// </summary>
+    public void SetRemoteLayout(InputProfile? profile)
+    {
+        KeyboardRecord keyboard = EnsureRemoteRecord(DateTime.UtcNow);
+        keyboard.LayoutProfileId = profile?.Id ?? SettingsStore.AutomaticProfileId;
+        keyboard.LayoutKlid = profile?.Klid;
+        keyboard.State = KeyboardState.Configured;
+        Save();
+        Log.Write("Remote Desktop set to " + keyboard.LayoutProfileId);
+        RunUpdate(null);
+    }
+
     public void Rename(string key, string? friendlyName)
     {
         KeyboardRecord? keyboard = Find(key);
