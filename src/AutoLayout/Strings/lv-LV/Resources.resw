@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Iestatīt…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Rediģēt…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorēt (nav tastatūra)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorēt ierīci</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Pārtraukt ignorēšanu</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Aizmirst</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Citas opcijas: {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Izkārtojums nav sarakstā?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorēt šo ierīci (tā nav tastatūra)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Saglabāt</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Nav tastatūra</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignorēt ierīci</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ne tagad</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Atcelt</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Vispārīgi</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Atjaunot tastatūras fona apgaismojumu</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Rakstīt žurnāla failu</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Pēc noklusējuma izslēgts. Žurnālā ir norādītas pievienotās tastatūras un laiks, bet nekad ne tas, ko rakstāt.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Žurnālā ir norādītas pievienotās tastatūras un laiks, bet nekad ne tas, ko rakstāt.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Rakstīt žurnāla failu</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Atvērt žurnālu</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Atvērt mapi</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Konfidencialitāte</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nekad nelasa, ko rakstāt. Tas tikai pārbauda, kuras tastatūras ir pievienotas, un neizveido tīkla savienojumus.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout nekad nelasa, ko rakstāt. Tas tikai pārbauda, kuras tastatūras ir pievienotas, un neizveido tīkla savienojumus.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Par</value></data>
   <data name="About_Version" xml:space="preserve"><value>Versija {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout autori</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Trešo pušu paziņojumi</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projekta lapa</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Atbalstīt Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Pašreizējais izkārtojums: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Izmantotais izkārtojums: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Iestatīt „{0}“…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastatūras…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Iestatījumi…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Atvērt AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Iestatījumi</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Iziet</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Jauna tastatūra: noklikšķiniet, lai iestatītu</value></data>
 Noklikšķiniet, lai redzētu, kas nogāja greizi</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Jauna tastatūra: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Izvēlieties tās izkārtojumu. Līdz tam nekas nemainīsies.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Šķiet, ka tas ir {0}. Apstipriniet, lai to izmantotu. Līdz tam nekas nemainīsies.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Šķiet, ka tas ir {0}. Līdz apstiprināšanai nekas nemainīsies.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Iestatīt</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>Pievienota „{0}“.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ atvienota. Atgriezts noklusējuma izkārtojums.</value></data>
@@ -134,4 +133,9 @@ Noklikšķiniet, lai redzētu, kas nogāja greizi</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Attālā darbvirsma</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Tastatūra „{0}“ ir pievienota, bet tās izkārtojums nav instalēts, tāpēc tiek izmantots noklusējuma izkārtojums.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Tastatūra „{0}“ atkal gaidīs iestatīšanu, un noklusējuma izkārtojums tiks izmantots, līdz to iestatīsiet vēlreiz.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Nav attālās sesijas</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Attiecas, kamēr šis dators tiek izmantots, izmantojot Attālo darbvirsmu</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Tā nav tastatūra</value></data>
 </root>

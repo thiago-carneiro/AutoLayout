@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Configurer…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Modifier…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorer (n’est pas un clavier)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorer l’appareil</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Ne plus ignorer</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Oublier</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Plus d’options pour {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Disposition introuvable ?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorer cet appareil (ce n’est pas un clavier)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Enregistrer</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Pas un clavier</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignorer l’appareil</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Pas maintenant</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annuler</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Général</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurer le rétroéclairage du clavier</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostic</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Écrire un fichier journal</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Désactivé par défaut. Le journal indique quels claviers sont connectés et quand, jamais ce que vous tapez.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Le journal indique quels claviers sont connectés et quand, jamais ce que vous tapez.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Écrire un fichier journal</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Ouvrir le journal</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Ouvrir le dossier</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Confidentialité</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ne lit jamais ce que vous tapez. Il vérifie seulement quels claviers sont connectés et n’établit aucune connexion réseau.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout ne lit jamais ce que vous tapez. Il vérifie seulement quels claviers sont connectés et n’établit aucune connexion réseau.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>À propos</value></data>
   <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Les auteurs d’AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Avis de tiers</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Page du projet</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Soutenir sur Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Disposition actuelle : {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Disposition en cours d’utilisation : {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Configurer « {0} »…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Claviers…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Paramètres…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Ouvrir AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Paramètres</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Quitter</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nouveau clavier : cliquez pour configurer</value></data>
 Cliquez pour voir ce qui s’est mal passé</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nouveau clavier : {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Choisissez sa disposition. D’ici là, rien ne change.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>On dirait {0}. Confirmez pour l’utiliser. D’ici là, rien ne change.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>On dirait {0}. Tant que vous n’avez pas confirmé, rien ne change.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Configurer</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>« {0} » est connecté.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>« {0} » est déconnecté. Retour à la disposition par défaut.</value></data>
@@ -134,4 +133,9 @@ Cliquez pour voir ce qui s’est mal passé</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Bureau à distance</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Le clavier « {0} » est connecté, mais sa disposition n’est pas installée ; la disposition par défaut est donc utilisée.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Le clavier « {0} » repassera en attente de configuration, et la disposition par défaut sera utilisée jusqu’à ce que vous le configuriez à nouveau.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Aucune session à distance</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>S’applique quand ce PC est utilisé via Bureau à distance</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Ce n’est pas un clavier</value></data>
 </root>

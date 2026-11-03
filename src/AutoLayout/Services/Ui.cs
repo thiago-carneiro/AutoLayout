@@ -13,7 +13,7 @@ internal static class Ui
     public const string GlyphKeyboard = "";
     public const string GlyphUsb = "";
     public const string GlyphBluetooth = "";
-    public const string GlyphRemote = "";
+    public const string GlyphRemote = "\uE7F4";
 
     public const string LanguageSettingsUri = "ms-settings:regionlanguage";
     public const string ProjectUri = "https://github.com/thiago-carneiro/AutoLayout";
@@ -62,12 +62,12 @@ internal static class Ui
         return Loc.Format("Layout_WithLanguage", profile.LayoutName, language);
     }
 
-    /// <summary>The layout of a keyboard as shown in the list, or "—".</summary>
+    /// <summary>The layout of a keyboard as shown in the list, or empty when it has none.</summary>
     public static string LayoutText(Engine engine, KeyboardRecord keyboard)
     {
         if (keyboard.State != KeyboardState.Configured || keyboard.LayoutProfileId == null)
         {
-            return Loc.Get("Layout_None");
+            return string.Empty;
         }
         if (keyboard.LayoutProfileId == SettingsStore.AutomaticProfileId)
         {
@@ -89,6 +89,7 @@ internal static class Ui
         {
             KeyboardState.Ignored => Loc.Get("Status_Ignored"),
             KeyboardState.NotSetUp => Loc.Get(connected ? "Status_NotSetUpConnected" : "Status_NotSetUp"),
+            _ when !connected && keyboard.Connection == KeyboardConnection.RemoteDesktop => Loc.Get("Status_RemoteIdle"),
             _ when !connected => Loc.Get("Status_Disconnected"),
             _ => Loc.Get(keyboard.Key == engine.ActiveKeyboardKey ? "Status_Active" : "Status_Connected"),
         };
@@ -100,7 +101,7 @@ internal static class Ui
         string connection = ConnectionName(keyboard.Connection);
         if (keyboard.Connection == KeyboardConnection.RemoteDesktop)
         {
-            return connection;
+            return Loc.Get("Kbd_ListDetails_Remote");
         }
         string seen = engine.IsConnected(keyboard)
             ? Loc.Get("LastSeen_Now")

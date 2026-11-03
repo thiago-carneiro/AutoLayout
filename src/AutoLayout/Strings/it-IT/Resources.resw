@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Configura…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Modifica…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignora (non è una tastiera)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignora dispositivo</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Smetti di ignorare</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Dimentica</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Altre opzioni per {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Layout non presente nell’elenco?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignora questo dispositivo (non è una tastiera)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Salva</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Non è una tastiera</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignora dispositivo</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Non ora</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annulla</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Generale</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Ripristina la retroilluminazione della tastiera</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostica</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Scrivi un file di log</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Disattivato per impostazione predefinita. Il log elenca le tastiere connesse e quando, mai ciò che digiti.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Il log elenca le tastiere connesse e quando, mai ciò che digiti.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Scrivi un file di log</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Apri log</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Apri cartella</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacy</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout non legge mai ciò che digiti. Controlla soltanto quali tastiere sono connesse e non effettua connessioni di rete.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout non legge mai ciò che digiti. Controlla soltanto quali tastiere sono connesse e non effettua connessioni di rete.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Informazioni</value></data>
   <data name="About_Version" xml:space="preserve"><value>Versione {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Gli autori di AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Avvisi di terze parti</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Pagina del progetto</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Sostieni su Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Layout attuale: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Layout in uso: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Configura «{0}»…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastiere…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Impostazioni…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Apri AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Impostazioni</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Esci</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nuova tastiera: fai clic per configurare</value></data>
 Fai clic per vedere cosa è andato storto</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nuova tastiera: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Scegli il suo layout. Fino ad allora non cambia nulla.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Sembra {0}. Confermalo per usarlo. Fino ad allora non cambia nulla.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Sembra {0}. Finché non lo confermi, non cambia nulla.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Configura</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» connessa.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» disconnessa. Si torna al layout predefinito.</value></data>
@@ -134,4 +133,9 @@ Fai clic per vedere cosa è andato storto</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Desktop remoto</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>La tastiera «{0}» è connessa, ma il suo layout non è installato, quindi è in uso il layout predefinito.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>La tastiera «{0}» tornerà in attesa di configurazione e verrà usato il layout predefinito finché non la configurerai di nuovo.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Nessuna sessione remota</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Si applica quando questo PC viene usato tramite Desktop remoto</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Non è una tastiera</value></data>
 </root>

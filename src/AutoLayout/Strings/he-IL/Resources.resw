@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>הגדרה…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>עריכה…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>התעלם (אין זו מקלדת)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>התעלם מההתקן</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>הפסק להתעלם</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>שכח</value></data>
   <data name="Btn_More" xml:space="preserve"><value>אפשרויות נוספות עבור {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>הפריסה לא מופיעה?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>התעלם מהמכשיר הזה (אין זו מקלדת)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>שמירה</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>אין זו מקלדת</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>התעלם מההתקן</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>לא עכשיו</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>ביטול</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>כללי</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>שחזור התאורה האחורית של המקלדת</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>אבחון</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>כתיבת קובץ יומן</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>כבוי כברירת מחדל. היומן מפרט אילו מקלדות חוברו ומתי, ואף פעם לא מה שאתה מקליד.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>היומן מפרט אילו מקלדות חוברו ומתי, ואף פעם לא מה שאתה מקליד.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>כתיבת קובץ יומן</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>פתיחת היומן</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>פתיחת התיקייה</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>פרטיות</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout אף פעם לא קורא את מה שאתה מקליד. הוא רק בודק אילו מקלדות מחוברות, ואינו יוצר חיבורי רשת.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout אף פעם לא קורא את מה שאתה מקליד. הוא רק בודק אילו מקלדות מחוברות, ואינו יוצר חיבורי רשת.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>אודות</value></data>
   <data name="About_Version" xml:space="preserve"><value>גרסה {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 מחברי AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>הודעות צד שלישי</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>דף הפרויקט</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>תמיכה ב-Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>הפריסה הנוכחית: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>פריסה בשימוש: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>הגדרת “{0}”…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>מקלדות…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>הגדרות…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>פתח את AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>הגדרות</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>יציאה</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 לחץ כדי לראות מה השתבש</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>מקלדת חדשה: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>בחר את הפריסה שלה. עד אז, דבר לא ישתנה.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>נראה שזו {0}. אשר כדי להשתמש בה. עד אז, דבר לא ישתנה.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>נראה שזו {0}. עד שתאשר, דבר לא ישתנה.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>הגדרה</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” חוברה.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” נותקה. חוזרים לפריסת ברירת המחדל.</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>שולחן עבודה מרוחק</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>המקלדת “{0}” מחוברת, אבל הפריסה שלה אינה מותקנת, ולכן נעשה שימוש בפריסת ברירת המחדל.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>המקלדת “{0}” תחזור להמתין להגדרה, ותיעשה שימוש בפריסת ברירת המחדל עד שתגדיר אותה שוב.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>אין הפעלה מרוחקת</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>חל כאשר המחשב הזה בשימוש דרך שולחן עבודה מרוחק</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>אין זו מקלדת</value></data>
 </root>

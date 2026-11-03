@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Настроить…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Изменить…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Игнорировать (не клавиатура)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Игнорировать устройство</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Перестать игнорировать</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Забыть</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Дополнительные параметры для {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Нет нужной раскладки?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Игнорировать это устройство (это не клавиатура)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Сохранить</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Это не клавиатура</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Игнорировать устройство</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Не сейчас</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Отмена</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Общие</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Восстанавливать подсветку клавиатуры</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Диагностика</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Вести файл журнала</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>По умолчанию отключено. В журнале указано, какие клавиатуры подключены и когда, но никогда не то, что вы вводите.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>В журнале указано, какие клавиатуры подключены и когда, но никогда не то, что вы вводите.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Вести файл журнала</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Открыть журнал</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Открыть папку</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Конфиденциальность</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout никогда не считывает то, что вы вводите. Приложение лишь проверяет, какие клавиатуры подключены, и не устанавливает сетевых подключений.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout никогда не считывает то, что вы вводите. Приложение лишь проверяет, какие клавиатуры подключены, и не устанавливает сетевых подключений.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>О программе</value></data>
   <data name="About_Version" xml:space="preserve"><value>Версия {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Авторы AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Уведомления о стороннем ПО</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Страница проекта</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Поддержать на Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Текущая раскладка: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Используемая раскладка: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Настроить «{0}»…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Клавиатуры…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Параметры…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Открыть AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Параметры</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Выход</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 Щелкните, чтобы узнать, что пошло не так</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Новая клавиатура: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Выберите ее раскладку. До этого ничего не изменится.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Похоже на {0}. Подтвердите, чтобы использовать. До этого ничего не изменится.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Похоже на {0}. Пока вы не подтвердите, ничего не изменится.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Настроить</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» подключена.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» отключена. Возврат к раскладке по умолчанию.</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Удаленный рабочий стол</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Клавиатура «{0}» подключена, но ее раскладка не установлена, поэтому используется раскладка по умолчанию.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Клавиатура «{0}» снова будет ожидать настройки, а раскладка по умолчанию будет использоваться, пока вы не настроите ее снова.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Нет удаленного сеанса</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Действует, пока этот компьютер используется через Удаленный рабочий стол</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Это не клавиатура</value></data>
 </root>

@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Configurar…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Editar…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorar (no es un teclado)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorar dispositivo</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Dejar de ignorar</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Olvidar</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Más opciones para {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>¿No aparece la distribución?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorar este dispositivo (no es un teclado)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Guardar</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>No es un teclado</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignorar dispositivo</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ahora no</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Cancelar</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>General</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restaurar la retroiluminación del teclado</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnóstico</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Escribir un archivo de registro</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Desactivado de forma predeterminada. El registro enumera los teclados conectados y cuándo, nunca lo que escribes.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>El registro enumera los teclados conectados y cuándo, nunca lo que escribes.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Escribir un archivo de registro</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Abrir registro</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Abrir carpeta</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacidad</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nunca lee lo que escribes. Solo comprueba qué teclados están conectados y no establece conexiones de red.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout nunca lee lo que escribes. Solo comprueba qué teclados están conectados y no establece conexiones de red.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Acerca de</value></data>
   <data name="About_Version" xml:space="preserve"><value>Versión {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Los autores de AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Avisos de terceros</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Página del proyecto</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Apoyar en Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Distribución actual: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Distribución en uso: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Configurar «{0}»…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Teclados…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Configuración…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Abrir AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Configuración</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Salir</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Teclado nuevo: haz clic para configurarlo</value></data>
 Haz clic para ver qué ha fallado</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Teclado nuevo: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Elige su distribución. Hasta entonces, no cambia nada.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Parece {0}. Confírmala para usarla. Hasta entonces, no cambia nada.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Parece {0}. Hasta que la confirmes, no cambia nada.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Configurar</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» conectado.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» desconectado. Se vuelve a la distribución predeterminada.</value></data>
@@ -134,4 +133,9 @@ Haz clic para ver qué ha fallado</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Escritorio remoto</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>«{0}» está conectado, pero su distribución no está instalada, por lo que se usa la distribución predeterminada.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>«{0}» volverá a quedar pendiente de configurar y se usará la distribución predeterminada hasta que vuelvas a configurarlo.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Sin sesión remota</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Se aplica mientras este equipo se usa mediante Escritorio remoto</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>No es un teclado</value></data>
 </root>

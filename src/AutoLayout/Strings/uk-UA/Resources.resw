@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Налаштувати…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Змінити…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ігнорувати (це не клавіатура)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ігнорувати пристрій</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Припинити ігнорувати</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Забути</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Додаткові параметри для {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Немає потрібної розкладки?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ігнорувати цей пристрій (це не клавіатура)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Зберегти</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Це не клавіатура</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ігнорувати пристрій</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Не зараз</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Скасувати</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Загальні</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Відновлювати підсвічування клавіатури</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Діагностика</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Вести файл журналу</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>За замовчуванням вимкнено. У журналі зазначено, які клавіатури підключено і коли, але ніколи не те, що ви вводите.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>У журналі зазначено, які клавіатури підключено і коли, але ніколи не те, що ви вводите.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Вести файл журналу</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Відкрити журнал</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Відкрити папку</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Конфіденційність</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ніколи не зчитує те, що ви вводите. Програма лише перевіряє, які клавіатури підключено, і не встановлює мережевих з’єднань.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout ніколи не зчитує те, що ви вводите. Програма лише перевіряє, які клавіатури підключено, і не встановлює мережевих з’єднань.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Про програму</value></data>
   <data name="About_Version" xml:space="preserve"><value>Версія {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Автори AutoLayout</value></data>
@@ -110,8 +109,8 @@
   <data name="About_Tip.Content" xml:space="preserve"><value>Підтримати на Ko-fi</value></data>
   <data name="Menu_Header" xml:space="preserve"><value>Поточна розкладка: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Налаштувати «{0}»…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Клавіатури…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Параметри…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Відкрити AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Параметри</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Вихід</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 Натисніть, щоб побачити, що пішло не так</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Нова клавіатура: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Виберіть її розкладку. Доти нічого не зміниться.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Схоже на {0}. Підтвердьте, щоб використовувати. Доти нічого не зміниться.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Схоже на {0}. Доки ви не підтвердите, нічого не зміниться.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Налаштувати</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>«{0}» підключено.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>«{0}» відключено. Повернення до розкладки за замовчуванням.</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Віддалений робочий стіл</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Клавіатуру «{0}» підключено, але її розкладку не встановлено, тому використовується розкладка за замовчуванням.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Клавіатура «{0}» знову очікуватиме налаштування, а розкладка за замовчуванням використовуватиметься, доки ви не налаштуєте її знову.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Немає віддаленого сеансу</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Діє, поки цей ПК використовується через Віддалений робочий стіл</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Це не клавіатура</value></data>
 </root>

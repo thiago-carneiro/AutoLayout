@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Konfigurera…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Redigera…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorera (inte ett tangentbord)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorera enhet</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Sluta ignorera</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Glöm</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Fler alternativ för {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Saknas layouten i listan?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorera den här enheten (det är inte ett tangentbord)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Spara</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Inte ett tangentbord</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignorera enhet</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Inte nu</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Avbryt</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Allmänt</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Återställ tangentbordsbelysningen</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostik</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Skriv en loggfil</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Av som standard. Loggen visar vilka tangentbord som är anslutna och när — aldrig vad du skriver.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Loggen visar vilka tangentbord som är anslutna och när — aldrig vad du skriver.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Skriv en loggfil</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Öppna logg</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Öppna mapp</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Sekretess</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout läser aldrig vad du skriver. Appen kontrollerar bara vilka tangentbord som är anslutna och gör inga nätverksanslutningar.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout läser aldrig vad du skriver. Appen kontrollerar bara vilka tangentbord som är anslutna och gör inga nätverksanslutningar.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Om</value></data>
   <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayouts upphovspersoner</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Meddelanden från tredje part</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projektsida</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Stöd på Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Aktuell layout: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Layout som används: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Konfigurera ”{0}”…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Tangentbord…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Inställningar…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Öppna AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Inställningar</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Avsluta</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nytt tangentbord: klicka för att konfigurera</value></data>
 Klicka för att se vad som gick fel</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nytt tangentbord: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Välj dess layout. Tills dess ändras inget.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Ser ut som {0}. Bekräfta för att använda den. Tills dess ändras inget.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Ser ut som {0}. Tills du bekräftar det ändras inget.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Konfigurera</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>”{0}” ansluten.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>”{0}” frånkopplad. Tillbaka till standardlayouten.</value></data>
@@ -134,4 +133,9 @@ Klicka för att se vad som gick fel</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Fjärrskrivbord</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Tangentbordet ”{0}” är anslutet, men dess layout är inte installerad, så standardlayouten används.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Tangentbordet ”{0}” väntar på konfiguration igen, och standardlayouten används tills du konfigurerar det på nytt.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Ingen fjärrsession</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Gäller när den här datorn används via Fjärrskrivbord</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Det är inte ett tangentbord</value></data>
 </root>

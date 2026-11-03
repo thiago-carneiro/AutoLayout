@@ -51,21 +51,37 @@ internal static class Capture
             ScrollPage(main, toEnd: false);
             await Task.Delay(ShortWait);
 
-            // The "…" menu of the first keyboard, then the Forget dialog it opens
-            if (Descendants(main).OfType<Button>().FirstOrDefault(b => b.Flyout is MenuFlyout) is Button more)
+            // The "…" menu of the first keyboard (its card's context menu), then the Forget dialog it opens
+            List<UIElement> withMenus = Descendants(main).OfType<UIElement>().Where(e => e.ContextFlyout != null).ToList();
+            Log.Write("Capture: " + withMenus.Count + " elements with a context menu: "
+                + string.Join(", ", withMenus.Select(e => e.GetType().Name + "/" + e.ContextFlyout.GetType().Name).Distinct()));
+            // (Native AOT gives flyouts back as FlyoutBase: no tests on the derived types here)
+            if (withMenus.OfType<Border>().FirstOrDefault(b => Descendants(b).OfType<Button>().Any()) is Border card
+                && Descendants(card).OfType<Button>().LastOrDefault() is Button more)
             {
+                FlyoutBase menu = card.ContextFlyout;
                 // Screenshots can't capture acrylic: a solid background of the same tone
                 Style solid = new(typeof(MenuFlyoutPresenter));
                 solid.Setters.Add(new Setter(Control.BackgroundProperty, Application.Current.Resources["SolidBackgroundFillColorQuarternaryBrush"]));
-                ((MenuFlyout)more.Flyout).MenuFlyoutPresenterStyle = solid;
-                more.Flyout.ShowAt(more);
+                WinRT.CastExtensions.As<MenuFlyout>(menu).MenuFlyoutPresenterStyle = solid;
+                menu.ShowAt(more);
                 await Task.Delay(ShortWait);
                 await SavePopupsAsync(main.XamlRoot, Path("keyboard-menu"));
 
-                MenuFlyoutItem? forget = OpenPopups(main.XamlRoot).SelectMany(Descendants).OfType<MenuFlyoutItem>().LastOrDefault();
-                if (forget != null)
+                // The Forget command: the item whose text is "Forget", clicked as a user would
+                string forgetText = Loc.Get("Btn_Forget");
+                TextBlock? label = OpenPopups(main.XamlRoot).SelectMany(Descendants).OfType<TextBlock>().LastOrDefault(t => t.Text == forgetText);
+                DependencyObject? forget = label;
+                while (forget != null && (forget is not UIElement element
+                    || FrameworkElementAutomationPeer.CreatePeerForElement(element)?.GetPattern(PatternInterface.Invoke) == null))
                 {
-                    new MenuFlyoutItemAutomationPeer(forget).Invoke();
+                    forget = VisualTreeHelper.GetParent(forget);
+                }
+                Log.Write("Capture: Forget command " + (forget != null ? "found" : "not found"));
+                if (forget is UIElement item
+                    && FrameworkElementAutomationPeer.CreatePeerForElement(item)?.GetPattern(PatternInterface.Invoke) is Microsoft.UI.Xaml.Automation.Provider.IInvokeProvider invoke)
+                {
+                    invoke.Invoke();
                     await Task.Delay(LongWait);
                     await SavePopupsAsync(main.XamlRoot, Path("forget-dialog"));
                     foreach (ContentDialog dialog in OpenPopups(main.XamlRoot).SelectMany(Descendants).OfType<ContentDialog>().ToList())

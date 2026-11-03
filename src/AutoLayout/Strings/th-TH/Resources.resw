@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>ตั้งค่า…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>แก้ไข…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>ละเว้น (ไม่ใช่แป้นพิมพ์)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>ละเว้นอุปกรณ์</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>เลิกละเว้น</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>ลืม</value></data>
   <data name="Btn_More" xml:space="preserve"><value>ตัวเลือกเพิ่มเติมสำหรับ {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>ไม่พบเค้าโครงในรายการใช่หรือไม่</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>ละเว้นอุปกรณ์นี้ (ไม่ใช่แป้นพิมพ์)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>บันทึก</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>ไม่ใช่แป้นพิมพ์</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>ละเว้นอุปกรณ์</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>ไม่ใช่ตอนนี้</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>ยกเลิก</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>ทั่วไป</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>คืนค่าไฟแบ็กไลต์ของแป้นพิมพ์</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>การวินิจฉัย</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>เขียนไฟล์บันทึก</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>ปิดไว้ตามค่าเริ่มต้น บันทึกจะแสดงแป้นพิมพ์ที่เชื่อมต่อและเวลาที่เชื่อมต่อ แต่จะไม่เก็บสิ่งที่คุณพิมพ์เด็ดขาด</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>บันทึกจะแสดงแป้นพิมพ์ที่เชื่อมต่อและเวลาที่เชื่อมต่อ แต่จะไม่เก็บสิ่งที่คุณพิมพ์เด็ดขาด</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>เขียนไฟล์บันทึก</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>เปิดบันทึก</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>เปิดโฟลเดอร์</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>ความเป็นส่วนตัว</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout จะไม่อ่านสิ่งที่คุณพิมพ์เด็ดขาด โดยจะตรวจสอบเฉพาะว่ามีแป้นพิมพ์ใดเชื่อมต่ออยู่ และไม่สร้างการเชื่อมต่อเครือข่าย</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout จะไม่อ่านสิ่งที่คุณพิมพ์เด็ดขาด โดยจะตรวจสอบเฉพาะว่ามีแป้นพิมพ์ใดเชื่อมต่ออยู่ และไม่สร้างการเชื่อมต่อเครือข่าย</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>เกี่ยวกับ</value></data>
   <data name="About_Version" xml:space="preserve"><value>เวอร์ชัน {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 ผู้พัฒนา AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>ประกาศของบุคคลที่สาม</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>หน้าโครงการ</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>สนับสนุนบน Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>เค้าโครงปัจจุบัน: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>เค้าโครงที่ใช้อยู่: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>ตั้งค่า “{0}”…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>แป้นพิมพ์…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>การตั้งค่า…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>เปิด AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>การตั้งค่า</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>ออก</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 คลิกเพื่อดูว่าเกิดอะไรขึ้น</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>แป้นพิมพ์ใหม่: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>เลือกเค้าโครงของแป้นพิมพ์ ก่อนหน้านั้นจะไม่มีอะไรเปลี่ยนแปลง</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>ดูเหมือนจะเป็น {0} ยืนยันเพื่อใช้งาน ก่อนหน้านั้นจะไม่มีอะไรเปลี่ยนแปลง</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>ดูเหมือนจะเป็น {0} จนกว่าคุณจะยืนยัน จะไม่มีอะไรเปลี่ยนแปลง</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>ตั้งค่า</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>เชื่อมต่อ “{0}” แล้ว</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>ตัดการเชื่อมต่อ “{0}” แล้ว กลับไปใช้เค้าโครงเริ่มต้น</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>เดสก์ท็อประยะไกล</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>เชื่อมต่อแป้นพิมพ์ “{0}” อยู่ แต่ไม่ได้ติดตั้งเค้าโครงของแป้นพิมพ์นี้ จึงใช้เค้าโครงเริ่มต้นอยู่</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>แป้นพิมพ์ “{0}” จะกลับไปอยู่ในสถานะกำลังรอการตั้งค่า และจะใช้เค้าโครงเริ่มต้นจนกว่าคุณจะตั้งค่าอีกครั้ง</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>ไม่มีเซสชันระยะไกล</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>ใช้เมื่อพีซีเครื่องนี้ถูกใช้งานผ่านเดสก์ท็อประยะไกล</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>ไม่ใช่แป้นพิมพ์</value></data>
 </root>

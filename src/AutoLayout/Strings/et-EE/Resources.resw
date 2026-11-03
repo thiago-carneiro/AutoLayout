@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Seadista…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Muuda…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Eira (pole klaviatuur)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Eira seadet</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Lõpeta eiramine</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Unusta</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Veel valikuid: {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Paigutust pole loendis?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Eira seda seadet (see pole klaviatuur)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Salvesta</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Pole klaviatuur</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Eira seadet</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Mitte praegu</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Loobu</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Üldine</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Taasta klaviatuuri taustavalgustus</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Kirjuta logifail</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Vaikimisi väljas. Logi loetleb ühendatud klaviatuurid ja ajad — mitte kunagi seda, mida te kirjutate.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Logi loetleb ühendatud klaviatuurid ja ajad — mitte kunagi seda, mida te kirjutate.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Kirjuta logifail</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Ava logi</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Ava kaust</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privaatsus</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout ei loe kunagi seda, mida te kirjutate. See kontrollib ainult, millised klaviatuurid on ühendatud, ega loo võrguühendusi.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout ei loe kunagi seda, mida te kirjutate. See kontrollib ainult, millised klaviatuurid on ühendatud, ega loo võrguühendusi.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Teave</value></data>
   <data name="About_Version" xml:space="preserve"><value>Versioon {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayouti autorid</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Kolmanda osapoole teatised</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projekti leht</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Toeta Ko-fis</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Praegune paigutus: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Kasutatav paigutus: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Seadista „{0}“…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Klaviatuurid…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Sätted…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Ava AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Sätted</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Välju</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Uus klaviatuur: seadistamiseks klõpsake</value></data>
 Klõpsake, et näha, mis valesti läks</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Uus klaviatuur: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Valige selle paigutus. Seni midagi ei muutu.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Paistab olevat {0}. Kinnitage, et seda kasutada. Seni midagi ei muutu.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Paistab olevat {0}. Kuni te seda ei kinnita, midagi ei muutu.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Seadista</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ ühendatud.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ ühendus katkestatud. Tagasi vaikepaigutuse juurde.</value></data>
@@ -134,4 +133,9 @@ Klõpsake, et näha, mis valesti läks</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Kaugtöölaud</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Klaviatuur „{0}“ on ühendatud, kuid selle paigutus ei ole installitud, seetõttu kasutatakse vaikepaigutust.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Klaviatuur „{0}“ jääb uuesti seadistamist ootama ja vaikepaigutust kasutatakse seni, kuni selle uuesti seadistate.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Kaugseanssi pole</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Kehtib, kui seda arvutit kasutatakse Kaugtöölaua kaudu</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>See pole klaviatuur</value></data>
 </root>

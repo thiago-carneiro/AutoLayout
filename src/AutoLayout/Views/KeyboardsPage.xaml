@@ -20,7 +20,8 @@
                     <FontIcon Glyph="&#xE765;" FontSize="28" Foreground="{ThemeResource AccentTextFillColorPrimaryBrush}" VerticalAlignment="Center" />
                     <StackPanel Grid.Column="1" Spacing="2">
                         <TextBlock x:Uid="Main_InUse" Style="{StaticResource SecondaryTextStyle}" />
-                        <TextBlock x:Name="CurrentLayoutText" Style="{StaticResource SubtitleTextBlockStyle}" TextWrapping="Wrap" />
+                        <TextBlock x:Name="CurrentLayoutText" Style="{StaticResource SubtitleTextBlockStyle}" TextWrapping="Wrap"
+                                   AutomationProperties.LiveSetting="Polite" />
                         <TextBlock x:Name="ReasonText" Style="{StaticResource BodyTextBlockStyle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" TextWrapping="Wrap" />
                         <TextBlock x:Uid="Main_Now_Hint" Style="{StaticResource SecondaryTextStyle}" Margin="0,6,0,0" />
                     </StackPanel>
@@ -48,12 +49,12 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
-                    <FontIcon Glyph="&#xE7F4;" VerticalAlignment="Center" />
+                    <FontIcon Glyph="&#xE7F8;" VerticalAlignment="Center" />
                     <StackPanel Grid.Column="1" VerticalAlignment="Center">
                         <TextBlock x:Uid="Main_Default_Header" Style="{StaticResource BodyTextBlockStyle}" />
                         <TextBlock x:Uid="Main_Default_Description" Style="{StaticResource SecondaryTextStyle}" />
                     </StackPanel>
-                    <ComboBox x:Name="DefaultCombo" x:Uid="Main_Default_Combo" Grid.Column="2" Width="280"
+                    <ComboBox x:Name="DefaultCombo" x:Uid="Main_Default_Combo" Grid.Column="2" MinWidth="200" MaxWidth="320"
                               VerticalAlignment="Center" SelectionChanged="OnDefaultChanged" />
                 </Grid>
             </Border>
@@ -74,7 +75,24 @@
                 </ListView.ItemContainerStyle>
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="local:KeyboardItem">
-                        <Border Style="{StaticResource CardStyle}" Opacity="{x:Bind Opacity}">
+                        <!-- The menu is the card's context menu (right-click, Shift+F10) and the "…" button's -->
+                        <Border Style="{StaticResource CardStyle}">
+                            <Border.ContextFlyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Text="{x:Bind EditLabel}" Click="OnEdit" Tag="{x:Bind Key}">
+                                        <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE70F;" /></MenuFlyoutItem.Icon>
+                                    </MenuFlyoutItem>
+                                    <MenuFlyoutItem Text="{x:Bind IgnoreLabel}" Click="OnToggleIgnore" Tag="{x:Bind Key}"
+                                                    Visibility="{x:Bind CanIgnore}">
+                                        <MenuFlyoutItem.Icon><FontIcon Glyph="{x:Bind IgnoreGlyph}" /></MenuFlyoutItem.Icon>
+                                    </MenuFlyoutItem>
+                                    <MenuFlyoutSeparator Visibility="{x:Bind CanForget}" />
+                                    <MenuFlyoutItem Text="{x:Bind ForgetLabel}" Click="OnForget" Tag="{x:Bind Key}"
+                                                    Visibility="{x:Bind CanForget}">
+                                        <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE74D;" /></MenuFlyoutItem.Icon>
+                                    </MenuFlyoutItem>
+                                </MenuFlyout>
+                            </Border.ContextFlyout>
                             <Grid ColumnSpacing="16">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto" />
@@ -82,36 +100,25 @@
                                     <ColumnDefinition Width="Auto" />
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
-                                <FontIcon Glyph="{x:Bind Glyph}" VerticalAlignment="Center" />
+                                <FontIcon Glyph="{x:Bind Glyph}" Foreground="{x:Bind NameForeground}" VerticalAlignment="Center" />
                                 <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                                    <TextBlock Text="{x:Bind Name}" Style="{StaticResource BodyStrongTextBlockStyle}" TextTrimming="CharacterEllipsis" />
-                                    <TextBlock Text="{x:Bind Details}" Style="{StaticResource SecondaryTextStyle}" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" />
+                                    <TextBlock Text="{x:Bind Name}" Style="{StaticResource BodyStrongTextBlockStyle}" Foreground="{x:Bind NameForeground}"
+                                               TextTrimming="CharacterEllipsis" />
+                                    <TextBlock Text="{x:Bind Details}" Style="{StaticResource SecondaryTextStyle}" TextWrapping="Wrap" MaxLines="2"
+                                               TextTrimming="CharacterEllipsis" />
                                 </StackPanel>
                                 <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Spacing="4" MaxWidth="320">
                                     <TextBlock Text="{x:Bind Layout}" Style="{StaticResource BodyTextBlockStyle}" HorizontalAlignment="Right"
-                                               TextTrimming="CharacterEllipsis" TextAlignment="Right" />
-                                    <Border Background="{x:Bind StatusBackground}" CornerRadius="4" Padding="8,1" HorizontalAlignment="Right">
+                                               TextTrimming="CharacterEllipsis" TextAlignment="Right" Visibility="{x:Bind LayoutVisibility}" />
+                                    <Button Content="{x:Bind SetUpLabel}" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right"
+                                            Tag="{x:Bind Key}" Click="OnSetUpRow" Visibility="{x:Bind SetUpVisibility}" />
+                                    <Border Background="{x:Bind StatusBackground}" CornerRadius="4" Padding="{x:Bind StatusPadding}" HorizontalAlignment="Right">
                                         <TextBlock Text="{x:Bind Status}" Style="{StaticResource CaptionTextBlockStyle}" Foreground="{x:Bind StatusForeground}" />
                                     </Border>
                                 </StackPanel>
-                                <Button Grid.Column="3" Style="{StaticResource SubtleButtonStyle}" VerticalAlignment="Center"
+                                <Button Grid.Column="3" Style="{StaticResource SubtleButtonStyle}" VerticalAlignment="Center" Click="OnMore"
                                         AutomationProperties.Name="{x:Bind MoreLabel}" ToolTipService.ToolTip="{x:Bind MoreLabel}">
                                     <FontIcon Glyph="&#xE712;" FontSize="16" />
-                                    <Button.Flyout>
-                                        <MenuFlyout>
-                                            <MenuFlyoutItem Text="{x:Bind EditLabel}" Click="OnEdit" Tag="{x:Bind Key}">
-                                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE70F;" /></MenuFlyoutItem.Icon>
-                                            </MenuFlyoutItem>
-                                            <MenuFlyoutItem Text="{x:Bind IgnoreLabel}" Click="OnToggleIgnore" Tag="{x:Bind Key}"
-                                                            Visibility="{x:Bind CanIgnore}">
-                                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE7BA;" /></MenuFlyoutItem.Icon>
-                                            </MenuFlyoutItem>
-                                            <MenuFlyoutSeparator />
-                                            <MenuFlyoutItem Text="{x:Bind ForgetLabel}" Click="OnForget" Tag="{x:Bind Key}">
-                                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE74D;" /></MenuFlyoutItem.Icon>
-                                            </MenuFlyoutItem>
-                                        </MenuFlyout>
-                                    </Button.Flyout>
                                 </Button>
                             </Grid>
                         </Border>

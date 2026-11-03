@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Nustatyti…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Redaguoti…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignoruoti (ne klaviatūra)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignoruoti įrenginį</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Nebeignoruoti</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Pamiršti</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Daugiau parinkčių: {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Išdėstymo nėra sąraše?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignoruoti šį įrenginį (tai nėra klaviatūra)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Įrašyti</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ne klaviatūra</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignoruoti įrenginį</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ne dabar</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Atšaukti</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Bendra</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Atkurti klaviatūros foninį apšvietimą</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Rašyti žurnalo failą</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Pagal numatytuosius parametrus išjungta. Žurnale nurodomos prijungtos klaviatūros ir kada, bet niekada ne tai, ką rašote.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Žurnale nurodomos prijungtos klaviatūros ir kada, bet niekada ne tai, ką rašote.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Rašyti žurnalo failą</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Atidaryti žurnalą</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Atidaryti aplanką</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privatumas</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout niekada neskaito, ką rašote. Jis tik patikrina, kurios klaviatūros prijungtos, ir nesudaro jokių tinklo ryšių.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout niekada neskaito, ką rašote. Jis tik patikrina, kurios klaviatūros prijungtos, ir nesudaro jokių tinklo ryšių.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Apie</value></data>
   <data name="About_Version" xml:space="preserve"><value>Versija {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout autoriai</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Trečiųjų šalių pranešimai</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projekto puslapis</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Paremti per Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Dabartinis išdėstymas: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Naudojamas išdėstymas: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Nustatyti „{0}“…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Klaviatūros…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Parametrai…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Atidaryti AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Parametrai</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Išeiti</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nauja klaviatūra: spustelėkite, kad nustatytumėte</value></data>
 Spustelėkite, kad pamatytumėte, kas nepavyko</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nauja klaviatūra: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Pasirinkite jos išdėstymą. Iki tol niekas nepasikeis.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Panašu, kad tai {0}. Patvirtinkite, kad naudotumėte. Iki tol niekas nepasikeis.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Panašu, kad tai {0}. Kol nepatvirtinsite, niekas nepasikeis.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Nustatyti</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>Prijungta „{0}“.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ atjungta. Grįžtama prie numatytojo išdėstymo.</value></data>
@@ -134,4 +133,9 @@ Spustelėkite, kad pamatytumėte, kas nepavyko</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Nuotolinis darbalaukis</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Klaviatūra „{0}“ prijungta, bet jos išdėstymas neįdiegtas, todėl naudojamas numatytasis išdėstymas.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Klaviatūra „{0}“ vėl lauks nustatymo, o numatytasis išdėstymas bus naudojamas, kol ją vėl nustatysite.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Nėra nuotolinio seanso</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Taikoma, kai šis kompiuteris naudojamas per Nuotolinį darbalaukį</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Tai ne klaviatūra</value></data>
 </root>

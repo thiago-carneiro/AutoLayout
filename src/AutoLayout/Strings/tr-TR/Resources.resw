@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Ayarla…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Düzenle…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Yoksay (klavye değil)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Cihazı yoksay</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Yoksaymayı durdur</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Unut</value></data>
   <data name="Btn_More" xml:space="preserve"><value>{0} için diğer seçenekler</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Düzen listede yok mu?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Bu aygıtı yoksay (klavye değil)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Kaydet</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Klavye değil</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Cihazı yoksay</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Şimdi değil</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>İptal</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Genel</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Klavye arka ışığını geri yükle</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Tanılama</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Günlük dosyası yaz</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Varsayılan olarak kapalı. Günlükte hangi klavyelerin ne zaman bağlandığı yazar; yazdıklarınız asla kaydedilmez.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Günlükte hangi klavyelerin ne zaman bağlandığı yazar; yazdıklarınız asla kaydedilmez.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Günlük dosyası yaz</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Günlüğü aç</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Klasörü aç</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Gizlilik</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout yazdıklarınızı asla okumaz. Yalnızca hangi klavyelerin bağlı olduğunu denetler ve ağ bağlantısı kurmaz.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout yazdıklarınızı asla okumaz. Yalnızca hangi klavyelerin bağlı olduğunu denetler ve ağ bağlantısı kurmaz.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Hakkında</value></data>
   <data name="About_Version" xml:space="preserve"><value>Sürüm {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout yazarları</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Üçüncü taraf bildirimleri</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Proje sayfası</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Ko-fi'de destekle</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Geçerli düzen: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Kullanılan düzen: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>“{0}” klavyesini ayarla…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Klavyeler…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Ayarlar…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>AutoLayout uygulamasını aç</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Ayarlar</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Çıkış</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Yeni klavye: ayarlamak için tıklayın</value></data>
 Nelerin ters gittiğini görmek için tıklayın</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Yeni klavye: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Düzenini seçin. O zamana kadar hiçbir şey değişmez.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Görünüşe göre {0}. Kullanmak için onaylayın. O zamana kadar hiçbir şey değişmez.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Görünüşe göre {0}. Onaylayana kadar hiçbir şey değişmez.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Ayarla</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” bağlandı.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” bağlantısı kesildi. Varsayılan düzene dönüldü.</value></data>
@@ -134,4 +133,9 @@ Nelerin ters gittiğini görmek için tıklayın</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Uzak Masaüstü</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>“{0}” klavyesi bağlı, ancak düzeni yüklü değil; bu nedenle varsayılan düzen kullanılıyor.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>“{0}” klavyesi yeniden ayarlanmayı bekleyecek ve siz yeniden ayarlayana kadar varsayılan düzen kullanılacak.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Uzak oturum yok</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Bu bilgisayar Uzak Masaüstü ile kullanılırken geçerlidir</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Bu bir klavye değil</value></data>
 </root>

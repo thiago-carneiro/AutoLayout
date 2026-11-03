@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Beállítás…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Szerkesztés…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Mellőzés (nem billentyűzet)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Eszköz mellőzése</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Mellőzés feloldása</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Elfelejtés</value></data>
   <data name="Btn_More" xml:space="preserve"><value>További beállítások: {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Nem szerepel a kiosztás?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Eszköz mellőzése (nem billentyűzet)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Mentés</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Nem billentyűzet</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Eszköz mellőzése</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Most nem</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Mégse</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Általános</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>A billentyűzet háttérvilágításának visszaállítása</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnosztika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Naplófájl írása</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Alapértelmezés szerint ki van kapcsolva. A napló a csatlakoztatott billentyűzeteket és az időpontot sorolja fel – soha nem azt, amit begépel.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>A napló a csatlakoztatott billentyűzeteket és az időpontot sorolja fel – soha nem azt, amit begépel.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Naplófájl írása</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Napló megnyitása</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Mappa megnyitása</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Adatvédelem</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>Az AutoLayout soha nem olvassa el, amit begépel. Csak azt ellenőrzi, mely billentyűzetek vannak csatlakoztatva, és nem létesít hálózati kapcsolatot.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>Az AutoLayout soha nem olvassa el, amit begépel. Csak azt ellenőrzi, mely billentyűzetek vannak csatlakoztatva, és nem létesít hálózati kapcsolatot.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Névjegy</value></data>
   <data name="About_Version" xml:space="preserve"><value>Verzió: {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Az AutoLayout szerzői</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Harmadik féltől származó közlemények</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projektoldal</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Támogatás a Ko-fin</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Aktuális kiosztás: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Használt kiosztás: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>„{0}” beállítása…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Billentyűzetek…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Beállítások…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Az AutoLayout megnyitása</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Beállítások</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Kilépés</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 Kattintson a hiba részleteinek megtekintéséhez</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Új billentyűzet: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Válassza ki a kiosztását. Addig semmi nem változik.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Úgy tűnik, {0} kiosztásról van szó. A használatához erősítse meg. Addig semmi nem változik.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Úgy tűnik, {0} kiosztásról van szó. Amíg meg nem erősíti, semmi nem változik.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Beállítás</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}” csatlakoztatva.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}” leválasztva. Visszaváltás az alapértelmezett kiosztásra.</value></data>
@@ -134,4 +133,9 @@ Kattintson a hiba részleteinek megtekintéséhez</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Távoli asztal</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>A(z) „{0}” billentyűzet csatlakoztatva van, de a kiosztása nincs telepítve, ezért az alapértelmezett kiosztás van használatban.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>A(z) „{0}” billentyűzet ismét beállításra fog várni, és az alapértelmezett kiosztás lesz használatban, amíg újra be nem állítja.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Nincs távoli munkamenet</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Akkor érvényes, amikor ezt a számítógépet Távoli asztalon keresztül használja</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Nem billentyűzet</value></data>
 </root>

@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Nastaviť…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Upraviť…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorovať (nie je to klávesnica)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorovať zariadenie</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Prestať ignorovať</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Zabudnúť</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Ďalšie možnosti pre {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Rozloženie nie je v zozname?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignorovať toto zariadenie (nie je to klávesnica)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Uložiť</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Nie je to klávesnica</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignorovať zariadenie</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Teraz nie</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Zrušiť</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Všeobecné</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Obnovovať podsvietenie klávesnice</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisovať súbor denníka</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Predvolene vypnuté. Denník uvádza pripojené klávesnice a kedy boli pripojené – nikdy nie to, čo píšete.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Denník uvádza pripojené klávesnice a kedy boli pripojené – nikdy nie to, čo píšete.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zapisovať súbor denníka</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Otvoriť denník</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Otvoriť priečinok</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Ochrana osobných údajov</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nikdy nečíta, čo píšete. Iba zisťuje, ktoré klávesnice sú pripojené, a nevytvára žiadne sieťové pripojenia.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout nikdy nečíta, čo píšete. Iba zisťuje, ktoré klávesnice sú pripojené, a nevytvára žiadne sieťové pripojenia.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>O aplikácii</value></data>
   <data name="About_Version" xml:space="preserve"><value>Verzia {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Autori AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Oznámenia tretích strán</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Stránka projektu</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Podporiť na Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Aktuálne rozloženie: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Používané rozloženie: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Nastaviť „{0}“…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Klávesnice…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Nastavenia…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Otvoriť AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Nastavenia</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Ukončiť</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nová klávesnica: kliknutím ju nastavíte</value></data>
 Kliknite a zistite, čo sa nepodarilo</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nová klávesnica: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Vyberte jej rozloženie. Dovtedy sa nič nezmení.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Vyzerá to na rozloženie {0}. Potvrďte ho a použije sa. Dovtedy sa nič nezmení.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Vyzerá to na rozloženie {0}. Kým to nepotvrdíte, nič sa nezmení.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Nastaviť</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>Klávesnica „{0}“ je pripojená.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>Klávesnica „{0}“ bola odpojená. Vracia sa predvolené rozloženie.</value></data>
@@ -134,4 +133,9 @@ Kliknite a zistite, čo sa nepodarilo</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Vzdialená plocha</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Klávesnica „{0}“ je pripojená, ale jej rozloženie nie je nainštalované, preto sa používa predvolené rozloženie.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Klávesnica „{0}“ bude opäť čakať na nastavenie a bude sa používať predvolené rozloženie, kým ju znova nenastavíte.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Žiadna vzdialená relácia</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Platí, keď sa tento počítač používa cez Vzdialenú plochu</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Nie je to klávesnica</value></data>
 </root>

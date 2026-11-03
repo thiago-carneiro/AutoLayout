@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>إعداد…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>تحرير…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>تجاهل (ليست لوحة مفاتيح)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>تجاهل الجهاز</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>إيقاف التجاهل</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>نسيان</value></data>
   <data name="Btn_More" xml:space="preserve"><value>خيارات إضافية لـ {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>التخطيط غير مدرج؟</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>تجاهل هذا الجهاز (ليس لوحة مفاتيح)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>حفظ</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>ليست لوحة مفاتيح</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>تجاهل الجهاز</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>ليس الآن</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>إلغاء</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>عام</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>استعادة الإضاءة الخلفية للوحة المفاتيح</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>التشخيص</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>كتابة ملف سجل</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>متوقف افتراضيًا. يسرد السجل لوحات المفاتيح المتصلة ووقت اتصالها، ولا يسجّل أبدًا ما تكتبه.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>يسرد السجل لوحات المفاتيح المتصلة ووقت اتصالها، ولا يسجّل أبدًا ما تكتبه.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>كتابة ملف سجل</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>فتح السجل</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>فتح المجلد</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>الخصوصية</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>لا يقرأ AutoLayout أبدًا ما تكتبه. يتحقق فقط من لوحات المفاتيح المتصلة، ولا يُجري أي اتصالات بالشبكة.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>لا يقرأ AutoLayout أبدًا ما تكتبه. يتحقق فقط من لوحات المفاتيح المتصلة، ولا يُجري أي اتصالات بالشبكة.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>حول</value></data>
   <data name="About_Version" xml:space="preserve"><value>الإصدار {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 مؤلفو AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>إشعارات الجهات الخارجية</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>صفحة المشروع</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>ادعم المشروع على Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>التخطيط الحالي: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>التخطيط قيد الاستخدام: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>إعداد «{0}»…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>لوحات المفاتيح…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>الإعدادات…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>فتح AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>الإعدادات</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>خروج</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 انقر لمعرفة ما حدث</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>لوحة مفاتيح جديدة: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>اختر تخطيطها. إلى ذلك الحين، لن يتغير شيء.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>يبدو أنها {0}. أكّد ذلك لاستخدامه. إلى ذلك الحين، لن يتغير شيء.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>يبدو أن هذا هو {0}. إلى أن تؤكد ذلك، لن يتغير شيء.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>إعداد</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>تم توصيل «{0}».</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>تم فصل «{0}». العودة إلى التخطيط الافتراضي.</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>اتصال سطح المكتب البعيد</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>لوحة المفاتيح «{0}» متصلة، ولكن تخطيطها غير مثبّت، لذا يُستخدم التخطيط الافتراضي.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>ستعود لوحة المفاتيح «{0}» إلى انتظار الإعداد، وسيُستخدم التخطيط الافتراضي إلى أن تُعدّها من جديد.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>لا توجد جلسة بعيدة</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>يسري أثناء استخدام هذا الكمبيوتر عبر اتصال سطح المكتب البعيد</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>ليست لوحة مفاتيح</value></data>
 </root>

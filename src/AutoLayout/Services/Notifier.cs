@@ -122,6 +122,11 @@ internal sealed partial class Notifier : IDisposable
                 }
                 builder.AddButton(button);
             }
+            if (tag == "layout")
+            {
+                // Layout changes can come several times a day: shown, not heard
+                builder.MuteAudio();
+            }
             AppNotificationManager.Default.Show(builder.BuildNotification());
         }
         catch (COMException error)

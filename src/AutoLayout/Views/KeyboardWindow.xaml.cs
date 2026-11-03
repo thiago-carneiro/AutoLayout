@@ -40,9 +40,9 @@ public sealed partial class KeyboardWindow : Window
             Root.Background = (Microsoft.UI.Xaml.Media.Brush)Application.Current.Resources["SolidBackgroundFillColorBaseBrush"];
         }
 
-        string title = Loc.Get(WasNew ? "Kbd_Title_New" : "Kbd_Title_Edit");
+        string title = isRemote ? Loc.Get("Conn_RemoteDesktop") : Loc.Get(WasNew ? "Kbd_Title_New" : "Kbd_Title_Edit");
         TitleText.Text = title;
-        WindowHelper.Setup(this, TitleBar, title, 520, WasNew ? 600 : 560);
+        WindowHelper.Setup(this, TitleBar, title, WindowWidth, WasNew ? 600 : 560);
         if (AppWindow.Presenter is Microsoft.UI.Windowing.OverlappedPresenter presenter)
         {
             presenter.IsMaximizable = false;
@@ -57,8 +57,11 @@ public sealed partial class KeyboardWindow : Window
         DetailsText.Text = Details(keyboard);
         DetailsText.Visibility = isRemote ? Visibility.Collapsed : Visibility.Visible;
         NameBox.Text = Ui.KeyboardName(keyboard);
+        // The Remote Desktop entry is not a device: nothing to name
+        NameBox.Visibility = isRemote ? Visibility.Collapsed : Visibility.Visible;
 
         NotKeyboardButton.Visibility = WasNew && !isRemote ? Visibility.Visible : Visibility.Collapsed;
+        ToolTipService.SetToolTip(NotKeyboardButton, Loc.Get("Kbd_NotKeyboard_Tip"));
         IgnoreCheck.Visibility = !WasNew && !isRemote ? Visibility.Visible : Visibility.Collapsed;
         IgnoreCheck.IsChecked = keyboard.State == KeyboardState.Ignored;
         CancelButton.Content = Loc.Get(WasNew ? "Kbd_Btn_Later" : "Kbd_Btn_Cancel");
@@ -74,7 +77,15 @@ public sealed partial class KeyboardWindow : Window
             }
         };
         Root.KeyDown += OnKeyDown;
-        Root.Loaded += (_, _) => FitHeight();
+        Root.Loaded += (_, _) =>
+        {
+            FitHeight();
+            if (!focusName)
+            {
+                // Choosing the layout is the task; the name is optional
+                LayoutCombo.Focus(FocusState.Programmatic);
+            }
+        };
         Closed += (_, _) =>
         {
             if (WasNew && engine.Find(key)?.State == KeyboardState.NotSetUp)
@@ -94,20 +105,25 @@ public sealed partial class KeyboardWindow : Window
     /// <summary>Opened for a keyboard that was not set up.</summary>
     public bool WasNew { get; }
 
+    /// <summary>520 logical pixels, wider when Windows text is larger (up to 1.5 times).</summary>
+    private static int WindowWidth => (int)(520 * Math.Clamp(new Windows.UI.ViewManagement.UISettings().TextScaleFactor, 1.0, 1.5));
+
     /// <summary>Makes the window as tall as its content (longer in some languages), within the screen.</summary>
     private void FitHeight()
     {
-        const int Width = 520;
-        Root.Measure(new Windows.Foundation.Size(Width, double.PositiveInfinity));
+        int width = WindowWidth;
+        Root.Measure(new Windows.Foundation.Size(width, double.PositiveInfinity));
         int height = (int)Math.Ceiling(Root.DesiredSize.Height) + 2;
-        WindowHelper.Resize(this, Width, Math.Clamp(height, 360, 760));
+        WindowHelper.Resize(this, width, Math.Clamp(height, 360, 760));
         WindowHelper.Center(this);
     }
 
     private string Details(KeyboardRecord keyboard)
     {
         string connection = Ui.ConnectionName(keyboard.Connection);
-        string details = keyboard.ProductName != null
+        // "USB Keyboard · USB" says USB twice: the product name goes when it only repeats the connection
+        bool repeats = keyboard.ProductName?.Contains(connection, StringComparison.CurrentCultureIgnoreCase) == true;
+        string details = keyboard.ProductName != null && !repeats
             ? Loc.Format("Kbd_Details", Loc.Name(keyboard.ProductName), connection, keyboard.VidPid)
             : Loc.Format("Kbd_Details_NoProduct", connection, keyboard.VidPid);
 

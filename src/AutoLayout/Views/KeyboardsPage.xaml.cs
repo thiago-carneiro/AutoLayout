@@ -8,7 +8,9 @@ using System.Linq;
 using AutoLayout.Core;
 using AutoLayout.Services;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Media;
 
 namespace AutoLayout.Views;
@@ -23,13 +25,23 @@ public sealed partial class KeyboardItem
     public string Status { get; init; } = string.Empty;
     public Brush? StatusBackground { get; init; }
     public Brush? StatusForeground { get; init; }
+    public Thickness StatusPadding { get; init; }
+    public Brush? NameForeground { get; init; }
     public string Glyph { get; init; } = string.Empty;
-    public double Opacity { get; init; } = 1;
+    public Visibility LayoutVisibility { get; init; }
+    public Visibility SetUpVisibility { get; init; }
+    public string SetUpLabel { get; init; } = string.Empty;
     public Visibility CanIgnore { get; init; }
+    public Visibility CanForget { get; init; }
+    public string IgnoreGlyph { get; init; } = string.Empty;
     public string EditLabel { get; init; } = string.Empty;
     public string IgnoreLabel { get; init; } = string.Empty;
     public string ForgetLabel { get; init; } = string.Empty;
     public string MoreLabel { get; init; } = string.Empty;
+
+    /// <summary>What screen readers say for the row.</summary>
+    public override string ToString() =>
+        string.Join(", ", new[] { Name, Layout, Status }.Where(part => !string.IsNullOrEmpty(part)));
 }
 
 /// <summary>What applies now, the default layout, and every keyboard seen. Changes apply at once.</summary>
@@ -43,6 +55,9 @@ public sealed partial class KeyboardsPage : Page
     {
         InitializeComponent();
         KeyboardList.ItemsSource = items;
+
+        // The status colors are looked up in code: look them up again for the other theme
+        ActualThemeChanged += (_, _) => RefreshList();
         Loaded += (_, _) =>
         {
             engine.Changed += OnEngineChanged;
@@ -62,9 +77,22 @@ public sealed partial class KeyboardsPage : Page
 
     private void RefreshStatus()
     {
-        CurrentLayoutText.Text = App.Current.CurrentLayoutName();
+        string layout = App.Current.CurrentLayoutName();
+        if (CurrentLayoutText.Text != layout)
+        {
+            CurrentLayoutText.Text = layout;
+            // Screen readers announce the change (live region)
+            FrameworkElementAutomationPeer.FromElement(CurrentLayoutText)?.RaiseAutomationEvent(AutomationEvents.LiveRegionChanged);
+        }
+
         KeyboardRecord? active = engine.ActiveKeyboardKey != null ? engine.Find(engine.ActiveKeyboardKey) : null;
-        if (engine.IsRemoteAutomatic)
+        Problem? problem = engine.CurrentProblem;
+        if (active != null && problem?.Kind == ProblemKind.LayoutMissing && problem.Keyboard?.Key == active.Key)
+        {
+            // Its layout is gone, so the default is what is in use
+            ReasonText.Text = Loc.Format("Main_Now_Fallback", Loc.Name(Ui.KeyboardName(active)));
+        }
+        else if (engine.IsRemoteAutomatic)
         {
             ReasonText.Text = Loc.Get("Main_Now_Remote");
         }
@@ -81,7 +109,6 @@ public sealed partial class KeyboardsPage : Page
             ReasonText.Text = Loc.Get("Main_Now_Default");
         }
 
-        Problem? problem = engine.CurrentProblem;
         ProblemBar.IsOpen = problem != null;
         if (problem != null)
         {
@@ -148,25 +175,36 @@ public sealed partial class KeyboardsPage : Page
     {
         bool active = keyboard.Key == engine.ActiveKeyboardKey && engine.IsConnected(keyboard);
         bool waiting = keyboard.State == KeyboardState.NotSetUp && engine.IsConnected(keyboard);
-        string background = active ? "AccentFillColorDefaultBrush"
-            : waiting ? "SystemFillColorCautionBackgroundBrush"
-            : "ControlFillColorSecondaryBrush";
-        string foreground = active ? "TextOnAccentFillColorPrimaryBrush" : "TextFillColorPrimaryBrush";
+        bool remote = keyboard.Connection == KeyboardConnection.RemoteDesktop;
+        bool ignored = keyboard.State == KeyboardState.Ignored;
+        string layout = Ui.LayoutText(engine, keyboard);
+
+        // Only the states that ask for attention get a colored pill; the others are plain text
+        (string? background, string foreground) = active ? ("AccentFillColorDefaultBrush", "TextOnAccentFillColorPrimaryBrush")
+            : waiting ? ("SystemFillColorCautionBackgroundBrush", "TextFillColorPrimaryBrush")
+            : (null, "TextFillColorSecondaryBrush");
 
         return new KeyboardItem
         {
             Key = keyboard.Key,
             Name = Ui.KeyboardName(keyboard),
             Details = Ui.Details(engine, keyboard),
-            Layout = Ui.LayoutText(engine, keyboard),
+            Layout = layout,
             Status = Ui.StatusText(engine, keyboard),
-            StatusBackground = ThemeBrush(background),
+            StatusBackground = background != null ? ThemeBrush(background) : null,
             StatusForeground = ThemeBrush(foreground),
+            StatusPadding = background != null ? new Thickness(8, 1, 8, 1) : new Thickness(0),
+            NameForeground = ThemeBrush(ignored ? "TextFillColorSecondaryBrush" : "TextFillColorPrimaryBrush"),
             Glyph = Ui.Glyph(keyboard.Connection),
-            Opacity = keyboard.State == KeyboardState.Ignored ? 0.6 : 1,
-            CanIgnore = keyboard.Connection == KeyboardConnection.RemoteDesktop ? Visibility.Collapsed : Visibility.Visible,
+            LayoutVisibility = layout.Length > 0 && !waiting ? Visibility.Visible : Visibility.Collapsed,
+            SetUpVisibility = waiting ? Visibility.Visible : Visibility.Collapsed,
+            SetUpLabel = Loc.Get("Btn_SetUp"),
+            CanIgnore = remote ? Visibility.Collapsed : Visibility.Visible,
+            // Forgetting the Remote Desktop entry would only reset it to automatic
+            CanForget = remote ? Visibility.Collapsed : Visibility.Visible,
+            IgnoreGlyph = ignored ? "" : "",
             EditLabel = Loc.Get(keyboard.State == KeyboardState.NotSetUp ? "Btn_SetUp" : "Btn_Edit"),
-            IgnoreLabel = Loc.Get(keyboard.State == KeyboardState.Ignored ? "Btn_Unignore" : "Btn_Ignore"),
+            IgnoreLabel = Loc.Get(ignored ? "Btn_Unignore" : "Btn_Ignore"),
             ForgetLabel = Loc.Get("Btn_Forget"),
             MoreLabel = Loc.Format("Btn_More", Ui.KeyboardName(keyboard)),
         };
@@ -228,6 +266,28 @@ public sealed partial class KeyboardsPage : Page
         }
     }
 
+    /// <summary>The "…" button opens the card's context menu.</summary>
+    private void OnMore(object sender, RoutedEventArgs e)
+    {
+        DependencyObject? element = sender as DependencyObject;
+        while (element != null && (element as UIElement)?.ContextFlyout == null)
+        {
+            element = VisualTreeHelper.GetParent(element);
+        }
+        if (element is UIElement { ContextFlyout: FlyoutBase menu } && sender is FrameworkElement button)
+        {
+            menu.ShowAt(button);
+        }
+    }
+
+    private void OnSetUpRow(object sender, RoutedEventArgs e)
+    {
+        if (sender is FrameworkElement { Tag: string key })
+        {
+            App.Current.ShowKeyboardWindow(key);
+        }
+    }
+
     private void OnEdit(object sender, RoutedEventArgs e)
     {
         if (sender is FrameworkElement { Tag: string key })
@@ -254,7 +314,8 @@ public sealed partial class KeyboardsPage : Page
         {
             XamlRoot = XamlRoot,
             Title = Loc.Get("Forget_Title"),
-            Content = Loc.Format("Forget_Confirm", Loc.Name(Ui.KeyboardName(keyboard))),
+            // Connected, it goes back to waiting at once; otherwise the question comes next time
+            Content = Loc.Format(engine.IsConnected(keyboard) ? "Forget_Confirm_Connected" : "Forget_Confirm", Loc.Name(Ui.KeyboardName(keyboard))),
             PrimaryButtonText = Loc.Get("Btn_Forget"),
             CloseButtonText = Loc.Get("Kbd_Btn_Cancel"),
             DefaultButton = ContentDialogButton.Close,

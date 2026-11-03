@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value><comment>{0} = connection (USB, Bluetooth), {1} = VID:PID, {2} = when it was last connected.</comment></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Set up…</value><comment>Menu command.</comment></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Edit…</value><comment>Menu command.</comment></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignore (not a keyboard)</value><comment>Menu command for mice and receivers that Windows lists as keyboards.</comment></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignore device</value><comment>Menu command for mice and receivers that Windows lists as keyboards.</comment></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Stop ignoring</value><comment>Undoes Ignore.</comment></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Forget</value><comment>Like &quot;Forget&quot; for a Wi-Fi network in Windows.</comment></data>
   <data name="Btn_More" xml:space="preserve"><value>More options for {0}</value><comment>Screen-reader name and tooltip of the &quot;...&quot; button. {0} = keyboard name.</comment></data>
@@ -71,12 +71,12 @@
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggested based on the keyboard model. Check it before you save.</value></data>
   <data name="Kbd_Hint_Low" xml:space="preserve"><value>The keyboard doesn’t report its layout, so this is a guess based on your Windows region. Check it before you save.</value><comment>&quot;Region&quot; = the Windows &quot;Country or region&quot; setting.</comment></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>This is probably {0}, which isn’t installed. Add it in Windows Settings, then choose it here.</value><comment>{0} = layout name.</comment></data>
-  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Applies while this PC is used through Remote Desktop. By default Windows uses the layout of the keyboard on the computer you connect from.</value><comment>Defines &quot;the other computer&quot; used elsewhere.</comment></data>
+  <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Applies while this PC is used through Remote Desktop. By default, Windows uses the layout of the keyboard on the computer you connect from.</value><comment>Defines &quot;the other computer&quot; used elsewhere.</comment></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>This PC is set to ignore the other computer’s layout (IgnoreRemoteKeyboardLayout). Choose a fixed layout.</value><comment>IgnoreRemoteKeyboardLayout is a registry value name: do not translate it.</comment></data>
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Layout not listed?</value><comment>Link that opens Windows Settings.</comment></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignore this device (it isn’t a keyboard)</value><comment>Check box, for mice and receivers that Windows lists as keyboards.</comment></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Save</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Not a keyboard</value><comment>Button: marks the device as ignored.</comment></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignore device</value><comment>Button: marks the device as ignored.</comment></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Not now</value><comment>Closes without choosing; the app asks again next time the keyboard is connected.</comment></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Cancel</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>General</value><comment>Section heading.</comment></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Restore the keyboard backlight</value><comment>Screen-reader name.</comment></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostics</value><comment>Section heading.</comment></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Write a log file</value><comment>Setting.</comment></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Off by default. The log lists the keyboards connected and when — never what you type.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>The log lists the keyboards connected and when — never what you type.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Write a log file</value><comment>Screen-reader name.</comment></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Open log</value><comment>Link.</comment></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Open folder</value><comment>Link: opens the folder with the settings and the log.</comment></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacy</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout never reads what you type. It only checks which keyboards are connected, and makes no network connections.</value><comment>Keep &quot;never&quot;.</comment></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout never reads what you type. It only checks which keyboards are connected, and makes no network connections.</value><comment>In the About card, under the license.</comment></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>About</value><comment>Section heading.</comment></data>
   <data name="About_Version" xml:space="preserve"><value>Version {0}</value><comment>{0} = version number.</comment></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 The AutoLayout authors</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Third-party notices</value><comment>Link. Use the Microsoft term.</comment></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Project page</value><comment>Link.</comment></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Support on Ko-fi</value><comment>Link to the developer's tip page. Do not translate "Ko-fi".</comment></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Current layout: {0}</value><comment>Tray menu item. {0} = layout name.</comment></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Layout in use: {0}</value><comment>Tray menu item. {0} = layout name.</comment></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Set up “{0}”…</value><comment>Tray menu command. {0} = keyboard name.</comment></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Keyboards…</value><comment>Tray menu command.</comment></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Settings…</value><comment>Tray menu command.</comment></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Open AutoLayout</value><comment>Tray menu command.</comment></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Settings</value><comment>Tray menu command.</comment></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Exit</value><comment>Tray menu command. Use Windows&apos; standard Exit.</comment></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value><comment>Tray tooltip. {0} = layout name.</comment></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ New keyboard: click to set up</value><comment>Whole tooltip, at most 120 charact
 Click to see what went wrong</value><comment>Whole tooltip, at most 120 characters.</comment></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>New keyboard: {0}</value><comment>Notification title. {0} = keyboard name.</comment></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Choose its layout. Until then, nothing changes.</value><comment>Notification text.</comment></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Looks like {0}. Confirm it to use it. Until then, nothing changes.</value><comment>{0} = layout name.</comment></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Looks like {0}. Until you confirm it, nothing changes.</value><comment>{0} = layout name.</comment></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Set up</value><comment>Notification button.</comment></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” connected.</value><comment>Notification whose title is the layout name. {0} = keyboard name.</comment></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” disconnected. Back to the default layout.</value><comment>{0} = keyboard name.</comment></data>
@@ -134,4 +133,9 @@ Click to see what went wrong</value><comment>Whole tooltip, at most 120 characte
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value><comment>Do not translate.</comment></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value><comment>Do not translate.</comment></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Remote Desktop</value><comment>Windows feature name; use Windows&apos; translation (pt-PT: Ambiente de Trabalho Remoto).</comment></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>“{0}” is connected, but its layout isn’t installed, so the default layout is in use.</value><comment>Reason shown under the layout in use when the connected keyboard&apos;s layout was uninstalled. {0} = keyboard name.</comment></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>“{0}” will go back to waiting to be set up, and the default layout will be used until you set it up again.</value><comment>Forget dialog text when the keyboard is connected. {0} = keyboard name.</comment></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>No remote session</value><comment>Status of the Remote Desktop entry when nobody is connected remotely. Short.</comment></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Applies while this PC is used through Remote Desktop</value><comment>Second line of the Remote Desktop entry in the keyboard list. No final period.</comment></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>It isn’t a keyboard</value><comment>Tooltip of the Ignore device button: why you would press it.</comment></data>
 </root>

@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Instellen…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Bewerken…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Negeren (geen toetsenbord)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Apparaat negeren</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Niet meer negeren</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Vergeten</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Meer opties voor {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Indeling niet in de lijst?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Dit apparaat negeren (het is geen toetsenbord)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Opslaan</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Geen toetsenbord</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Apparaat negeren</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Niet nu</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Annuleren</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Algemeen</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Toetsenbordverlichting herstellen</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostiek</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Een logboekbestand schrijven</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Standaard uitgeschakeld. Het logboek vermeldt welke toetsenborden zijn aangesloten en wanneer — nooit wat u typt.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Het logboek vermeldt welke toetsenborden zijn aangesloten en wanneer — nooit wat u typt.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Een logboekbestand schrijven</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Logboek openen</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Map openen</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privacy</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout leest nooit wat u typt. Het controleert alleen welke toetsenborden zijn aangesloten en maakt geen netwerkverbindingen.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout leest nooit wat u typt. Het controleert alleen welke toetsenborden zijn aangesloten en maakt geen netwerkverbindingen.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Info</value></data>
   <data name="About_Version" xml:space="preserve"><value>Versie {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 De auteurs van AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Kennisgevingen van derden</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projectpagina</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Steunen via Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Huidige indeling: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Indeling in gebruik: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>“{0}” instellen…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Toetsenborden…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Instellingen…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>AutoLayout openen</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Instellingen</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Afsluiten</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nieuw toetsenbord: klik om in te stellen</value></data>
 Klik om te zien wat er misging</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nieuw toetsenbord: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Kies de indeling. Tot die tijd verandert er niets.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Lijkt op {0}. Bevestig om deze te gebruiken. Tot die tijd verandert er niets.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Lijkt op {0}. Totdat u het bevestigt, verandert er niets.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Instellen</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}” aangesloten.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}” losgekoppeld. Terug naar de standaardindeling.</value></data>
@@ -134,4 +133,9 @@ Klik om te zien wat er misging</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Extern bureaublad</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Het toetsenbord “{0}” is aangesloten, maar de indeling ervan is niet geïnstalleerd, dus de standaardindeling wordt gebruikt.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Het toetsenbord “{0}” wacht weer op installatie en de standaardindeling wordt gebruikt totdat u het opnieuw instelt.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Geen externe sessie</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Geldt wanneer deze pc wordt gebruikt via Extern bureaublad</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Het is geen toetsenbord</value></data>
 </root>

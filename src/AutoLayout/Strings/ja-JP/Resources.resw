@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>セットアップ…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>編集…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>無視 (キーボードではない)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>デバイスを無視</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>無視を解除</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>削除</value></data>
   <data name="Btn_More" xml:space="preserve"><value>{0} のその他のオプション</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>レイアウトが一覧にありませんか？</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>このデバイスを無視する (キーボードではない)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>保存</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>キーボードではない</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>デバイスを無視</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>今はしない</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>キャンセル</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>全般</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>キーボード バックライトを復元する</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>診断</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>ログ ファイルを書き込む</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>既定ではオフです。ログには、接続されたキーボードとその時刻が記録されますが、入力内容は記録されません。</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>ログには、接続されたキーボードとその時刻が記録されますが、入力内容は記録されません。</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>ログ ファイルを書き込む</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>ログを開く</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>フォルダーを開く</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>プライバシー</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout が入力内容を読み取ることはありません。接続されているキーボードを確認するだけで、ネットワーク接続も行いません。</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout が入力内容を読み取ることはありません。接続されているキーボードを確認するだけで、ネットワーク接続も行いません。</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>バージョン情報</value></data>
   <data name="About_Version" xml:space="preserve"><value>バージョン {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout の作成者</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>サードパーティの通知</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>プロジェクト ページ</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Ko-fi で支援する</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>現在のレイアウト: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>使用中のレイアウト: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>「{0}」をセットアップ…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>キーボード…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>設定…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>AutoLayout を開く</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>設定</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>終了</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 クリックして問題を確認</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>新しいキーボード: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>レイアウトを選んでください。それまでは何も変更されません。</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>{0} のようです。使用するには確認してください。それまでは何も変更されません。</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>{0} のようです。確認するまで、何も変更されません。</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>セットアップ</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>「{0}」が接続されました。</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>「{0}」が取り外されました。既定のレイアウトに戻りました。</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>リモート デスクトップ</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>「{0}」が接続されていますが、そのレイアウトがインストールされていないため、既定のレイアウトが使用されています。</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>「{0}」はセットアップ待ちの状態に戻り、再度セットアップするまで既定のレイアウトが使用されます。</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>リモート セッションなし</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>この PC をリモート デスクトップ経由で使用している間に適用されます</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>キーボードではありません</value></data>
 </root>

@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>设置…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>编辑…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>忽略（不是键盘）</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>忽略设备</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>停止忽略</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>忘记</value></data>
   <data name="Btn_More" xml:space="preserve"><value>{0} 的更多选项</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>找不到布局？</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>忽略此设备（它不是键盘）</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>保存</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>不是键盘</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>忽略设备</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>以后再说</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>取消</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>常规</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>恢复键盘背光</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>诊断</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>写入日志文件</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>默认关闭。日志会列出已连接的键盘及连接时间，绝不会记录你键入的内容。</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>日志会列出已连接的键盘及连接时间，绝不会记录你键入的内容。</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>写入日志文件</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>打开日志</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>打开文件夹</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>隐私</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout 绝不会读取你键入的内容。它只检查已连接哪些键盘，并且不建立任何网络连接。</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout 绝不会读取你键入的内容。它只检查已连接哪些键盘，并且不建立任何网络连接。</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>关于</value></data>
   <data name="About_Version" xml:space="preserve"><value>版本 {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 AutoLayout 作者</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>第三方通知</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>项目页面</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>在 Ko-fi 上支持</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>当前布局：{0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>正在使用的布局：{0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>设置“{0}”…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>键盘…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>设置…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>打开 AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>设置</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>退出</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 单击以查看出了什么问题</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>新键盘：{0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>请选择它的布局。在此之前不会更改任何内容。</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>看起来是 {0}。确认后才会使用。在此之前不会更改任何内容。</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>看起来是 {0}。在你确认之前，不会更改任何内容。</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>设置</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>“{0}”已连接。</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>“{0}”已断开连接。已恢复为默认布局。</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>远程桌面</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>已连接键盘“{0}”，但未安装其布局，因此正在使用默认布局。</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>键盘“{0}”将恢复为等待设置，在你再次设置它之前将使用默认布局。</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>无远程会话</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>通过远程桌面使用此电脑时适用</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>这不是键盘</value></data>
 </root>

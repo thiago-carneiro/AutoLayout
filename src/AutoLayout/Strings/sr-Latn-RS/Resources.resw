@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Podesi…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Izmeni…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Zanemari (nije tastatura)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Zanemari uređaj</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Prestani da zanemaruješ</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Zaboravi</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Više opcija za {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Raspored nije na listi?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Zanemari ovaj uređaj (nije tastatura)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Sačuvaj</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Nije tastatura</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Zanemari uređaj</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Ne sada</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Otkaži</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Opšte</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Vrati pozadinsko osvetljenje tastature</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Dijagnostika</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Upiši datoteku dnevnika</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Podrazumevano je isključeno. Dnevnik beleži koje su tastature povezane i kada — nikada ono što kucate.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Dnevnik beleži koje su tastature povezane i kada — nikada ono što kucate.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Upiši datoteku dnevnika</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Otvori dnevnik</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Otvori fasciklu</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Privatnost</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nikada ne čita ono što kucate. On samo proverava koje su tastature povezane i ne uspostavlja mrežne veze.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout nikada ne čita ono što kucate. On samo proverava koje su tastature povezane i ne uspostavlja mrežne veze.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>O programu</value></data>
   <data name="About_Version" xml:space="preserve"><value>Verzija {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Autori AutoLayout-a</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Obaveštenja trećih strana</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Stranica projekta</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Podrži na Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Trenutni raspored: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Raspored u upotrebi: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Podesi „{0}“…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastature…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Podešavanja…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Otvori AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Podešavanja</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Izlaz</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nova tastatura: kliknite da podesite</value></data>
 Kliknite da vidite šta nije u redu</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nova tastatura: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Izaberite njen raspored. Do tada se ništa ne menja.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Izgleda kao {0}. Potvrdite da biste ga koristili. Do tada se ništa ne menja.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Izgleda kao {0}. Dok to ne potvrdite, ništa se ne menja.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Podesi</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ je povezana.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ je isključena. Povratak na podrazumevani raspored.</value></data>
@@ -134,4 +133,9 @@ Kliknite da vidite šta nije u redu</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Udaljena radna površina</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Tastatura „{0}“ je povezana, ali njen raspored nije instaliran, pa se koristi podrazumevani raspored.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Tastatura „{0}“ ponovo će čekati podešavanje, a koristiće se podrazumevani raspored dok je ponovo ne podesite.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Nema udaljene sesije</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Primenjuje se dok se ovaj računar koristi preko Udaljene radne površine</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>To nije tastatura</value></data>
 </root>

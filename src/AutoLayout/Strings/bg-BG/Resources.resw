@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Настройване…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Редактиране…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Игнориране (не е клавиатура)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Игнориране на устройство</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Спиране на игнорирането</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Забравяне</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Още опции за {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Подредбата не е в списъка?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Игнориране на това устройство (не е клавиатура)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Запазване</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Не е клавиатура</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Игнориране на устройство</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Не сега</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Отказ</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Общи</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Възстановяване на подсветката на клавиатурата</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Диагностика</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Записване на журнален файл</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Изключено по подразбиране. Журналът изброява свързаните клавиатури и кога — но никога какво пишете.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Журналът изброява свързаните клавиатури и кога — но никога какво пишете.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Записване на журнален файл</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Отваряне на журнала</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Отваряне на папката</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Поверителност</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout никога не чете какво пишете. Той само проверява кои клавиатури са свързани и не прави мрежови връзки.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout никога не чете какво пишете. Той само проверява кои клавиатури са свързани и не прави мрежови връзки.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Относно</value></data>
   <data name="About_Version" xml:space="preserve"><value>Версия {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Авторите на AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Известия от трети страни</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Страница на проекта</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Подкрепете в Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Текуща подредба: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Използвана подредба: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Настройване на „{0}“…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Клавиатури…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Настройки…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Отваряне на AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Настройки</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Изход</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@
 Щракнете, за да видите какво не е наред</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Нова клавиатура: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Изберете подредбата ѝ. Дотогава нищо не се променя.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Прилича на {0}. Потвърдете, за да я използвате. Дотогава нищо не се променя.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Прилича на {0}. Докато не потвърдите, нищо не се променя.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Настройване</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ е свързана.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ е изключена. Връщане към подредбата по подразбиране.</value></data>
@@ -134,4 +133,9 @@
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Отдалечен работен плот</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Клавиатурата „{0}“ е свързана, но подредбата ѝ не е инсталирана, затова се използва подредбата по подразбиране.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Клавиатурата „{0}“ отново ще чака настройка, а подредбата по подразбиране ще се използва, докато не я настроите отново.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Няма отдалечена сесия</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Важи, докато този компютър се използва чрез Отдалечен работен плот</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Не е клавиатура</value></data>
 </root>

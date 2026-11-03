@@ -67,6 +67,8 @@ public sealed partial class SettingsPage : Page
         StartupInfo.Message = message ?? string.Empty;
         StartupInfo.Severity = result is StartupChange.Failed ? InfoBarSeverity.Error : InfoBarSeverity.Warning;
         StartupInfo.IsOpen = message != null;
+        // A closed InfoBar still takes its margin
+        StartupInfo.Visibility = message != null ? Visibility.Visible : Visibility.Collapsed;
     }
 
     private void OnNotifyToggled(object sender, RoutedEventArgs e)

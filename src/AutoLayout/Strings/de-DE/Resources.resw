@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Einrichten…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Bearbeiten…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignorieren (keine Tastatur)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Gerät ignorieren</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Nicht mehr ignorieren</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Nicht mehr speichern</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Weitere Optionen für {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Layout nicht aufgeführt?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Dieses Gerät ignorieren (es ist keine Tastatur)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Speichern</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Keine Tastatur</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Gerät ignorieren</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Nicht jetzt</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Allgemein</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Tastaturbeleuchtung wiederherstellen</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnose</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Protokolldatei schreiben</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Standardmäßig deaktiviert. Das Protokoll listet auf, welche Tastaturen wann verbunden waren – niemals, was Sie eingeben.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Das Protokoll listet auf, welche Tastaturen wann verbunden waren – niemals, was Sie eingeben.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Protokolldatei schreiben</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Protokoll öffnen</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Ordner öffnen</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Datenschutz</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout liest niemals, was Sie eingeben. Es prüft nur, welche Tastaturen verbunden sind, und stellt keine Netzwerkverbindungen her.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout liest niemals, was Sie eingeben. Es prüft nur, welche Tastaturen verbunden sind, und stellt keine Netzwerkverbindungen her.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Info</value></data>
   <data name="About_Version" xml:space="preserve"><value>Version {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Die AutoLayout-Autoren</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Hinweise von Drittanbietern</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Projektseite</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Auf Ko-fi unterstützen</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Aktuelles Layout: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Verwendetes Tastaturlayout: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>„{0}“ einrichten…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Tastaturen…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Einstellungen…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>AutoLayout öffnen</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Einstellungen</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Beenden</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Neue Tastatur: zum Einrichten klicken</value></data>
 Klicken, um das Problem anzuzeigen</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Neue Tastatur: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Wählen Sie das Layout aus. Bis dahin ändert sich nichts.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Sieht nach {0} aus. Bestätigen Sie es, um es zu verwenden. Bis dahin ändert sich nichts.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Sieht nach {0} aus. Bis Sie es bestätigen, ändert sich nichts.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Einrichten</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>„{0}“ verbunden.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>„{0}“ getrennt. Zurück zum Standardlayout.</value></data>
@@ -134,4 +133,9 @@ Klicken, um das Problem anzuzeigen</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Remotedesktop</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Die Tastatur „{0}“ ist verbunden, ihr Layout ist jedoch nicht installiert, daher wird das Standardlayout verwendet.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Die Tastatur „{0}“ wartet danach wieder auf die Einrichtung. Bis Sie sie erneut einrichten, wird das Standardlayout verwendet.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Keine Remotesitzung</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Gilt, solange dieser PC über Remotedesktop verwendet wird</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>Das ist keine Tastatur</value></data>
 </root>

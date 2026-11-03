@@ -50,7 +50,7 @@
   <data name="Kbd_ListDetails" xml:space="preserve"><value>{0} · {1} · {2}</value></data>
   <data name="Btn_SetUp" xml:space="preserve"><value>Skonfiguruj…</value></data>
   <data name="Btn_Edit" xml:space="preserve"><value>Edytuj…</value></data>
-  <data name="Btn_Ignore" xml:space="preserve"><value>Ignoruj (to nie klawiatura)</value></data>
+  <data name="Btn_Ignore" xml:space="preserve"><value>Ignoruj urządzenie</value></data>
   <data name="Btn_Unignore" xml:space="preserve"><value>Przestań ignorować</value></data>
   <data name="Btn_Forget" xml:space="preserve"><value>Zapomnij</value></data>
   <data name="Btn_More" xml:space="preserve"><value>Więcej opcji dla: {0}</value></data>
@@ -76,7 +76,7 @@
   <data name="Kbd_MissingLayout.Content" xml:space="preserve"><value>Nie ma układu na liście?</value></data>
   <data name="Kbd_IgnoreCheck.Content" xml:space="preserve"><value>Ignoruj to urządzenie (to nie klawiatura)</value></data>
   <data name="Kbd_Btn_Save.Content" xml:space="preserve"><value>Zapisz</value></data>
-  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>To nie klawiatura</value></data>
+  <data name="Kbd_Btn_NotKeyboard.Content" xml:space="preserve"><value>Ignoruj urządzenie</value></data>
   <data name="Kbd_Btn_Later" xml:space="preserve"><value>Nie teraz</value></data>
   <data name="Kbd_Btn_Cancel" xml:space="preserve"><value>Anuluj</value></data>
   <data name="Set_General.Text" xml:space="preserve"><value>Ogólne</value></data>
@@ -94,12 +94,11 @@
   <data name="Set_BacklightToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Przywracaj podświetlenie klawiatury</value></data>
   <data name="Set_Diagnostics.Text" xml:space="preserve"><value>Diagnostyka</value></data>
   <data name="Set_Log.Text" xml:space="preserve"><value>Zapisuj plik dziennika</value></data>
-  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Domyślnie wyłączone. Dziennik zawiera listę podłączonych klawiatur i czas ich podłączenia — nigdy to, co wpisujesz.</value></data>
+  <data name="Set_Log_Hint.Text" xml:space="preserve"><value>Dziennik zawiera listę podłączonych klawiatur i czas ich podłączenia — nigdy to, co wpisujesz.</value></data>
   <data name="Set_LogToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Zapisuj plik dziennika</value></data>
   <data name="Set_OpenLog.Content" xml:space="preserve"><value>Otwórz dziennik</value></data>
   <data name="Set_OpenFolder.Content" xml:space="preserve"><value>Otwórz folder</value></data>
-  <data name="Set_PrivacyBar.Title" xml:space="preserve"><value>Prywatność</value></data>
-  <data name="Set_PrivacyBar.Message" xml:space="preserve"><value>AutoLayout nigdy nie odczytuje tego, co wpisujesz. Sprawdza tylko, które klawiatury są podłączone, i nie nawiązuje połączeń sieciowych.</value></data>
+  <data name="About_Privacy.Text" xml:space="preserve"><value>AutoLayout nigdy nie odczytuje tego, co wpisujesz. Sprawdza tylko, które klawiatury są podłączone, i nie nawiązuje połączeń sieciowych.</value></data>
   <data name="Set_AboutSection.Text" xml:space="preserve"><value>Informacje</value></data>
   <data name="About_Version" xml:space="preserve"><value>Wersja {0}</value></data>
   <data name="About_Copyright.Text" xml:space="preserve"><value>© 2026 Autorzy AutoLayout</value></data>
@@ -108,10 +107,10 @@
   <data name="About_Credits.Content" xml:space="preserve"><value>Informacje o oprogramowaniu innych firm</value></data>
   <data name="About_Website.Content" xml:space="preserve"><value>Strona projektu</value></data>
   <data name="About_Tip.Content" xml:space="preserve"><value>Wesprzyj w serwisie Ko-fi</value></data>
-  <data name="Menu_Header" xml:space="preserve"><value>Bieżący układ: {0}</value></data>
+  <data name="Menu_Header" xml:space="preserve"><value>Używany układ: {0}</value></data>
   <data name="Menu_SetUp" xml:space="preserve"><value>Skonfiguruj „{0}”…</value></data>
-  <data name="Menu_Keyboards" xml:space="preserve"><value>Klawiatury…</value></data>
-  <data name="Menu_Settings" xml:space="preserve"><value>Ustawienia…</value></data>
+  <data name="Menu_Keyboards" xml:space="preserve"><value>Otwórz AutoLayout</value></data>
+  <data name="Menu_Settings" xml:space="preserve"><value>Ustawienia</value></data>
   <data name="Menu_Exit" xml:space="preserve"><value>Zakończ</value></data>
   <data name="Tray_Tip" xml:space="preserve"><value>AutoLayout — {0}</value></data>
   <data name="Tray_Tip_Attention" xml:space="preserve"><value>AutoLayout
@@ -120,7 +119,7 @@ Nowa klawiatura: kliknij, aby skonfigurować</value></data>
 Kliknij, aby zobaczyć, co poszło nie tak</value></data>
   <data name="Toast_New_Title" xml:space="preserve"><value>Nowa klawiatura: {0}</value></data>
   <data name="Toast_New_Text" xml:space="preserve"><value>Wybierz jej układ. Do tego czasu nic się nie zmieni.</value></data>
-  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Wygląda na układ {0}. Potwierdź, aby go używać. Do tego czasu nic się nie zmieni.</value></data>
+  <data name="Toast_New_TextSuggested" xml:space="preserve"><value>Wygląda na układ {0}. Dopóki tego nie potwierdzisz, nic się nie zmieni.</value></data>
   <data name="Toast_New_Button" xml:space="preserve"><value>Skonfiguruj</value></data>
   <data name="Toast_Applied_Text" xml:space="preserve"><value>Podłączono „{0}”.</value></data>
   <data name="Toast_Reverted_Text" xml:space="preserve"><value>Odłączono „{0}”. Przywrócono układ domyślny.</value></data>
@@ -134,4 +133,9 @@ Kliknij, aby zobaczyć, co poszło nie tak</value></data>
   <data name="Conn_Usb" xml:space="preserve"><value>USB</value></data>
   <data name="Conn_Bluetooth" xml:space="preserve"><value>Bluetooth</value></data>
   <data name="Conn_RemoteDesktop" xml:space="preserve"><value>Pulpit zdalny</value></data>
+  <data name="Main_Now_Fallback" xml:space="preserve"><value>Klawiatura „{0}” jest podłączona, ale jej układ nie jest zainstalowany, więc używany jest układ domyślny.</value></data>
+  <data name="Forget_Confirm_Connected" xml:space="preserve"><value>Klawiatura „{0}” znów będzie czekać na skonfigurowanie, a układ domyślny będzie używany, dopóki jej ponownie nie skonfigurujesz.</value></data>
+  <data name="Status_RemoteIdle" xml:space="preserve"><value>Brak sesji zdalnej</value></data>
+  <data name="Kbd_ListDetails_Remote" xml:space="preserve"><value>Obowiązuje, gdy ten komputer jest używany przez Pulpit zdalny</value></data>
+  <data name="Kbd_NotKeyboard_Tip" xml:space="preserve"><value>To nie klawiatura</value></data>
 </root>
