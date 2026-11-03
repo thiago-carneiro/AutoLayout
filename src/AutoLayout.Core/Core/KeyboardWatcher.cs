@@ -13,7 +13,7 @@ namespace AutoLayout.Core;
 /// may have changed. Events come on the thread that created the window, after a short pause,
 /// since Windows sends one notification per device interface and settings change in bursts.
 /// </summary>
-public sealed class KeyboardWatcher : IDisposable
+public sealed partial class KeyboardWatcher : IDisposable
 {
     private const uint SettleMilliseconds = 750;
     private const uint DevicesTimer = 0x100;

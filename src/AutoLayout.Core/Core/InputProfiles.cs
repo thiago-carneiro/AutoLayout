@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
 using System.Text.RegularExpressions;
 using AutoLayout.Core.Native;
 using Microsoft.Win32;
@@ -21,7 +22,7 @@ namespace AutoLayout.Core;
 /// <param name="Handle">Layout handle to send to windows when switching.</param>
 /// <param name="LayoutName">Localized name of the layout or IME.</param>
 /// <param name="LanguageName">Localized name of the language, or null.</param>
-public sealed record InputProfile(string Id, int LanguageId, string? Klid, IntPtr Handle, string LayoutName, string? LanguageName);
+public sealed partial record InputProfile(string Id, int LanguageId, string? Klid, IntPtr Handle, string LayoutName, string? LanguageName);
 
 /// <summary>
 /// Reads the installed input profiles and switches the default one.
@@ -45,6 +46,8 @@ public sealed class InputProfiles : IInputSystem
     private const string LayoutsKey = @"SYSTEM\CurrentControlSet\Control\Keyboard Layouts\";
     private const string TipKey = @"SOFTWARE\Microsoft\CTF\TIP\";
 
+    private static readonly StrategyBasedComWrappers ComWrappers = new();
+
     private static readonly Regex ProfileIdPattern = new(
         @"^[0-9A-F]{4}:([0-9A-F]{8}|\{[0-9A-F-]{36}\}\{[0-9A-F-]{36}\})$",
         RegexOptions.CultureInvariant | RegexOptions.IgnoreCase);
@@ -61,9 +64,21 @@ public sealed class InputProfiles : IInputSystem
         NativeMethods.IEnumTfInputProcessorProfiles? enumerator = null;
         try
         {
-            Type? type = Type.GetTypeFromCLSID(NativeMethods.ClsidInputProcessorProfiles);
-            manager = type != null ? Activator.CreateInstance(type) as NativeMethods.ITfInputProcessorProfileMgr : null;
-            if (manager == null || manager.EnumProfiles(0, out enumerator) != 0 || enumerator == null)
+            if (NativeMethods.CoCreateInstance(NativeMethods.ClsidInputProcessorProfiles, IntPtr.Zero, NativeMethods.CLSCTX_INPROC_SERVER,
+                NativeMethods.IidInputProcessorProfileMgr, out IntPtr instance) != 0 || instance == IntPtr.Zero)
+            {
+                return profiles;
+            }
+            try
+            {
+                manager = (NativeMethods.ITfInputProcessorProfileMgr)ComWrappers.GetOrCreateObjectForComInstance(instance, CreateObjectFlags.UniqueInstance);
+            }
+            finally
+            {
+                Marshal.Release(instance);
+            }
+
+            if (manager.EnumProfiles(0, out enumerator) != 0 || enumerator == null)
             {
                 return profiles;
             }
@@ -87,14 +102,9 @@ public sealed class InputProfiles : IInputSystem
         }
         finally
         {
-            if (enumerator != null)
-            {
-                Marshal.ReleaseComObject(enumerator);
-            }
-            if (manager != null)
-            {
-                Marshal.ReleaseComObject(manager);
-            }
+            // Release now rather than at the next garbage collection
+            ((object?)enumerator as ComObject)?.FinalRelease();
+            ((object?)manager as ComObject)?.FinalRelease();
         }
         return profiles;
     }

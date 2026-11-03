@@ -12,7 +12,7 @@ namespace AutoLayout.Core;
 /// back after the display turns on, after resume and at startup. Off, when chosen by the user,
 /// is kept as is.
 /// </summary>
-public sealed class BacklightKeeper : IDisposable
+public sealed partial class BacklightKeeper : IDisposable
 {
     private const uint FollowMilliseconds = 3000;
     private const uint FirstRestoreMilliseconds = 1500;

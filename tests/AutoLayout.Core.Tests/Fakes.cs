@@ -4,7 +4,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml.Serialization;
 
 namespace AutoLayout.Core.Tests;
 
@@ -106,32 +105,20 @@ internal sealed class FakeInputs : IInputSystem
     }
 }
 
-/// <summary>Saves to memory, through the real XML format.</summary>
+/// <summary>Saves to memory, through the real JSON format.</summary>
 internal sealed class FakeStore : ISettingsStore
 {
-    private static readonly XmlSerializer Serializer = new(typeof(AppSettings));
-
     public int Saves { get; private set; }
 
-    public string? LastXml { get; private set; }
+    public byte[]? LastJson { get; private set; }
 
     public void Save(AppSettings settings)
     {
         Saves++;
-        using StringWriter writer = new();
-        Serializer.Serialize(writer, settings);
-        LastXml = writer.ToString();
+        LastJson = SettingsStore.ToJson(settings);
     }
 
-    public AppSettings? Reload()
-    {
-        if (LastXml == null)
-        {
-            return null;
-        }
-        using StringReader reader = new(LastXml);
-        return SettingsStore.Sanitize(Serializer.Deserialize(reader) as AppSettings);
-    }
+    public AppSettings? Reload() => LastJson == null ? null : SettingsStore.FromJson(LastJson);
 }
 
 /// <summary>An engine with fakes and a log of everything it raised.</summary>

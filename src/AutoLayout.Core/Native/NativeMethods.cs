@@ -3,6 +3,7 @@
 
 using System;
 using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
 using Microsoft.Win32.SafeHandles;
 
 [assembly: DefaultDllImportSearchPaths(DllImportSearchPath.System32)]
@@ -12,7 +13,7 @@ namespace AutoLayout.Core.Native;
 /// <summary>
 /// Win32 declarations. Nothing here reads, hooks or injects keystrokes.
 /// </summary>
-internal static class NativeMethods
+internal static partial class NativeMethods
 {
     // ---- Device interfaces and properties ----------------------------------------------
 
@@ -244,25 +245,30 @@ internal static class NativeMethods
         public int Flags;
     }
 
-    [ComImport]
+    public const int CLSCTX_INPROC_SERVER = 1;
+    public static readonly Guid IidInputProcessorProfileMgr = new("71C6E74C-0F28-11D8-A82A-00065B84435C");
+
+    [LibraryImport("ole32.dll")]
+    public static partial int CoCreateInstance(in Guid clsid, IntPtr outer, int context, in Guid iid, out IntPtr instance);
+
+    // Source-generated COM (no runtime reflection), so the app can be trimmed or compiled ahead of time
+    [GeneratedComInterface]
     [Guid("71C6E74C-0F28-11D8-A82A-00065B84435C")]
-    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    public interface ITfInputProcessorProfileMgr
+    public partial interface ITfInputProcessorProfileMgr
     {
         // Only EnumProfiles is used; the other slots keep the vtable order
         [PreserveSig] int ActivateProfile(int profileType, ushort langid, ref Guid clsid, ref Guid profile, IntPtr hkl, int flags);
         [PreserveSig] int DeactivateProfile(int profileType, ushort langid, ref Guid clsid, ref Guid profile, IntPtr hkl, int flags);
         [PreserveSig] int GetProfile(int profileType, ushort langid, ref Guid clsid, ref Guid profile, IntPtr hkl, out TfInputProcessorProfile result);
-        [PreserveSig] int EnumProfiles(ushort langid, out IEnumTfInputProcessorProfiles profiles);
+        [PreserveSig] int EnumProfiles(ushort langid, out IEnumTfInputProcessorProfiles? profiles);
     }
 
-    [ComImport]
+    [GeneratedComInterface]
     [Guid("71C6E74D-0F28-11D8-A82A-00065B84435C")]
-    [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    public interface IEnumTfInputProcessorProfiles
+    public partial interface IEnumTfInputProcessorProfiles
     {
-        [PreserveSig] int Clone(out IEnumTfInputProcessorProfiles clone);
-        [PreserveSig] int Next(int count, [Out, MarshalAs(UnmanagedType.LPArray, SizeParamIndex = 0)] TfInputProcessorProfile[] profiles, out int fetched);
+        [PreserveSig] int Clone(out IEnumTfInputProcessorProfiles? clone);
+        [PreserveSig] int Next(int count, [Out, MarshalUsing(CountElementName = nameof(count))] TfInputProcessorProfile[] profiles, out int fetched);
         [PreserveSig] int Reset();
         [PreserveSig] int Skip(int count);
     }

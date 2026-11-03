@@ -401,7 +401,7 @@ public sealed class EngineScenarioTests
 
         KeyboardRecord record = rig.Engine.Find(keyboard.Key)!;
         Assert.AreEqual("Evil Keyboard Windows Security: call 555", record.ProductName, "Controls become spaces; bidi and invalid characters go");
-        Assert.IsNotNull(rig.Store.Reload(), "The XML stays valid");
+        Assert.IsNotNull(rig.Store.Reload(), "The saved file stays valid");
 
         rig.Engine.Configure(keyboard.Key, "Name\u0000with\u0007controls" + new string('x', 500), FakeInputs.Abnt2);
         Assert.IsLessThanOrEqualTo(TextSanitizer.MaxNameLength, record.FriendlyName!.Length);

@@ -5,10 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
-using System.Xml;
-using System.Xml.Serialization;
 
 namespace AutoLayout.Core;
 
@@ -50,15 +49,14 @@ public sealed class KeyboardRecord
 
     public DateTime LastSeenUtc { get; set; }
 
-    [XmlIgnore]
+    [JsonIgnore]
     public string VidPid => string.Format(CultureInfo.InvariantCulture, "{0:X4}:{1:X4}", VendorId, ProductId);
 
     /// <summary>The user's name, the device's name, or VID:PID.</summary>
-    [XmlIgnore]
+    [JsonIgnore]
     public string DisplayName => FriendlyName ?? ProductName ?? VidPid;
 }
 
-[XmlRoot("AutoLayout")]
 public sealed class AppSettings
 {
     public string? DefaultLayoutProfileId { get; set; }
@@ -87,7 +85,7 @@ public interface ISettingsStore
 }
 
 /// <summary>
-/// Loads and saves <see cref="AppSettings"/> as XML in the app's data folder. The file is
+/// Loads and saves <see cref="AppSettings"/> as JSON in the app's data folder. The file is
 /// only trusted as far as its schema: values are validated after loading.
 /// </summary>
 public sealed class SettingsStore : ISettingsStore
@@ -103,17 +101,15 @@ public sealed class SettingsStore : ISettingsStore
     private const int MaxFileSize = 4 * 1024 * 1024;
 
     private static readonly Regex KeyPattern = new(@"^((BT:)?[0-9A-F]{4}:[0-9A-F]{4}|RDP)$", RegexOptions.CultureInvariant);
-    private static readonly XmlSerializer Serializer = new(typeof(AppSettings));
-
     private readonly string path;
 
-    /// <param name="path">Settings file; by default settings.xml in the app's data folder.</param>
+    /// <param name="path">Settings file; by default settings.json in the app's data folder.</param>
     public SettingsStore(string? path = null)
     {
         this.path = path ?? DefaultFilePath;
     }
 
-    public static string DefaultFilePath => Path.Combine(AppPaths.DataDirectory, "settings.xml");
+    public static string DefaultFilePath => Path.Combine(AppPaths.DataDirectory, "settings.json");
 
     public AppSettings Load()
     {
@@ -124,21 +120,14 @@ public sealed class SettingsStore : ISettingsStore
 
         try
         {
-            if (new FileInfo(path).Length > MaxFileSize)
+            using FileStream stream = File.OpenRead(path);
+            if (stream.Length > MaxFileSize)
             {
                 throw new InvalidDataException("Settings file is too large");
             }
-
-            XmlReaderSettings readerSettings = new()
-            {
-                DtdProcessing = DtdProcessing.Prohibit,
-                XmlResolver = null,
-                MaxCharactersInDocument = MaxFileSize,
-            };
-            using XmlReader reader = XmlReader.Create(path, readerSettings);
-            return Sanitize(Serializer.Deserialize(reader) as AppSettings);
+            return Sanitize(JsonSerializer.Deserialize(stream, SettingsJson.Default.AppSettings));
         }
-        catch (Exception error) when (error is IOException or InvalidOperationException or XmlException
+        catch (Exception error) when (error is IOException or JsonException or NotSupportedException
             or InvalidDataException or UnauthorizedAccessException)
         {
             // Keep the unreadable file for inspection and start over
@@ -159,11 +148,7 @@ public sealed class SettingsStore : ISettingsStore
         string temporary = path + ".tmp";
         try
         {
-            XmlWriterSettings writerSettings = new() { Indent = true, Encoding = new UTF8Encoding(false) };
-            using (XmlWriter writer = XmlWriter.Create(temporary, writerSettings))
-            {
-                Serializer.Serialize(writer, settings);
-            }
+            File.WriteAllBytes(temporary, ToJson(settings));
 
             // Replace in one step so a crash never leaves a half-written file
             if (File.Exists(path))
@@ -187,6 +172,11 @@ public sealed class SettingsStore : ISettingsStore
             }
         }
     }
+
+    internal static byte[] ToJson(AppSettings settings) => JsonSerializer.SerializeToUtf8Bytes(settings, SettingsJson.Default.AppSettings);
+
+    /// <summary>Reads settings as <see cref="Load"/> does, without the file; throws <see cref="JsonException"/>.</summary>
+    internal static AppSettings FromJson(byte[] json) => Sanitize(JsonSerializer.Deserialize(json, SettingsJson.Default.AppSettings));
 
     internal static AppSettings Sanitize(AppSettings? settings)
     {
@@ -244,4 +234,14 @@ public sealed class SettingsStore : ISettingsStore
         settings.Keyboards = keyboards;
         return settings;
     }
+}
+
+/// <summary>
+/// JSON contract for the settings file, generated at compile time (no reflection, so the app
+/// can be trimmed). Enums are written by name; unknown properties are ignored.
+/// </summary>
+[JsonSourceGenerationOptions(WriteIndented = true, UseStringEnumConverter = true)]
+[JsonSerializable(typeof(AppSettings))]
+internal sealed partial class SettingsJson : JsonSerializerContext
+{
 }

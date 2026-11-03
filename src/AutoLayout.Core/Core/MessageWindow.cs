@@ -14,7 +14,7 @@ namespace AutoLayout.Core;
 /// tray icon) and runs timers, on the thread that creates it. It is top-level, not message-only,
 /// because message-only windows do not receive broadcasts.
 /// </summary>
-public sealed class MessageWindow : IDisposable
+public sealed partial class MessageWindow : IDisposable
 {
     public delegate bool MessageHandler(int message, IntPtr wParam, IntPtr lParam, out IntPtr result);
 

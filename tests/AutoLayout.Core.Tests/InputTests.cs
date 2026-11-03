@@ -128,10 +128,10 @@ public sealed class SettingsFileTests
     [TestCleanup]
     public void DeleteFolder() => Directory.Delete(folder, true);
 
-    private AppSettings LoadText(string xml, out bool keptBadCopy)
+    private AppSettings LoadText(string json, out bool keptBadCopy)
     {
-        string path = Path.Combine(folder, "settings.xml");
-        File.WriteAllText(path, xml);
+        string path = Path.Combine(folder, "settings.json");
+        File.WriteAllText(path, json);
         AppSettings settings = new SettingsStore(path).Load();
         keptBadCopy = File.Exists(path + ".bad");
         return settings;
@@ -140,59 +140,57 @@ public sealed class SettingsFileTests
     [TestMethod]
     public void SavedSettings_LoadBackTheSame()
     {
-        string path = Path.Combine(folder, "settings.xml");
-        AppSettings settings = new() { DefaultLayoutProfileId = "0416:00020409", LogEnabled = true };
-        settings.Keyboards.Add(new KeyboardRecord { Key = "046D:C31C", ProductName = "K120", State = KeyboardState.Configured, LayoutProfileId = "0416:00010416" });
+        string path = Path.Combine(folder, "settings.json");
+        AppSettings settings = new() { DefaultLayoutProfileId = "0416:00020409", LogEnabled = true, BacklightLevel = BacklightLevel.Low };
+        settings.Keyboards.Add(new KeyboardRecord { Key = "046D:C31C", ProductName = "K120 \"teclado\" ç 日本", State = KeyboardState.Configured, LayoutProfileId = "0416:00010416" });
         settings.Keyboards.Add(new KeyboardRecord { Key = "RDP", Connection = KeyboardConnection.RemoteDesktop, State = KeyboardState.Configured, LayoutProfileId = "AUTO" });
         new SettingsStore(path).Save(settings);
         new SettingsStore(path).Save(settings);   // replacing an existing file
 
         AppSettings loaded = new SettingsStore(path).Load();
         Assert.AreEqual("0416:00020409", loaded.DefaultLayoutProfileId);
+        Assert.IsTrue(loaded.LogEnabled);
+        Assert.AreEqual(BacklightLevel.Low, loaded.BacklightLevel);
         Assert.HasCount(2, loaded.Keyboards);
+        Assert.AreEqual("K120 \"teclado\" ç 日本", loaded.Keyboards[0].ProductName);
         Assert.AreEqual("0416:00010416", loaded.Keyboards[0].LayoutProfileId);
+        Assert.AreEqual(KeyboardConnection.RemoteDesktop, loaded.Keyboards[1].Connection);
         Assert.AreEqual("AUTO", loaded.Keyboards[1].LayoutProfileId);
         Assert.IsFalse(File.Exists(path + ".tmp"));
+
+        string text = File.ReadAllText(path);
+        StringAssert.Contains(text, "\"Configured\"", "Enums are saved by name");
+        Assert.DoesNotContain("VidPid", text, "Computed properties are not saved");
     }
 
     [TestMethod]
-    public void ExternalEntities_AreNotResolved()
+    public void DeepNesting_IsRejected()
     {
-        string secret = Path.Combine(folder, "secret.txt");
-        File.WriteAllText(secret, "SECRET");
-        AppSettings settings = LoadText(
-            "<?xml version=\"1.0\"?><!DOCTYPE a [<!ENTITY x SYSTEM \"file:///" + secret.Replace('\\', '/') + "\">]>"
-            + "<AutoLayout><DefaultLayoutProfileId>&x;</DefaultLayoutProfileId></AutoLayout>", out bool kept);
-        Assert.IsNull(settings.DefaultLayoutProfileId);
-        Assert.IsTrue(kept);
-    }
-
-    [TestMethod]
-    public void EntityExpansionBombs_AreRejected()
-    {
-        StringBuilder xml = new("<?xml version=\"1.0\"?><!DOCTYPE lolz [<!ENTITY lol \"lol\">");
-        for (int i = 1; i < 10; i++)
-        {
-            xml.Append($"<!ENTITY lol{i} \"&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};&lol{i - 1};\">".Replace("lol0", "lol"));
-        }
-        xml.Append("]><AutoLayout><DefaultLayoutProfileId>&lol9;</DefaultLayoutProfileId></AutoLayout>");
-        AppSettings settings = LoadText(xml.ToString(), out _);
-        Assert.IsNull(settings.DefaultLayoutProfileId);
-    }
-
-    [TestMethod]
-    public void HugeFiles_AreNotRead()
-    {
-        AppSettings settings = LoadText("<AutoLayout>" + new string(' ', 5 * 1024 * 1024) + "</AutoLayout>", out bool kept);
+        string json = "{\"Keyboards\":" + new string('[', 100000) + new string(']', 100000) + "}";
+        AppSettings settings = LoadText(json, out bool kept);
         Assert.IsEmpty(settings.Keyboards);
         Assert.IsTrue(kept);
     }
 
     [TestMethod]
-    public void BrokenFiles_StartOverAndKeepACopy()
+    public void HugeFiles_AreNotRead()
     {
-        AppSettings settings = LoadText("<AutoLayout><Keyboards><KeyboardRecord>", out bool kept);
+        AppSettings settings = LoadText("{\"Keyboards\":[]" + new string(' ', 5 * 1024 * 1024) + "}", out bool kept);
+        Assert.IsEmpty(settings.Keyboards);
+        Assert.IsTrue(kept);
+    }
+
+    [TestMethod]
+    [DataRow("{\"Keyboards\":[{\"Key\":")]                       // cut short
+    [DataRow("{\"MainWindowWidth\":\"wide\"}")]                  // wrong type
+    [DataRow("{\"Keyboards\":[{\"State\":\"Hacked\"}]}")]        // unknown enum name
+    [DataRow("<AutoLayout />")]                                  // not JSON
+    [DataRow("")]
+    public void BrokenFiles_StartOverAndKeepACopy(string json)
+    {
+        AppSettings settings = LoadText(json, out bool kept);
         Assert.IsNotNull(settings);
+        Assert.IsEmpty(settings.Keyboards);
         Assert.IsTrue(kept);
     }
 
@@ -200,18 +198,25 @@ public sealed class SettingsFileTests
     public void TamperedValues_AreDropped()
     {
         AppSettings settings = LoadText(
-            "<AutoLayout><DefaultLayoutProfileId>0416:00020409; calc.exe</DefaultLayoutProfileId>"
-            + "<BacklightLevel>Low</BacklightLevel><MainWindowWidth>99999999</MainWindowWidth><Keyboards>"
-            + "<KeyboardRecord><Key>..\\..\\evil</Key><State>Configured</State></KeyboardRecord>"
-            + "<KeyboardRecord><Key>046D:C31C</Key><State>Configured</State><LayoutProfileId>AUTO</LayoutProfileId></KeyboardRecord>"
-            + "<KeyboardRecord><Key>046D:C31C</Key><State>Configured</State></KeyboardRecord>"
-            + "<KeyboardRecord><Key>1111:2222</Key><ProductName>a\u202Eb</ProductName><State>Ignored</State><VendorId>70000</VendorId></KeyboardRecord>"
-            + "</Keyboards></AutoLayout>", out _);
+            """
+            {
+              "DefaultLayoutProfileId": "0416:00020409; calc.exe",
+              "BacklightLevel": "Low", "MainWindowWidth": 99999999, "Unknown": { "a": [1, 2] },
+              "Keyboards": [
+                { "Key": "..\\..\\evil", "State": "Configured" },
+                { "Key": "046D:C31C", "State": "Configured", "LayoutProfileId": "AUTO" },
+                { "Key": "046D:C31C", "State": "Configured" },
+                { "Key": "1111:2222", "ProductName": "a\u202Eb", "State": "Ignored", "VendorId": 70000 },
+                { "Key": "3333:4444", "State": 7 },
+                null
+              ]
+            }
+            """, out _);
 
         Assert.IsNull(settings.DefaultLayoutProfileId, "Only well-formed profile ids are kept");
         Assert.AreEqual(BacklightLevel.Low, settings.BacklightLevel);
         Assert.AreEqual(10000, settings.MainWindowWidth);
-        Assert.HasCount(2, settings.Keyboards, "Invalid keys and duplicates are dropped");
+        Assert.HasCount(2, settings.Keyboards, "Invalid keys, undefined states, nulls and duplicates are dropped");
         Assert.AreEqual(KeyboardState.NotSetUp, settings.Keyboards[0].State, "AUTO is only valid for Remote Desktop");
         Assert.AreEqual("ab", settings.Keyboards[1].ProductName);
         Assert.AreEqual(70000 & 0xFFFF, settings.Keyboards[1].VendorId);
@@ -220,13 +225,13 @@ public sealed class SettingsFileTests
     [TestMethod]
     public void TooManyRecords_AreCapped()
     {
-        StringBuilder xml = new("<AutoLayout><Keyboards>");
+        StringBuilder json = new("{\"Keyboards\":[");
         for (int i = 0; i < 800; i++)
         {
-            xml.Append($"<KeyboardRecord><Key>{0x1000 + i:X4}:0001</Key><State>NotSetUp</State></KeyboardRecord>");
+            json.Append(i > 0 ? "," : string.Empty).Append($"{{\"Key\":\"{0x1000 + i:X4}:0001\",\"State\":\"NotSetUp\"}}");
         }
-        xml.Append("</Keyboards></AutoLayout>");
-        Assert.HasCount(SettingsStore.MaxKeyboards, LoadText(xml.ToString(), out _).Keyboards);
+        json.Append("]}");
+        Assert.HasCount(SettingsStore.MaxKeyboards, LoadText(json.ToString(), out _).Keyboards);
     }
 }
 
