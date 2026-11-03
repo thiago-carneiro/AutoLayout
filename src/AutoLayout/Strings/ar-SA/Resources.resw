@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>اختر تخطيطًا</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (مقترح)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>مقترح بناءً على طراز لوحة المفاتيح. تحقق منه قبل الحفظ.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>لا تُبلغ لوحة المفاتيح عن تخطيطها، لذا فهذا تخمين مبني على منطقة Windows لديك. تحقق منه قبل الحفظ.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>على الأرجح هو {0}، وهو غير مثبّت. أضفه في إعدادات Windows، ثم اختره هنا.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>يسري أثناء استخدام هذا الكمبيوتر عبر اتصال سطح المكتب البعيد. افتراضيًا يستخدم Windows تخطيط لوحة المفاتيح في الكمبيوتر الذي تتصل منه.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>تم ضبط هذا الكمبيوتر لتجاهل تخطيط الكمبيوتر الآخر (IgnoreRemoteKeyboardLayout). اختر تخطيطًا ثابتًا.</value></data>

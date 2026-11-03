@@ -35,7 +35,7 @@
     <PublishAot Condition="'$(Configuration)' == 'Release'">true</PublishAot>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <Deterministic>true</Deterministic>
-    <Version>0.1.0</Version>
+    <Version>1.0.0</Version>
     <Product>AutoLayout</Product>
     <Copyright>Copyright 2026 The AutoLayout authors. Licensed under the Apache License, Version 2.0.</Copyright>
   </PropertyGroup>

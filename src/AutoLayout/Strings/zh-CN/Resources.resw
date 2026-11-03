@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>选择布局</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0}（建议）</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>根据键盘型号给出的建议。保存前请检查。</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>此键盘不会报告其布局，因此这是根据你的 Windows 区域做出的猜测。保存前请检查。</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>这很可能是 {0}，但它尚未安装。请在 Windows 设置中添加，然后在此处选择。</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>在通过远程桌面使用这台电脑时生效。默认情况下，Windows 使用你所连接的计算机上键盘的布局。</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>这台电脑设置为忽略另一台计算机的布局（IgnoreRemoteKeyboardLayout）。请选择固定的布局。</value></data>

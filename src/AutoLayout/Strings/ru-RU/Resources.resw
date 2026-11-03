@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Выберите раскладку</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (рекомендуется)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Предложено по модели клавиатуры. Проверьте перед сохранением.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Клавиатура не сообщает свою раскладку, поэтому это предположение на основе региона Windows. Проверьте перед сохранением.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Скорее всего, это раскладка {0}, но она не установлена. Добавьте ее в параметрах Windows, затем выберите здесь.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Действует, когда этот компьютер используется через удаленный рабочий стол. По умолчанию Windows использует раскладку клавиатуры того компьютера, с которого вы подключаетесь.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Этот компьютер настроен игнорировать раскладку другого компьютера (IgnoreRemoteKeyboardLayout). Выберите фиксированную раскладку.</value></data>

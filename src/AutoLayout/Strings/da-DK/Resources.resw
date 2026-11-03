@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Vælg et layout</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (foreslået)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Foreslået ud fra tastaturmodellen. Kontroller det, før du gemmer.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastaturet oplyser ikke sit layout, så dette er et gæt baseret på din Windows-region. Kontroller det, før du gemmer.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Det er sandsynligvis {0}, som ikke er installeret. Tilføj det i Windows-indstillinger, og vælg det derefter her.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gælder, når denne pc bruges via Fjernskrivebord. Som standard bruger Windows layoutet fra tastaturet på den computer, du opretter forbindelse fra.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Denne pc er indstillet til at ignorere den anden computers layout (IgnoreRemoteKeyboardLayout). Vælg et fast layout.</value></data>

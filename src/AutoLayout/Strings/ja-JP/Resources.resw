@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>レイアウトを選択してください</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (推奨)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>キーボードのモデルに基づく推奨です。保存する前に確認してください。</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>このキーボードはレイアウトを通知しないため、Windows の地域設定に基づく推測です。保存する前に確認してください。</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>おそらく {0} ですが、インストールされていません。Windows の設定で追加してから、ここで選択してください。</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>この PC をリモート デスクトップで使用している間に適用されます。既定では、Windows は接続元のコンピューターのキーボードのレイアウトを使用します。</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>この PC は、接続元のコンピューターのレイアウトを無視するように設定されています (IgnoreRemoteKeyboardLayout)。固定のレイアウトを選んでください。</value></data>

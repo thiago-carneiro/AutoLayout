@@ -90,6 +90,8 @@ public partial class App : Application
             : new Engine(settings, new ExternalKeyboards(), new InputProfiles(), store);
         watcher.KeyboardsChanged += (_, _) => Engine.Refresh();
         watcher.LayoutsChanged += (_, _) => Engine.ReloadProfiles();
+        // The next sign-in and the lock screen start with the default layout, not an external keyboard's
+        watcher.SessionEnding += (_, _) => Engine.RestoreDefaultLayout();
         Engine.RetryNeeded += (_, _) => watcher.ScheduleKeyboardCheck();
         Engine.Changed += (_, _) => UpdateTray();
         if (!IsDemo)
@@ -343,10 +345,9 @@ public partial class App : Application
 
     private void OnNewKeyboard(object? sender, KeyboardRecord keyboard)
     {
-        // Only evidence from the keyboard itself (its name, a known model) is worth a "looks like".
-        // A guess from the Windows region is offered in the window, where it is explained.
+        // Suggestions come only from the keyboard itself (its name, a known model)
         LayoutSuggestion? suggestion = Engine.GetSuggestion(keyboard);
-        string text = suggestion?.Profile != null && suggestion.Confidence == SuggestionConfidence.High
+        string text = suggestion?.Profile != null
             ? Loc.Format("Toast_New_TextSuggested", Loc.Name(Ui.ProfileName(Engine, suggestion.Profile), 60))
             : Loc.Get("Toast_New_Text");
         notifier.ShowNewKeyboard(keyboard, Loc.Format("Toast_New_Title", Loc.Name(Ui.KeyboardName(keyboard), 40)), text, Loc.Get("Toast_New_Button"));

@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Izberite razporeditev</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (predlagano)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Predlagano glede na model tipkovnice. Preverite pred shranjevanjem.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tipkovnica ne sporoča svoje razporeditve, zato je to ugibanje na podlagi regije sistema Windows. Preverite pred shranjevanjem.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Verjetno gre za razporeditev {0}, ki ni nameščena. Dodajte jo v nastavitvah sistema Windows in jo nato izberite tukaj.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Velja, ko se ta računalnik uporablja prek oddaljenega namizja. Windows privzeto uporabi razporeditev tipkovnice računalnika, iz katerega se povezujete.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ta računalnik je nastavljen tako, da prezre razporeditev drugega računalnika (IgnoreRemoteKeyboardLayout). Izberite fiksno razporeditev.</value></data>

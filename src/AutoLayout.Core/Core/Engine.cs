@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AutoLayout.Core;
 
@@ -34,6 +35,8 @@ public sealed record LayoutChange(InputProfile Layout, KeyboardRecord? Keyboard,
 /// </summary>
 public sealed class Engine
 {
+    private const string UsInternationalKlid = "00020409";
+
     private readonly AppSettings settings;
     private readonly IDeviceSource devices;
     private readonly IInputSystem inputs;
@@ -123,12 +126,45 @@ public sealed class Engine
         profiles = inputs.GetInstalled();
         if (FindProfile(settings.DefaultLayoutProfileId) == null && settings.DefaultLayoutProfileId == null)
         {
-            // First run: keep the default the user already has
-            settings.DefaultLayoutProfileId = inputs.GetDefaultProfileId(profiles);
+            settings.DefaultLayoutProfileId = FirstDefault();
             Save();
         }
         started = true;
         Refresh();
+    }
+
+    /// <summary>
+    /// The layout with no external keyboard, on first run: US-International when it is installed,
+    /// else the Windows default. Not simply the Windows default: when an external keyboard was in
+    /// use, Windows' default is often that keyboard's layout (ABNT2, say), and AutoLayout would
+    /// then put it on the laptop's own keyboard. The first-run window shows the choice.
+    /// </summary>
+    private string? FirstDefault()
+    {
+        string? windowsDefault = inputs.GetDefaultProfileId(profiles);
+        InputProfile? usInternational = profiles.FirstOrDefault(p => p.Id == windowsDefault && p.Klid == UsInternationalKlid)
+            ?? profiles.FirstOrDefault(p => p.Klid == UsInternationalKlid);
+        return usInternational?.Id ?? windowsDefault;
+    }
+
+    /// <summary>
+    /// The session is ending (shut down, restart, sign out): makes the default layout the Windows
+    /// default again, so that the next sign-in and the lock screen start with it rather than with
+    /// the external keyboard's layout. When AutoLayout starts again, it applies the layout that
+    /// fits the keyboards connected then.
+    /// </summary>
+    public void RestoreDefaultLayout()
+    {
+        InputProfile? profile = FindProfile(settings.DefaultLayoutProfileId);
+        if (profile == null || string.Equals(appliedProfileId, profile.Id, StringComparison.OrdinalIgnoreCase))
+        {
+            return;
+        }
+        if (inputs.Apply(profile))
+        {
+            appliedProfileId = profile.Id;
+            Log.Write("Session ending: default layout " + profile.Id + " restored");
+        }
     }
 
     /// <summary>Checks the keyboards connected and applies the layout that fits.</summary>

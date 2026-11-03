@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Επιλέξτε διάταξη</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (προτεινόμενη)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Προτείνεται βάσει του μοντέλου του πληκτρολογίου. Ελέγξτε την πριν αποθηκεύσετε.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Το πληκτρολόγιο δεν αναφέρει τη διάταξή του, επομένως πρόκειται για εικασία βάσει της περιοχής των Windows. Ελέγξτε την πριν αποθηκεύσετε.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Πιθανότατα είναι η διάταξη {0}, η οποία δεν είναι εγκατεστημένη. Προσθέστε την στις Ρυθμίσεις των Windows και μετά επιλέξτε την εδώ.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Ισχύει όταν αυτός ο υπολογιστής χρησιμοποιείται μέσω απομακρυσμένης επιφάνειας εργασίας. Από προεπιλογή, τα Windows χρησιμοποιούν τη διάταξη του πληκτρολογίου του υπολογιστή από τον οποίο συνδέεστε.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Αυτός ο υπολογιστής έχει ρυθμιστεί να αγνοεί τη διάταξη του άλλου υπολογιστή (IgnoreRemoteKeyboardLayout). Επιλέξτε μια σταθερή διάταξη.</value></data>

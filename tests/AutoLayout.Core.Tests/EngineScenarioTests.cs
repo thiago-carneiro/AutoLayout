@@ -344,6 +344,51 @@ public sealed class EngineScenarioTests
     }
 
     [TestMethod]
+    public void FirstRun_PrefersUsInternational_EvenWhenWindowsWasLeftOnAbnt2()
+    {
+        // Windows' default was the external keyboard's layout when AutoLayout was installed
+        Rig rig = new();
+        rig.Inputs.DefaultId = FakeInputs.Abnt2.Id;
+        rig.Start();
+        Assert.AreEqual(FakeInputs.UsIntl.Id, rig.Settings.DefaultLayoutProfileId);
+        Assert.AreEqual(FakeInputs.UsIntl.Id, rig.Inputs.CurrentId, "Applied with no external keyboard");
+    }
+
+    [TestMethod]
+    public void FirstRun_WithoutUsInternational_KeepsTheWindowsDefault()
+    {
+        Rig rig = new();
+        rig.Inputs.Installed.Remove(FakeInputs.UsIntl);
+        rig.Inputs.DefaultId = FakeInputs.German.Id;
+        rig.Start();
+        Assert.AreEqual(FakeInputs.German.Id, rig.Settings.DefaultLayoutProfileId);
+    }
+
+    [TestMethod]
+    public void FirstRun_DoesNotOverrideADefaultTheUserChose()
+    {
+        Rig rig = new(new AppSettings { DefaultLayoutProfileId = FakeInputs.German.Id });
+        rig.Start();
+        Assert.AreEqual(FakeInputs.German.Id, rig.Settings.DefaultLayoutProfileId);
+    }
+
+    [TestMethod]
+    public void SessionEnd_LeavesWindowsOnTheDefaultLayout_AndTheKeyboardsLayoutComesBack()
+    {
+        Rig rig = new Rig().Start();
+        ConnectedKeyboard desk = rig.Plug(0x1111, 1);
+        rig.SetUp(desk, FakeInputs.Abnt2);
+        Assert.AreEqual(FakeInputs.Abnt2.Id, rig.Inputs.CurrentId);
+
+        rig.Engine.RestoreDefaultLayout();
+        Assert.AreEqual(FakeInputs.UsIntl.Id, rig.Inputs.CurrentId, "The next sign-in starts with the default");
+
+        // If the session goes on after all, the next check applies the keyboard's layout again
+        rig.Engine.Refresh();
+        Assert.AreEqual(FakeInputs.Abnt2.Id, rig.Inputs.CurrentId);
+    }
+
+    [TestMethod]
     public void RemoteDesktop_LayoutCanBeChosenBeforeTheFirstSession()
     {
         Rig rig = new Rig().Start();

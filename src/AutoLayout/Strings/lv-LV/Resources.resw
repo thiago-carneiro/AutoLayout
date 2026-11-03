@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Izvēlieties izkārtojumu</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (ieteikts)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Ieteikts, pamatojoties uz tastatūras modeli. Pārbaudiet to pirms saglabāšanas.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastatūra nesniedz informāciju par savu izkārtojumu, tāpēc šis ir minējums, pamatojoties uz Windows reģionu. Pārbaudiet to pirms saglabāšanas.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Tas, visticamāk, ir {0}, kas nav instalēts. Pievienojiet to Windows iestatījumos un pēc tam izvēlieties šeit.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Attiecas, kamēr šis dators tiek izmantots, izmantojot attālo darbvirsmu. Pēc noklusējuma Windows izmanto tā datora tastatūras izkārtojumu, no kura izveidojat savienojumu.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Šajā datorā ir iestatīts ignorēt otra datora izkārtojumu (IgnoreRemoteKeyboardLayout). Izvēlieties fiksētu izkārtojumu.</value></data>

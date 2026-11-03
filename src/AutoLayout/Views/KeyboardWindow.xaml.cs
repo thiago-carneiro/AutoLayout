@@ -149,6 +149,8 @@ public sealed partial class KeyboardWindow : Window
             _ => null,
         };
         LayoutSuggestion? suggestion = WasNew ? engine.GetSuggestion(keyboard) : null;
+        // A suggestion comes from the keyboard itself (its name, a known model), so it is
+        // pre-selected; without one nothing is, and Save waits for the user's choice
         string? selected = previous ?? keyboard.LayoutProfileId ?? suggestion?.Profile?.Id;
 
         LayoutCombo.SelectionChanged -= OnLayoutChanged;
@@ -198,7 +200,7 @@ public sealed partial class KeyboardWindow : Window
         }
         else if (suggestion != null)
         {
-            hint = Loc.Get(suggestion.Confidence == SuggestionConfidence.High ? "Kbd_Hint_High" : "Kbd_Hint_Low");
+            hint = Loc.Get("Kbd_Hint_High");
         }
         HintText.Text = hint ?? string.Empty;
         HintText.Visibility = hint != null ? Visibility.Visible : Visibility.Collapsed;

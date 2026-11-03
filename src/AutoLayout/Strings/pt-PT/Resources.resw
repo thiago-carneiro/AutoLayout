@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Escolha uma disposição</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerida)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerida com base no modelo do teclado. Verifique antes de guardar.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>O teclado não indica a sua disposição, por isso trata-se de uma estimativa baseada na região do Windows. Verifique antes de guardar.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Provavelmente é {0}, que não está instalada. Adicione-a nas Definições do Windows e escolha-a aqui.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Aplica-se enquanto este PC for utilizado através do Ambiente de Trabalho Remoto. Por predefinição, o Windows utiliza a disposição do teclado do computador a partir do qual se liga.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Este PC está configurado para ignorar a disposição do outro computador (IgnoreRemoteKeyboardLayout). Escolha uma disposição fixa.</value></data>

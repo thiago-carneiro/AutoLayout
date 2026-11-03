@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Pasirinkite išdėstymą</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (siūloma)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Pasiūlyta pagal klaviatūros modelį. Patikrinkite prieš išsaugodami.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klaviatūra nepraneša savo išdėstymo, todėl tai spėjimas pagal jūsų Windows regioną. Patikrinkite prieš išsaugodami.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Greičiausiai tai {0}, kuris neįdiegtas. Pridėkite jį Windows parametruose, tada pasirinkite čia.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Taikoma, kai šis kompiuteris naudojamas per nuotolinį darbalaukį. Pagal numatytuosius parametrus Windows naudoja kompiuterio, iš kurio jungiatės, klaviatūros išdėstymą.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Šiame kompiuteryje nustatyta ignoruoti kito kompiuterio išdėstymą (IgnoreRemoteKeyboardLayout). Pasirinkite fiksuotą išdėstymą.</value></data>

@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Válasszon kiosztást</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (javasolt)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>A billentyűzet típusa alapján javasolt. Mentés előtt ellenőrizze.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>A billentyűzet nem jelenti a kiosztását, ezért ez a Windows régiója alapján tett találgatás. Mentés előtt ellenőrizze.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Valószínűleg ez a(z) {0} kiosztás, amely nincs telepítve. Adja hozzá a Windows beállításaiban, majd válassza ki itt.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Akkor érvényes, ha ezt a számítógépet távoli asztalon keresztül használják. A Windows alapértelmezés szerint annak a számítógépnek a billentyűzetkiosztását használja, amelyről csatlakozik.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ez a számítógép úgy van beállítva, hogy figyelmen kívül hagyja a másik számítógép kiosztását (IgnoreRemoteKeyboardLayout). Válasszon rögzített kiosztást.</value></data>

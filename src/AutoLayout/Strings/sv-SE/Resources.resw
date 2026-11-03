@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Välj en layout</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (föreslagen)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Föreslagen utifrån tangentbordsmodellen. Kontrollera den innan du sparar.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tangentbordet rapporterar inte sin layout, så detta är en gissning utifrån din Windows-region. Kontrollera den innan du sparar.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Det är troligen {0}, som inte är installerad. Lägg till den i Windows-inställningar och välj den sedan här.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gäller när den här datorn används via Fjärrskrivbord. Som standard använder Windows layouten från tangentbordet på den dator du ansluter från.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Den här datorn är inställd på att ignorera den andra datorns layout (IgnoreRemoteKeyboardLayout). Välj en fast layout.</value></data>

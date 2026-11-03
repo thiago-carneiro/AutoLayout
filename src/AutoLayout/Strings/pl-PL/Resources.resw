@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Wybierz układ</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerowany)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugestia na podstawie modelu klawiatury. Sprawdź ją przed zapisaniem.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klawiatura nie podaje swojego układu, więc to jedynie przypuszczenie na podstawie regionu systemu Windows. Sprawdź je przed zapisaniem.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>To prawdopodobnie układ {0}, który nie jest zainstalowany. Dodaj go w ustawieniach systemu Windows, a następnie wybierz tutaj.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Obowiązuje, gdy ten komputer jest używany przez Pulpit zdalny. Domyślnie system Windows używa układu klawiatury komputera, z którego się łączysz.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ten komputer jest skonfigurowany tak, aby ignorować układ drugiego komputera (IgnoreRemoteKeyboardLayout). Wybierz stały układ.</value></data>

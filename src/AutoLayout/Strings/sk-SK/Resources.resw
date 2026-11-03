@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Vyberte rozloženie</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (navrhnuté)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Návrh podľa modelu klávesnice. Pred uložením ho skontrolujte.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klávesnica svoje rozloženie nehlási, takže ide len o odhad podľa oblasti vo Windowse. Pred uložením ho skontrolujte.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Pravdepodobne ide o rozloženie {0}, ktoré nie je nainštalované. Pridajte ho v nastaveniach Windowsu a potom ho vyberte tu.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Platí, keď sa tento počítač používa cez Vzdialenú plochu. Windows predvolene používa rozloženie klávesnice počítača, z ktorého sa pripájate.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Tento počítač je nastavený tak, aby rozloženie druhého počítača ignoroval (IgnoreRemoteKeyboardLayout). Vyberte pevné rozloženie.</value></data>

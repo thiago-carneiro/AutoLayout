@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Kies een indeling</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (voorgesteld)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Voorgesteld op basis van het toetsenbordmodel. Controleer dit voordat u opslaat.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Het toetsenbord geeft zijn indeling niet door, dus dit is een gok op basis van uw Windows-regio. Controleer dit voordat u opslaat.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Dit is waarschijnlijk {0}, die niet is geïnstalleerd. Voeg de indeling toe in Windows-instellingen en kies deze dan hier.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Geldt wanneer deze pc wordt gebruikt via Extern bureaublad. Standaard gebruikt Windows de indeling van het toetsenbord van de computer waarmee u verbinding maakt.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Deze pc is ingesteld om de indeling van de andere computer te negeren (IgnoreRemoteKeyboardLayout). Kies een vaste indeling.</value></data>

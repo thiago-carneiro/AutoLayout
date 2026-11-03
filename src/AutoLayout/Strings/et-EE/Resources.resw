@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Valige paigutus</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (soovitatud)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Soovitatud klaviatuurimudeli põhjal. Kontrollige seda enne salvestamist.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klaviatuur ei teata oma paigutust, seega on see Windowsi regiooni põhjal tehtud oletus. Kontrollige seda enne salvestamist.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>See on tõenäoliselt {0}, mis pole installitud. Lisage see Windowsi sätetes ja valige siis siin.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Kehtib siis, kui seda arvutit kasutatakse kaugtöölaua kaudu. Vaikimisi kasutab Windows selle arvuti klaviatuuri paigutust, millelt ühendate.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>See arvuti on seadistatud eirama teise arvuti paigutust (IgnoreRemoteKeyboardLayout). Valige kindel paigutus.</value></data>

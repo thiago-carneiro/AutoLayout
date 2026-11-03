@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Choose a layout</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (suggested)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggested based on the keyboard model. Check it before you save.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>The keyboard doesn’t report its layout, so this is a guess based on your Windows region. Check it before you save.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>This is probably {0}, which isn’t installed. Add it in Windows Settings, then choose it here.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Applies while this PC is used through Remote Desktop. By default Windows uses the layout of the keyboard on the computer you connect from.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>This PC is set to ignore the other computer’s layout (IgnoreRemoteKeyboardLayout). Choose a fixed layout.</value></data>

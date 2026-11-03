@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>選擇配置</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0}（建議）</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>根據鍵盤型號所做的建議。儲存前請檢查。</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>此鍵盤不會回報其配置，因此這是根據您的 Windows 地區所做的猜測。儲存前請檢查。</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>這很可能是 {0}，但尚未安裝。請在 Windows 設定中新增，然後在此處選擇。</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>在透過遠端桌面使用這部電腦時生效。根據預設，Windows 會使用您所連線電腦上鍵盤的配置。</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>這部電腦設定為略過另一部電腦的配置（IgnoreRemoteKeyboardLayout）。請選擇固定的配置。</value></data>

@@ -90,6 +90,7 @@ internal static partial class NativeMethods
     // ---- Windows, messages and timers --------------------------------------------------------
 
     public const int WM_DESTROY = 0x0002;
+    public const int WM_ENDSESSION = 0x0016;
     public const int WM_SETTINGCHANGE = 0x001A;
     public const int WM_INPUTLANGCHANGE = 0x0051;
     public const int WM_TIMER = 0x0113;

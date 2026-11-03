@@ -48,6 +48,9 @@ public sealed partial class KeyboardWatcher : IDisposable
 
     public event EventHandler? LayoutsChanged;
 
+    /// <summary>Windows is shutting down, restarting or signing out; raised at once, not after a pause.</summary>
+    public event EventHandler? SessionEnding;
+
     /// <summary>Checks the keyboards again after the pause, e.g. when Windows could not list them.</summary>
     public void ScheduleKeyboardCheck()
     {
@@ -85,6 +88,11 @@ public sealed partial class KeyboardWatcher : IDisposable
             case NativeMethods.WM_SETTINGCHANGE:
             case NativeMethods.WM_INPUTLANGCHANGE:
                 window.StartTimer(SettleMilliseconds, OnLayoutsSettled, LayoutsTimer);
+                break;
+
+            case NativeMethods.WM_ENDSESSION when wParam != IntPtr.Zero:
+                // wParam is zero when the end of the session was cancelled
+                SessionEnding?.Invoke(this, EventArgs.Empty);
                 break;
         }
         return false;

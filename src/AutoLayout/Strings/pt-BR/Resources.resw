@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Escolha um layout</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerido)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerido com base no modelo do teclado. Confira antes de salvar.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>O teclado não informa o layout, então este é um palpite pela região do Windows. Confira antes de salvar.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Provavelmente é {0}, que não está instalado. Adicione-o nas Configurações do Windows e escolha-o aqui.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Vale enquanto este PC é usado pela Área de Trabalho Remota. Por padrão, o Windows usa o layout do teclado do computador de onde você se conecta.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Este PC está configurado para ignorar o layout do outro computador (IgnoreRemoteKeyboardLayout). Escolha um layout fixo.</value></data>

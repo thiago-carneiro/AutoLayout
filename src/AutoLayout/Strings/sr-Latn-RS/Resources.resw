@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Izaberite raspored</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (predlog)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Predloženo na osnovu modela tastature. Proverite pre nego što sačuvate.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastatura ne prijavljuje svoj raspored, pa je ovo nagađanje na osnovu regiona sistema Windows. Proverite pre nego što sačuvate.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Verovatno je u pitanju raspored {0}, koji nije instaliran. Dodajte ga u podešavanjima sistema Windows, pa ga izaberite ovde.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Važi dok se ovaj računar koristi preko udaljene radne površine. Podrazumevano, Windows koristi raspored tastature računara sa kog se povezujete.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ovaj računar je podešen da zanemaruje raspored drugog računara (IgnoreRemoteKeyboardLayout). Izaberite fiksni raspored.</value></data>

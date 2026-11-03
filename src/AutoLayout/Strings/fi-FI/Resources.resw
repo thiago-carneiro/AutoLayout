@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Valitse asettelu</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (ehdotus)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Ehdotettu näppäimistömallin perusteella. Tarkista se ennen tallentamista.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Näppäimistö ei ilmoita asetteluaan, joten tämä on arvaus Windowsin alueen perusteella. Tarkista se ennen tallentamista.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Tämä on todennäköisesti {0}, jota ei ole asennettu. Lisää se Windowsin asetuksissa ja valitse se sitten tästä.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Koskee tilannetta, jossa tätä tietokonetta käytetään Etätyöpöydän kautta. Oletuksena Windows käyttää sen tietokoneen näppäimistön asettelua, jolta muodostat yhteyden.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Tämä tietokone on asetettu ohittamaan toisen tietokoneen asettelu (IgnoreRemoteKeyboardLayout). Valitse kiinteä asettelu.</value></data>

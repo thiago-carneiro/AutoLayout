@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Odaberite raspored</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (predloženo)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Predloženo prema modelu tipkovnice. Provjerite prije spremanja.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tipkovnica ne prijavljuje svoj raspored, pa je ovo nagađanje na temelju regije sustava Windows. Provjerite prije spremanja.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Vjerojatno je riječ o rasporedu {0}, koji nije instaliran. Dodajte ga u postavkama sustava Windows, a zatim ga odaberite ovdje.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Vrijedi dok se ovo računalo koristi putem udaljene radne površine. Prema zadanim postavkama Windows koristi raspored tipkovnice računala s kojeg se povezujete.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ovo je računalo postavljeno da zanemaruje raspored drugog računala (IgnoreRemoteKeyboardLayout). Odaberite fiksni raspored.</value></data>

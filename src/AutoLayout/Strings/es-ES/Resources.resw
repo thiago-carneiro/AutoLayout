@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Elige una distribución</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerida)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerida según el modelo del teclado. Compruébala antes de guardar.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>El teclado no indica su distribución, así que es una suposición basada en tu región de Windows. Compruébala antes de guardar.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Probablemente es {0}, que no está instalada. Añádela en Configuración de Windows y elígela aquí.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Se aplica mientras este PC se usa mediante Escritorio remoto. De forma predeterminada, Windows usa la distribución del teclado del equipo desde el que te conectas.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Este PC está configurado para ignorar la distribución del otro equipo (IgnoreRemoteKeyboardLayout). Elige una distribución fija.</value></data>

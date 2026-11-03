@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Velg et oppsett</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (foreslått)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Foreslått ut fra tastaturmodellen. Kontroller det før du lagrer.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastaturet oppgir ikke oppsettet sitt, så dette er et gjett basert på Windows-regionen din. Kontroller det før du lagrer.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Dette er sannsynligvis {0}, som ikke er installert. Legg det til i Windows-innstillinger, og velg det deretter her.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Gjelder når denne PC-en brukes via Eksternt skrivebord. Som standard bruker Windows oppsettet til tastaturet på datamaskinen du kobler til fra.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Denne PC-en er satt til å ignorere den andre datamaskinens oppsett (IgnoreRemoteKeyboardLayout). Velg et fast oppsett.</value></data>

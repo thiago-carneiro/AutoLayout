@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Bir düzen seçin</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (önerilen)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Klavye modeline göre önerildi. Kaydetmeden önce kontrol edin.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Klavye düzenini bildirmiyor; bu nedenle bu, Windows bölgenize göre yapılmış bir tahmindir. Kaydetmeden önce kontrol edin.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Büyük olasılıkla {0} düzeni; ancak yüklü değil. Windows Ayarları’nda ekleyin, ardından burada seçin.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Bu bilgisayar Uzak Masaüstü ile kullanılırken geçerlidir. Varsayılan olarak Windows, bağlandığınız bilgisayardaki klavyenin düzenini kullanır.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Bu bilgisayar, diğer bilgisayarın düzenini yoksayacak şekilde ayarlanmış (IgnoreRemoteKeyboardLayout). Sabit bir düzen seçin.</value></data>

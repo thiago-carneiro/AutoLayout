@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Изберете подредба</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (препоръчана)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Предложена според модела на клавиатурата. Проверете, преди да запазите.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Клавиатурата не съобщава подредбата си, така че това е предположение въз основа на региона на Windows. Проверете, преди да запазите.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Вероятно това е {0}, която не е инсталирана. Добавете я от настройките на Windows и после я изберете тук.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Важи, докато този компютър се използва чрез отдалечен работен плот. По подразбиране Windows използва подредбата на клавиатурата на компютъра, от който се свързвате.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Този компютър е настроен да игнорира подредбата на другия компютър (IgnoreRemoteKeyboardLayout). Изберете фиксирана подредба.</value></data>

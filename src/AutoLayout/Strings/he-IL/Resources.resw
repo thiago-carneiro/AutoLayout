@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>בחר פריסה</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (מוצעת)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>מוצעת לפי דגם המקלדת. בדוק אותה לפני השמירה.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>המקלדת לא מדווחת על הפריסה שלה, ולכן זו הערכה לפי האזור ב-Windows. בדוק אותה לפני השמירה.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>כנראה זו {0}, שאינה מותקנת. הוסף אותה בהגדרות של Windows ואז בחר אותה כאן.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>חל כשהמחשב הזה משמש דרך שולחן עבודה מרוחק. כברירת מחדל Windows משתמש בפריסת המקלדת במחשב שממנו אתה מתחבר.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>המחשב הזה מוגדר להתעלם מהפריסה של המחשב השני (IgnoreRemoteKeyboardLayout). בחר פריסה קבועה.</value></data>

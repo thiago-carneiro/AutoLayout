@@ -240,36 +240,40 @@ public sealed class LayoutSuggesterTests
 {
     private static readonly List<InputProfile> Installed = new() { FakeInputs.UsIntl, FakeInputs.Abnt2, FakeInputs.JapaneseIme };
 
-    private static LayoutSuggestion? Suggest(string? name, int vid, int pid, string region) =>
-        LayoutSuggester.Suggest(new KeyboardRecord { ProductName = name, VendorId = vid, ProductId = pid }, Installed, region);
+    private static LayoutSuggestion? Suggest(string? name, int vid, int pid) =>
+        LayoutSuggester.Suggest(new KeyboardRecord { ProductName = name, VendorId = vid, ProductId = pid }, Installed);
 
     [TestMethod]
-    public void NameWithAbnt_SuggestsAbnt2WithConfidence()
+    [DataRow("USB Keyboard ABNT2", "00010416")]
+    [DataRow("Keyboard US-International", "00020409")]
+    [DataRow("US Intl keyboard", "00020409")]
+    [DataRow("Gaming Keyboard JIS", "00000411")]
+    [DataRow("Korean keyboard", "00000412")]
+    public void LayoutNamedByTheKeyboard_IsSuggested(string name, string klid)
     {
-        LayoutSuggestion? suggestion = Suggest("USB Keyboard ABNT2", 0x1234, 1, "US");
-        Assert.AreEqual(SuggestionConfidence.High, suggestion?.Confidence);
-        Assert.AreEqual(FakeInputs.Abnt2.Id, suggestion?.Profile?.Id);
+        Assert.AreEqual(klid, Suggest(name, 0x1234, 1)?.Klid);
     }
 
     [TestMethod]
     public void AppleJisModel_SuggestsTheJapaneseInputMethod()
     {
-        Assert.AreEqual(FakeInputs.JapaneseIme.Id, Suggest("Apple Keyboard", 0x05AC, 0x0222, "BR")?.Profile?.Id);
+        Assert.AreEqual(FakeInputs.JapaneseIme.Id, Suggest("Apple Keyboard", 0x05AC, 0x0222)?.Profile?.Id);
     }
 
     [TestMethod]
     public void SuggestedLayoutNotInstalled_IsStillReported()
     {
-        LayoutSuggestion? suggestion = Suggest("Korean keyboard", 0x1234, 1, "BR");
+        LayoutSuggestion? suggestion = Suggest("Korean keyboard", 0x1234, 1);
         Assert.AreEqual("00000412", suggestion?.Klid);
         Assert.IsNull(suggestion?.Profile);
     }
 
     [TestMethod]
-    public void UnknownKeyboard_GetsARegionGuess_OnlyWhenInstalled()
+    public void KeyboardThatSaysNothing_GetsNoSuggestion_WhicheverLayoutsAreInstalled()
     {
-        Assert.AreEqual(SuggestionConfidence.Low, Suggest("USB Keyboard", 0x1A2C, 2, "BR")?.Confidence);
-        Assert.IsNull(Suggest("USB Keyboard", 0x1A2C, 2, "DE"), "German is not installed: no weak guess");
-        Assert.IsNull(Suggest(null, 0x1A2C, 2, "ZZ"));
+        // No guess from the Windows region or language: no layout is favored
+        Assert.IsNull(Suggest("USB Keyboard", 0x1A2C, 2));
+        Assert.IsNull(Suggest("K380 Multi-Device Keyboard", 0x046D, 0xB342));
+        Assert.IsNull(Suggest(null, 0x1A2C, 2));
     }
 }

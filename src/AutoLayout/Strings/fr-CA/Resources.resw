@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Choisir une disposition</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (suggérée)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggérée d’après le modèle du clavier. Vérifiez-la avant d’enregistrer.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Le clavier ne signale pas sa disposition; il s’agit donc d’une estimation fondée sur votre région Windows. Vérifiez-la avant d’enregistrer.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Il s’agit probablement de {0}, qui n’est pas installée. Ajoutez-la dans les paramètres Windows, puis choisissez-la ici.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>S’applique quand ce PC est utilisé par Bureau à distance. Par défaut, Windows utilise la disposition du clavier de l’ordinateur à partir duquel vous vous connectez.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Ce PC est configuré pour ignorer la disposition de l’autre ordinateur (IgnoreRemoteKeyboardLayout). Choisissez une disposition fixe.</value></data>

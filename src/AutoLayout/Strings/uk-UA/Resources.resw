@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Виберіть розкладку</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (рекомендовано)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Запропоновано за моделлю клавіатури. Перевірте перед збереженням.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Клавіатура не повідомляє свою розкладку, тому це припущення на основі регіону Windows. Перевірте перед збереженням.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Імовірно, це розкладка {0}, яку не встановлено. Додайте її в параметрах Windows, а потім виберіть тут.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Діє, коли цей ПК використовується через віддалений робочий стіл. За замовчуванням Windows використовує розкладку клавіатури комп’ютера, з якого ви підключаєтеся.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Цей ПК налаштовано ігнорувати розкладку іншого комп’ютера (IgnoreRemoteKeyboardLayout). Виберіть фіксовану розкладку.</value></data>

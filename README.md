@@ -6,10 +6,10 @@ AutoLayout sits in the notification area and sets the Windows **default keyboard
 
 - **No external keyboard:** your default layout (for example, US-International for the laptop's keyboard).
 - **An external keyboard you set up is connected:** its layout. With several, the last one connected wins.
-- **A USB or Bluetooth keyboard is connected for the first time:** AutoLayout asks for its layout, with a suggestion when it can make one. Nothing changes until you answer.
+- **A USB or Bluetooth keyboard is connected for the first time:** AutoLayout asks for its layout, with a suggestion only when the keyboard itself tells it. Nothing changes until you answer.
 - **Someone uses this PC through Remote Desktop:** Windows uses the layout of the remote computer's keyboard and AutoLayout stays out of the way (or applies a layout you choose for Remote Desktop). Back at the console, the rules above apply again.
 
-Because it is the *default* layout that changes, new windows and the session after the lock screen get the right layout too. Win+Space still works as usual: AutoLayout only acts when a keyboard is connected or disconnected.
+Because it is the *default* layout that changes, new windows and the session after the lock screen get the right layout too. When Windows shuts down or you sign out, AutoLayout puts your default layout back, so the next sign-in starts with it even if an external keyboard was in use. Win+Space still works as usual: AutoLayout only acts when a keyboard is connected or disconnected.
 
 | Keyboards | A new keyboard | Settings |
 |---|---|---|
@@ -32,7 +32,7 @@ Hat tip to [SaltwaterC/KeyboardBacklightForLenovo](https://github.com/SaltwaterC
 
 ## Using it
 
-On first start the main window opens with your current default layout selected. Close it and AutoLayout keeps running in the notification area.
+On first start the main window opens with the layout for no external keyboard already chosen: US-International when it is installed, otherwise the current Windows default. Change it there if your computer's own keyboard has another layout. Close the window and AutoLayout keeps running in the notification area.
 
 - **Notification area icon:** click it to open AutoLayout, or to set up a keyboard that is waiting. Right-click for the menu.
 - **Keyboards:** the layout in use and why, the layout when no external keyboard is connected, and every keyboard seen, with its layout and status. From a keyboard's "…" menu (or by right-clicking it) you can edit it, ignore it (for mice and receivers that Windows lists as keyboards) or forget it. At the end, the layout for Remote Desktop sessions: automatic (the other computer's layout) or one you choose.
@@ -48,7 +48,7 @@ Except for English and Brazilian Portuguese, the translations were machine-made 
 
 ## Layout suggestions
 
-Keyboards rarely say which layout they have: most vendors use the same product id for every regional version, and the HID country code is almost always zero. AutoLayout suggests a layout only from what is reliable — words in the product name such as "ABNT" or "Japanese", and Apple keyboards whose product id tells the JIS variant (ids from the Linux kernel's `hid-ids.h`) — and, as a weak guess shown only in the setup window, the layout of your Windows region. You always confirm.
+Keyboards rarely say which layout they have: most vendors use the same product id for every regional version, and the HID country code is almost always zero. AutoLayout suggests a layout only from evidence in the keyboard itself — words in the product name such as "US International", "ABNT2", "JIS" or "Korean", and Apple keyboards whose product id tells the JIS variant (ids from the Linux kernel's `hid-ids.h`). It does not guess from your Windows region or language, and it favors no layout: a keyboard that says nothing gets no suggestion, and you choose. The one preference in AutoLayout is US-International as the starting layout for no external keyboard, which you can change.
 
 ## Building
 

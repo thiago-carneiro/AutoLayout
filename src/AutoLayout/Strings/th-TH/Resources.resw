@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>เลือกเค้าโครง</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (แนะนำ)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>แนะนำตามรุ่นของแป้นพิมพ์ ตรวจสอบก่อนบันทึก</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>แป้นพิมพ์ไม่รายงานเค้าโครงของตนเอง จึงเป็นการคาดเดาจากภูมิภาคของ Windows ตรวจสอบก่อนบันทึก</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>น่าจะเป็น {0} ซึ่งยังไม่ได้ติดตั้ง เพิ่มในการตั้งค่า Windows แล้วเลือกที่นี่</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>มีผลขณะใช้พีซีเครื่องนี้ผ่านเดสก์ท็อประยะไกล ตามค่าเริ่มต้น Windows จะใช้เค้าโครงของแป้นพิมพ์บนคอมพิวเตอร์ที่คุณเชื่อมต่อมา</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>พีซีเครื่องนี้ถูกตั้งค่าให้ละเว้นเค้าโครงของคอมพิวเตอร์เครื่องอื่น (IgnoreRemoteKeyboardLayout) เลือกเค้าโครงแบบคงที่</value></data>

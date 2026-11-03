@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Alegeți un aranjament</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (sugerat)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Sugerat pe baza modelului tastaturii. Verificați-l înainte de a salva.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>Tastatura nu raportează aranjamentul, deci este o presupunere pe baza regiunii din Windows. Verificați-l înainte de a salva.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Probabil este aranjamentul {0}, care nu este instalat. Adăugați-l în Setările Windows, apoi alegeți-l aici.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Se aplică atunci când acest computer este folosit prin Desktop la distanță. Implicit, Windows folosește aranjamentul tastaturii de pe computerul de pe care vă conectați.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Acest computer este setat să ignore aranjamentul celuilalt computer (IgnoreRemoteKeyboardLayout). Alegeți un aranjament fix.</value></data>

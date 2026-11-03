@@ -69,7 +69,6 @@
   <data name="Kbd_Layout_Placeholder" xml:space="preserve"><value>Scegli un layout</value></data>
   <data name="Kbd_Suggested" xml:space="preserve"><value>{0} (suggerito)</value></data>
   <data name="Kbd_Hint_High" xml:space="preserve"><value>Suggerito in base al modello della tastiera. Controllalo prima di salvare.</value></data>
-  <data name="Kbd_Hint_Low" xml:space="preserve"><value>La tastiera non comunica il proprio layout, quindi questa è una stima basata sull’area geografica di Windows. Controllalo prima di salvare.</value></data>
   <data name="Kbd_Hint_NotInstalled" xml:space="preserve"><value>Probabilmente è {0}, che non è installato. Aggiungilo nelle Impostazioni di Windows, poi sceglilo qui.</value></data>
   <data name="Kbd_Hint_Remote" xml:space="preserve"><value>Vale quando questo PC viene usato tramite Desktop remoto. Per impostazione predefinita, Windows usa il layout della tastiera del computer da cui ti connetti.</value></data>
   <data name="Kbd_Hint_RemoteIgnored" xml:space="preserve"><value>Questo PC è impostato per ignorare il layout dell’altro computer (IgnoreRemoteKeyboardLayout). Scegli un layout fisso.</value></data>
