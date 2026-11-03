@@ -2,11 +2,18 @@
 // SPDX-License-Identifier: Apache-2.0
 
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using AutoLayout.Core;
+using AutoLayout.Platform;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Imaging;
 using Windows.Graphics.Imaging;
 using Windows.Storage.Streams;
@@ -14,30 +21,93 @@ using Windows.Storage.Streams;
 namespace AutoLayout.Services;
 
 /// <summary>
-/// With --demo --capture &lt;folder&gt;: renders the windows to PNG files (for the README and the
-/// Store listing) and exits.
+/// With --demo --capture &lt;folder&gt;: renders every window, page state, menu and dialog,
+/// and the tray icons, to PNG files (for the README, the Store listing and design reviews),
+/// and exits. Add --theme light for the light theme and --lang for another language.
 /// </summary>
 internal static class Capture
 {
     public const string Argument = "--capture";
+
+    private const int ShortWait = 700;
+    private const int LongWait = 1500;
 
     public static async Task RunAsync(App app, string folder)
     {
         try
         {
             Directory.CreateDirectory(folder);
+            string Path(string name) => System.IO.Path.Combine(folder, name + ".png");
 
+            // Keyboards page: top, end of the list, and the problem state
             app.ShowMainWindow();
             await Task.Delay(2000);
-            await SaveAsync(app.MainWindowForCapture?.Content, Path.Combine(folder, "keyboards.png"));
+            UIElement main = app.MainWindowForCapture!.Content;
+            await SaveAsync(main, Path("keyboards"));
 
+            ScrollPage(main, toEnd: true);
+            await Task.Delay(ShortWait);
+            await SaveAsync(main, Path("keyboards-end"));
+            ScrollPage(main, toEnd: false);
+            await Task.Delay(ShortWait);
+
+            // The "…" menu of the first keyboard, then the Forget dialog it opens
+            if (Descendants(main).OfType<Button>().FirstOrDefault(b => b.Flyout is MenuFlyout) is Button more)
+            {
+                // Screenshots can't capture acrylic: a solid background of the same tone
+                Style solid = new(typeof(MenuFlyoutPresenter));
+                solid.Setters.Add(new Setter(Control.BackgroundProperty, Application.Current.Resources["SolidBackgroundFillColorQuarternaryBrush"]));
+                ((MenuFlyout)more.Flyout).MenuFlyoutPresenterStyle = solid;
+                more.Flyout.ShowAt(more);
+                await Task.Delay(ShortWait);
+                await SavePopupsAsync(main.XamlRoot, Path("keyboard-menu"));
+
+                MenuFlyoutItem? forget = OpenPopups(main.XamlRoot).SelectMany(Descendants).OfType<MenuFlyoutItem>().LastOrDefault();
+                if (forget != null)
+                {
+                    new MenuFlyoutItemAutomationPeer(forget).Invoke();
+                    await Task.Delay(LongWait);
+                    await SavePopupsAsync(main.XamlRoot, Path("forget-dialog"));
+                    foreach (ContentDialog dialog in OpenPopups(main.XamlRoot).SelectMany(Descendants).OfType<ContentDialog>().ToList())
+                    {
+                        dialog.Hide();
+                    }
+                    await Task.Delay(ShortWait);
+                }
+            }
+
+            Demo.LayoutMissing = true;
+            app.Engine.ReloadProfiles();
+            app.Engine.Refresh();
+            await Task.Delay(LongWait);
+            await SaveAsync(main, Path("keyboards-problem"));
+            Demo.LayoutMissing = false;
+            app.Engine.ReloadProfiles();
+            app.Engine.Refresh();
+            await Task.Delay(ShortWait);
+
+            // Settings page: top and end
             app.ShowMainWindow(settingsPage: true);
-            await Task.Delay(1500);
-            await SaveAsync(app.MainWindowForCapture?.Content, Path.Combine(folder, "settings.png"));
+            await Task.Delay(LongWait);
+            await SaveAsync(main, Path("settings"));
+            ScrollPage(main, toEnd: true);
+            await Task.Delay(ShortWait);
+            await SaveAsync(main, Path("settings-end"));
 
-            app.ShowKeyboardWindow(Demo.WaitingKey);
-            await Task.Delay(1500);
-            await SaveAsync(app.KeyboardWindowForCapture(Demo.WaitingKey)?.Content, Path.Combine(folder, "new-keyboard.png"));
+            // The keyboard window: a new keyboard, a known one and Remote Desktop
+            foreach ((string key, string name) in new[]
+            {
+                (Demo.WaitingKey, "new-keyboard"),
+                (Demo.ConfiguredKey, "edit-keyboard"),
+                (ExternalKeyboards.RemoteDesktopKey, "remote-desktop"),
+            })
+            {
+                app.ShowKeyboardWindow(key);
+                await Task.Delay(LongWait);
+                await SaveAsync(app.KeyboardWindowForCapture(key)?.Content, Path(name));
+            }
+
+            await SaveTrayIconsAsync(Path("tray-icons"));
         }
         catch (Exception error)
         {
@@ -45,6 +115,46 @@ internal static class Capture
             Log.Write("Capture failed: " + error);
         }
         app.Quit();
+    }
+
+    private static IEnumerable<DependencyObject> Descendants(DependencyObject parent)
+    {
+        int count = VisualTreeHelper.GetChildrenCount(parent);
+        for (int i = 0; i < count; i++)
+        {
+            DependencyObject child = VisualTreeHelper.GetChild(parent, i);
+            yield return child;
+            foreach (DependencyObject descendant in Descendants(child))
+            {
+                yield return descendant;
+            }
+        }
+    }
+
+    /// <summary>What the open popups show, without the dimming layer behind a dialog.</summary>
+    private static IEnumerable<DependencyObject> OpenPopups(XamlRoot root) =>
+        VisualTreeHelper.GetOpenPopupsForXamlRoot(root).Where(p => p.Child is not null and not Microsoft.UI.Xaml.Shapes.Rectangle)
+            .Select(p => (DependencyObject)p.Child);
+
+    /// <summary>Scrolls the page shown in the main window to its top or its end.</summary>
+    private static void ScrollPage(UIElement window, bool toEnd)
+    {
+        if (Descendants(window).OfType<Frame>().FirstOrDefault()?.Content is DependencyObject page
+            && Descendants(page).OfType<ScrollViewer>().FirstOrDefault() is ScrollViewer scroller)
+        {
+            scroller.ChangeView(null, toEnd ? scroller.ScrollableHeight : 0, null, disableAnimation: true);
+        }
+    }
+
+    /// <summary>Saves what the popups (menus, dialogs) show, one file per popup.</summary>
+    private static async Task SavePopupsAsync(XamlRoot root, string path)
+    {
+        List<DependencyObject> popups = OpenPopups(root).ToList();
+        for (int i = 0; i < popups.Count; i++)
+        {
+            string file = i == 0 ? path : System.IO.Path.ChangeExtension(path, null) + "-" + i + ".png";
+            await SaveAsync(popups[i] as UIElement, file);
+        }
     }
 
     private static async Task SaveAsync(UIElement? element, string path)
@@ -55,13 +165,76 @@ internal static class Capture
         }
         RenderTargetBitmap bitmap = new();
         await bitmap.RenderAsync(element);
+        if (bitmap.PixelWidth == 0 || bitmap.PixelHeight == 0)
+        {
+            return;
+        }
         IBuffer pixels = await bitmap.GetPixelsAsync();
+        double scale = element.XamlRoot?.RasterizationScale ?? 1.0;
+        await SavePngAsync(pixels.ToArray(), bitmap.PixelWidth, bitmap.PixelHeight, scale, BitmapAlphaMode.Premultiplied, path);
+    }
 
+    /// <summary>
+    /// The tray icon in its three states, on a light and on a dark taskbar, at 16, 20, 24 and 32
+    /// pixels (100% to 200% scaling), each pixel enlarged 6 times so it can be inspected.
+    /// </summary>
+    private static async Task SaveTrayIconsAsync(string path)
+    {
+        int[] sizes = { 16, 20, 24, 32 };
+        const int Zoom = 6;
+        const int Cell = 32 * Zoom + 24;
+        TrayState[] states = { TrayState.Normal, TrayState.Attention, TrayState.Error };
+        int width = sizes.Length * Cell;
+        int height = 2 * states.Length * Cell;
+        byte[] image = new byte[width * height * 4];
+
+        for (int theme = 0; theme < 2; theme++)
+        {
+            bool light = theme == 0;
+            uint background = light ? 0xFFF3F3F3 : 0xFF1C1C1C;
+            for (int s = 0; s < states.Length; s++)
+            {
+                int top = (theme * states.Length + s) * Cell;
+                for (int c = 0; c < sizes.Length; c++)
+                {
+                    int size = sizes[c];
+                    uint[] icon = TrayIconRenderer.Render(states[s], size, light);
+                    int left = c * Cell;
+                    int offset = (Cell - size * Zoom) / 2;
+                    for (int y = 0; y < Cell; y++)
+                    {
+                        for (int x = 0; x < Cell; x++)
+                        {
+                            int ix = (x - offset) / Zoom;
+                            int iy = (y - offset) / Zoom;
+                            bool inside = x >= offset && y >= offset && ix < size && iy < size;
+                            uint color = inside ? Over(icon[iy * size + ix], background) : background;
+                            int at = ((top + y) * width + left + x) * 4;
+                            image[at] = (byte)color;
+                            image[at + 1] = (byte)(color >> 8);
+                            image[at + 2] = (byte)(color >> 16);
+                            image[at + 3] = 0xFF;
+                        }
+                    }
+                }
+            }
+        }
+        await SavePngAsync(image, width, height, 1.0, BitmapAlphaMode.Ignore, path);
+    }
+
+    /// <summary>A premultiplied pixel over an opaque background.</summary>
+    private static uint Over(uint pixel, uint background)
+    {
+        uint alpha = pixel >> 24;
+        uint Channel(int shift) => ((pixel >> shift) & 0xFF) + (((background >> shift) & 0xFF) * (255 - alpha) / 255);
+        return 0xFF000000 | (Channel(16) << 16) | (Channel(8) << 8) | Channel(0);
+    }
+
+    private static async Task SavePngAsync(byte[] bgra, int width, int height, double scale, BitmapAlphaMode alpha, string path)
+    {
         using InMemoryRandomAccessStream stream = new();
         BitmapEncoder encoder = await BitmapEncoder.CreateAsync(BitmapEncoder.PngEncoderId, stream);
-        double scale = element.XamlRoot?.RasterizationScale ?? 1.0;
-        encoder.SetPixelData(BitmapPixelFormat.Bgra8, BitmapAlphaMode.Premultiplied,
-            (uint)bitmap.PixelWidth, (uint)bitmap.PixelHeight, 96 * scale, 96 * scale, pixels.ToArray());
+        encoder.SetPixelData(BitmapPixelFormat.Bgra8, alpha, (uint)width, (uint)height, 96 * scale, 96 * scale, bgra);
         await encoder.FlushAsync();
 
         byte[] png = new byte[stream.Size];

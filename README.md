@@ -77,7 +77,8 @@ Command-line options, mostly for development:
 | `--log` | Write the log for this run, whatever the setting. |
 | `--demo` | Sample keyboards and layouts; nothing is read from or applied to the PC. |
 | `--demo --lang de-DE` | The same, in another language. |
-| `--demo --capture <folder>` | Save the screenshots used in this README and exit. |
+| `--demo --theme light` | The same, in the light (or `dark`) theme. |
+| `--demo --capture <folder>` | Save a screenshot of every window, page state, menu and dialog, and the tray icons, then exit. |
 
 `tools\make-icon.ps1` redraws the icon and the Store images.
 

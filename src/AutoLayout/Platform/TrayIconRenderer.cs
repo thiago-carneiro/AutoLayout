@@ -23,9 +23,11 @@ internal enum TrayState
 internal static class TrayIconRenderer
 {
     /// <summary>Creates the icon; the caller destroys it with Shell.DestroyIcon.</summary>
-    public static IntPtr Create(TrayState state, int size)
+    public static IntPtr Create(TrayState state, int size) => ToIcon(Render(state, size, IsTaskbarLight()), size);
+
+    /// <summary>The icon's pixels, 0xAARRGGBB with premultiplied alpha, row by row from the top.</summary>
+    public static uint[] Render(TrayState state, int size, bool lightTaskbar)
     {
-        bool lightTaskbar = IsTaskbarLight();
         uint ink = lightTaskbar ? 0xFF1C1C1C : 0xFFFFFFFF;
         uint[] pixels = new uint[size * size];
 
@@ -38,7 +40,7 @@ internal static class TrayIconRenderer
         {
             DrawBadge(pixels, size, lightTaskbar ? 0xFF9D5D00 : 0xFFFCE100, round: false);
         }
-        return ToIcon(pixels, size);
+        return pixels;
     }
 
     public static bool IsTaskbarLight()

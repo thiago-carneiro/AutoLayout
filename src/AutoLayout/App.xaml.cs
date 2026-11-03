@@ -49,6 +49,13 @@ public partial class App : Application
         DebugSettings.XamlResourceReferenceFailed += (_, e) => Log.Write("XAML resource not found: " + e.Message);
         InitializeComponent();
 
+        // Screenshots in either theme: --demo --theme light|dark
+        int theme = Array.IndexOf(arguments, "--theme");
+        if (arguments.Contains(Demo.Argument) && theme >= 0 && theme + 1 < arguments.Length)
+        {
+            RequestedTheme = arguments[theme + 1] == "light" ? ApplicationTheme.Light : ApplicationTheme.Dark;
+        }
+
         // Closing the windows leaves the app running in the tray
         DispatcherShutdownMode = DispatcherShutdownMode.OnExplicitShutdown;
         UnhandledException += (_, e) => Log.Write("Unhandled error: " + e.Exception);

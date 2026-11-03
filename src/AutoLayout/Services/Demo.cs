@@ -15,6 +15,10 @@ internal static class Demo
 {
     public const string Argument = "--demo";
     public const string WaitingKey = "046D:B342";
+    public const string ConfiguredKey = "1A2C:0002";
+
+    /// <summary>The desk keyboard's layout is uninstalled, to show the problem state.</summary>
+    public static bool LayoutMissing { get; set; }
 
     public static AppSettings Settings()
     {
@@ -22,7 +26,7 @@ internal static class Demo
         AppSettings settings = new() { DefaultLayoutProfileId = "0409:00020409", FirstRunDone = true, KeepBacklight = true };
         settings.Keyboards.Add(new KeyboardRecord
         {
-            Key = "1A2C:0002", VendorId = 0x1A2C, ProductId = 0x0002, ProductName = "USB Keyboard", FriendlyName = "Desk keyboard",
+            Key = ConfiguredKey, VendorId = 0x1A2C, ProductId = 0x0002, ProductName = "USB Keyboard", FriendlyName = "Desk keyboard",
             Connection = KeyboardConnection.Usb, State = KeyboardState.Configured,
             LayoutProfileId = "0416:00010416", LayoutKlid = "00010416", FirstSeenUtc = now.AddDays(-30), LastSeenUtc = now,
         });
@@ -56,7 +60,7 @@ internal static class Demo
 
         public IReadOnlyList<ConnectedKeyboard>? GetConnected() => new List<ConnectedKeyboard>
         {
-            new("1A2C:0002", 0x1A2C, 0x0002, KeyboardConnection.Usb, "demo"),
+            new(ConfiguredKey, 0x1A2C, 0x0002, KeyboardConnection.Usb, "demo"),
             new(WaitingKey, 0x046D, 0xB342, KeyboardConnection.Bluetooth, "demo"),
         };
 
@@ -65,21 +69,38 @@ internal static class Demo
 
     public sealed class Inputs : IInputSystem
     {
-        public IReadOnlyList<InputProfile> GetInstalled() => new List<InputProfile>
+        public IReadOnlyList<InputProfile> GetInstalled()
         {
-            Profile(0x0409, "00020409"),
-            Profile(0x0416, "00010416"),
-            Profile(0x0407, "00000407"),
-        };
+            List<InputProfile> profiles = new() { Profile(0x0409, "00020409"), Profile(0x0407, "00000407") };
+            if (!LayoutMissing)
+            {
+                profiles.Insert(1, Profile(0x0416, "00010416"));
+            }
+            return profiles;
+        }
 
         public string? GetDefaultProfileId(IReadOnlyList<InputProfile> installed) => "0409:00020409";
 
         /// <summary>Applies nothing.</summary>
         public bool Apply(InputProfile profile) => true;
 
-        private static InputProfile Profile(int language, string klid) =>
-            new(language.ToString("X4", System.Globalization.CultureInfo.InvariantCulture) + ":" + klid, language, klid,
-                new IntPtr(language), InputProfiles.GetLayoutName(klid) ?? klid, InputProfiles.GetLanguageName(language));
+        // Windows names layouts in its own display language; English screenshots get the English names
+        private static readonly Dictionary<string, (string Layout, string Language)> English = new()
+        {
+            ["00020409"] = ("United States-International", "English (United States)"),
+            ["00010416"] = ("Portuguese (Brazil ABNT2)", "Portuguese (Brazil)"),
+            ["00000407"] = ("German", "German (Germany)"),
+        };
+
+        private static InputProfile Profile(int language, string klid)
+        {
+            string id = language.ToString("X4", System.Globalization.CultureInfo.InvariantCulture) + ":" + klid;
+            bool english = Microsoft.Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride
+                .StartsWith("en", StringComparison.OrdinalIgnoreCase);
+            return english && English.TryGetValue(klid, out var names)
+                ? new(id, language, klid, new IntPtr(language), names.Layout, names.Language)
+                : new(id, language, klid, new IntPtr(language), InputProfiles.GetLayoutName(klid) ?? klid, InputProfiles.GetLanguageName(language));
+        }
     }
 
     public sealed class Store : ISettingsStore
